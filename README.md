@@ -4,5 +4,7 @@
    - x2 I2C sensor
    - x2 UART sensor
    - x2 I2C display
-2. PZEM-004 + ESP+01S
-3.
+2. PZEM-004 + ESP+01S board:
+   - x2 I2C sensor
+   - x3 phase
+3. 
