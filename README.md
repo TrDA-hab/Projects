@@ -7,4 +7,5 @@
 2. PZEM-004 + ESP+01S board:
    - x2 I2C sensor
    - x3 phase
+   - more info https://github.com/arendst/Tasmota/issues/2315
 3. 
