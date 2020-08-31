@@ -4,8 +4,12 @@
    - x2 I2C sensor
    - x2 UART sensor
    - x2 I2C display
+   - usage example https://www.thingiverse.com/thing:4438088
 2. PZEM-004 + ESP+01S board:
    - x2 I2C sensor
    - x3 phase
    - more info https://github.com/arendst/Tasmota/issues/2315
+   - usage example https://www.thingiverse.com/thing:4583701
+   - usage example https://www.thingiverse.com/thing:4583058
+   
 3. 
