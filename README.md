@@ -11,5 +11,5 @@
    - more info https://github.com/arendst/Tasmota/issues/2315
    - usage example https://www.thingiverse.com/thing:4583701
    - usage example https://www.thingiverse.com/thing:4583058
-   
+   - usage example https://www.thingiverse.com/thing:4587966   
 3. 
