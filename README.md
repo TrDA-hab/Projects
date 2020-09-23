@@ -1,4 +1,4 @@
-# PCB
+# PCB boards
 1. Solar panel control & multi sensors board:
    - x3 INA219
    - x2 I2C sensor
@@ -12,4 +12,8 @@
    - usage example https://www.thingiverse.com/thing:4583701
    - usage example https://www.thingiverse.com/thing:4583058
    - usage example https://www.thingiverse.com/thing:4587966   
-3. 
+3. Home Weather Station (multi sensors board):
+   - x2 I2C sensor
+   - x2 UART sensor
+   - x1 I2C display
+   - usage example https://www.thingiverse.com/thing:4407535
