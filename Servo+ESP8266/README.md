@@ -61,6 +61,7 @@ D5|14|Relay2|DIR
 
 **e) Set SERVO1 running time (more - slower)**  
   `ShutterOpenDuration 0.5`  // define the open time, in seconds
+  
   `ShutterCloseDuration 0.5`  // define the close time, in seconds
 
 **f) Set at least a small ramp-up/ramp down period (optional)**  
