@@ -9,11 +9,11 @@ To operate a servo requires signal uses:
 -  `PLS` (Pulse) for controls rotation angl.
 -  `DIR` (direction) only shows the direction of rotation, but does not control it. 
 
-More information about servo control can be read in [wikipedia](https://en.wikipedia.org/wiki/Servo_control) 
-
-## Commands
-
-Complete list of commands is available at [Blinds, Shutters and Roller Shades Commands](Commands.md#shutters).
+## More information:
+ - [About shutter](https://tasmota.github.io/docs/Blinds-and-Shutters/)
+ - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
+ - [Wikipedia](https://en.wikipedia.org/wiki/Servo_control) 
+ - [How to Mod a Servo to Get Closed Loop Feedback](https://github.com/arendst/Tasmota/discussions/10387)
 
 ## Example configuration  
 `EN` and `DIR` are on `Relay1` and `Relay2` respectively. Remember to use a **non-inverse relay** for the enable signal.
@@ -27,6 +27,9 @@ Using the `ShutterMotorDelay` command to provide a slow increase / decrease in s
 
 Using the `ShutterPwmRange` command to set the pulse width range. The calculation of parameters for `ShutterPwmRange` is obtained by dividing by 5 the minimum and maximum values of the pulse width range. 
 
+## Note!
+Even within the same servo model, there may be manufacturing tolerances that result in a different operating range of pulse lengths. For accurate operation, each specific servo must be calibrated: through experiments, it is necessary to select the correct range that is specific to it. 
+
 For example the pulse width range for different servos:
 
 -  Servo MG90 (180°): pulse width range 544 - 2400ms, `ShutterPwmRange` 109, 480
@@ -37,9 +40,9 @@ For example the pulse width range for different servos:
 -  [Servo TD-8130MG](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/TD-8130MG.jpg)
 -  [Servo DS5160ssg](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/DS5160ssg.jpg)
 
-## Note!
-Even within the same servo model, there may be manufacturing tolerances that result in a different operating range of pulse lengths. For accurate operation, each specific servo must be calibrated: through experiments, it is necessary to select the correct range that is specific to it. 
-
+### How to use it:
+ - You must add support for Shutter in my_user_config.h file.
+ - Run the commands in the console (you must first configure the GPIO!):
 
 Wemos Pin|GPIO|Component|Servo Signal
 :-:|:-:|:-:|:-:
@@ -57,12 +60,11 @@ D5|14|Relay2|DIR
    `SetOption15 0`  // to control the storage of values
 
 **d) Set the pulse width range**  
-   `ShutterPwmRange 100, 500`  //this is a global variable for all Servos
+   `ShutterPwmRange1 100, 500`  //this is a global variable for all Servos
 
 **e) Set SERVO1 running time (more - slower)**  
-  `ShutterOpenDuration 0.5`  // define the open time, in seconds
-  
-  `ShutterCloseDuration 0.5`  // define the close time, in seconds
+  `ShutterOpenDuration1 0.5`  // define the open time, in seconds
+  `ShutterCloseDuration1 0.5`  // define the close time, in seconds
 
 **f) Set at least a small ramp-up/ramp down period (optional)**  
    `ShutterMotorDelay1 0.2`  // servo does not like abrupt start / stop
@@ -90,3 +92,8 @@ D5|14|Relay2|DIR
 - Diagram v532: Maximum configuration for two servos, power is supplied via the relay only if the servo is running. Current control for each servo drive via INA219.
 ![532](https://user-images.githubusercontent.com/56403720/103891626-36b86680-50fb-11eb-99d9-8952761cf5ed.jpg)
 
+## Additional Information:
+![Servo-2 v8](https://user-images.githubusercontent.com/56403720/103900624-0ecfff80-5109-11eb-9337-f2475449a49b.jpg)
+![Servo1 v12](https://user-images.githubusercontent.com/56403720/103901243-eeed0b80-5109-11eb-955c-31067182cbc5.jpg)
+![20210106_171232](https://user-images.githubusercontent.com/56403720/103900389-cca6be00-5108-11eb-84bd-013708457305.jpg)
+![20210106_171217](https://user-images.githubusercontent.com/56403720/103900410-d29c9f00-5108-11eb-9a53-ae78b4eba9a0.jpg)
