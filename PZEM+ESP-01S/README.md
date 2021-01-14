@@ -32,7 +32,8 @@ Rx|3|PZEM016 Rx|Rx
 
  ## PZEM-004 DIN rail mounted power monitoring unit
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-841.jpg)
-![](https://github.com/TrDA-hab/Projects/blob/master/PZEM%2BESP-01S/20200814_155649.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-V4%20v14-2.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-V4%20v14-1.jpg)
 
  ## PZEM-004 PCB boad
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/Schematic_ESP-01s%20board%20to%20PZEM-004_2020-08-30_14-03-34.png)
