@@ -8,7 +8,7 @@
  - [3 phase PZEM-004 V3 (DE)](https://forum.iobroker.net/topic/28453/tutorial-pzem-004t-3-phasen-%C3%BCberwachung)
  - [github-Tasmota PZEM-004 (3 phase)](https://github.com/arendst/Tasmota/issues/2315)
   
-## Example PIN configuration 
+## PIN configuration 
 
 For PZEM-004 (V1/V2):
 
