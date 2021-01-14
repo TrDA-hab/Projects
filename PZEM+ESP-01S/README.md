@@ -45,6 +45,7 @@ Rx|3|PZEM016 Rx|Rx
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/x3_PZEM_v1-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/20200904_190301.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/20200904_190441.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/20200828_181256.jpg)
 
  ## PZEM-004 PCB boad
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/Schematic_ESP-01s%20board%20to%20PZEM-004_2020-08-30_14-03-34.png)
