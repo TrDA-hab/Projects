@@ -43,6 +43,7 @@ Rx|3|PZEM016 Rx|Rx
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-3.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-V3%20v11.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-V3%20v28-1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/20200814_165053.jpg)
 
 ## More information:
  - [PCB board for PZEM-004 (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
