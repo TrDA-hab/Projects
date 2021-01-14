@@ -12,3 +12,11 @@
 ## BOM:
  - [as5600 (aliexpress)](https://aliexpress.ru/item/4000551682522.html)
  - [AliexpressGood magnet (aliexpress)](https://aliexpress.ru/item/32750723146.html)
+ 
+ 
+## My practice:
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/AS5600%2BA4988-0.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/20200507_155953.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/20200507_181120.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/20200507_181514.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/20200507_185034.jpg)
