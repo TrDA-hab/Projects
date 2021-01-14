@@ -10,5 +10,5 @@
  - [Seeedstudio as5600](https://wiki.seeedstudio.com/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/)
 
 ## BOM:
- - [as5600](https://aliexpress.ru/item/4000551682522.html)
- - [Good magnet](https://aliexpress.ru/item/32750723146.html)
+ - [as5600 (aliexpress)](https://aliexpress.ru/item/4000551682522.html)
+ - [AliexpressGood magnet (aliexpress)](https://aliexpress.ru/item/32750723146.html)
