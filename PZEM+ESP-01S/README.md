@@ -61,9 +61,11 @@ Rx|3|PZEM016 Rx|Rx
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/20200823_180740.jpg)
 
 
-## More information:
- - [PCB board for PZEM-004 (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
- - [PCB board for PZEM-004 (3 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
+## My PCB is for 3 phases (open source hardware). For non-commercial use only!:
+ - [easyeda_source](https://github.com/TrDA-hab/Projects/tree/master/PZEM%2BESP-01S/easyeda_source)
+ - [gerber files](https://github.com/TrDA-hab/Projects/tree/master/PZEM%2BESP-01S/gerber)
 
+## Another PCB for 1 phase (open source hardware). For non-commercial use only!:
+ - [PCB board for PZEM-004 (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
 
 
