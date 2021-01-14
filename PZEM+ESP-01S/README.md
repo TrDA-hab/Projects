@@ -1,8 +1,8 @@
-## Using PZEM-004 (v1 / v2 / v3)
+## Using PZEM-004 (V1/V2/V3)
 
 ## More information:
- - [About PZEM-004 V3](https://innovatorsguru.com/pzem-004t-v3/)
- - [Datasheet PZEM-004 V3](https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-Datasheet-User-Manual.pdf)
+ - [About PZEM-004 (V3)](https://innovatorsguru.com/pzem-004t-v3/)
+ - [Datasheet PZEM-004 (V3)](https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-Datasheet-User-Manual.pdf)
  - [Tasmota PZEM-004](https://tasmota.github.io/docs/PZEM-0XX/)
 
 
