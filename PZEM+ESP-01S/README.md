@@ -68,7 +68,7 @@ Rx|3|PZEM016 Rx|Rx
 ## Another PCB for x1 phase (open source hardware). For non-commercial use only!:
  - [PCB board for PZEM-004 (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
 
-#### Additional information (optional!), These are my 3D models for PZEM-004 and BOM. For non-commercial use only!:
+#### Additional information (optional!). These are my 3D models for PZEM-004 and BOM. For non-commercial use only!:
  - [PZEM-004 portable power monitoring unit](https://www.thingiverse.com/thing:4583058)
  - [PZEM-004 DIN rail mounted power monitoring unit](https://www.thingiverse.com/thing:4583701)
  - [x3 phase PZEM-004 DIN rail mounted power monitoring unit](https://www.thingiverse.com/thing:4587966)
