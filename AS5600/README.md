@@ -1,5 +1,7 @@
 ## AS5600 Position Sensor
 
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/AS5600-4.jpg)
+
 ## More information:
  - [About as5600](https://ams.com/as5600)
  - [Datasheet as5600](https://ams.com/documents/20143/36005/AS5600_DS000365_5-00.pdf)
