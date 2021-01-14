@@ -5,16 +5,21 @@
  - [Datasheet PZEM-004 (V3)](https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-Datasheet-User-Manual.pdf)
  - [3 phase PZEM-004 V3 (EN)](https://zorruno.com/w/EnergyMonitoringPZEM004T)
  - [3 phase PZEM-004 V3 (DE)](https://forum.iobroker.net/topic/28453/tutorial-pzem-004t-3-phasen-%C3%BCberwachung)
- - [github-Tasmota PZEM-004 V3 (energy monitor for 3 phase)](https://github.com/arendst/Tasmota/issues/2315)
- 
+ - [github-Tasmota PZEM-004 (3 phase)](https://github.com/arendst/Tasmota/issues/2315)
+ - [PCB board for PZEM-004 (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
+  
 ## Example PIN configuration 
- 
- Wemos Pin|GPIO|Component|PZEM-004 Signal (V1/V2)
+
+For PZEM-004 (V1/V2):
+
+ Wemos Pin|GPIO|Component|PZEM-004 Signal
 :-:|:-:|:-:|:-:
 Tx|1|PZEM0XX Tx|Tx
 Rx|3|PZEM0XX Rx|Rx
 
- Wemos Pin|GPIO|Component|PZEM-004 Signal (V3)
+For PZEM-004 (V3):
+
+ Wemos Pin|GPIO|Component|PZEM-004 Signal
 :-:|:-:|:-:|:-:
 Tx|1|PZEM0XX Tx|Tx
 Rx|3|PZEM016 Rx|Rx
