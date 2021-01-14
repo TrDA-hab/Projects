@@ -6,7 +6,6 @@
  - [3 phase PZEM-004 V3 (EN)](https://zorruno.com/w/EnergyMonitoringPZEM004T)
  - [3 phase PZEM-004 V3 (DE)](https://forum.iobroker.net/topic/28453/tutorial-pzem-004t-3-phasen-%C3%BCberwachung)
  - [github-Tasmota PZEM-004 (3 phase)](https://github.com/arendst/Tasmota/issues/2315)
- - [PCB board for PZEM-004 (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
   
 ## Example PIN configuration 
 
@@ -41,6 +40,10 @@ Rx|3|PZEM016 Rx|Rx
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-2.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-3.jpg)
+
+## More information:
+ - [PCB board for PZEM-004 (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
+ - [PCB board for PZEM-004 (3 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
 
 
 
