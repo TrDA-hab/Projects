@@ -6,13 +6,13 @@ the control of horizontal curtain or vertical shutters, blinds adjuster or windo
 ![901](https://user-images.githubusercontent.com/56403720/103483573-3ec18f00-4df9-11eb-92f5-2e507bf39e81.jpg)
 ![902](https://user-images.githubusercontent.com/56403720/103483578-43864300-4df9-11eb-9c7e-61d11d40a433.jpg)
 
-### How to use it:
+### How to use it:  
  - You must add support for Shutter in my_user_config.h file.
- - Run the commands in the console (you must first configure the GPIO!):
-    `ShutterMode 1`   // Enabling "Shutter mode 1"
-    `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds
-    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds
-    `Restart 1`   // Restart Tasmota
+ - Run the commands in the console (you must first configure the GPIO!):  
+    `ShutterMode 1`   // Enabling "Shutter mode 1"  
+    `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
+    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
+    `Restart 1`   // Restart Tasmota  
 
 Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
@@ -36,11 +36,11 @@ D2|4|Relay1|CCW
 
 ### How to use it:
  - You must add support for Shutter in my_user_config.h file.
- - Run the commands in the console (you must first configure the GPIO!):
-    `ShutterMode 1`   // Enabling "Shutter mode 1"
-    `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds
-    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds
-    `Restart 1`   // Restart Tasmota
+ - Run the commands in the console (you must first configure the GPIO!):  
+    `ShutterMode 1`   // Enabling "Shutter mode 1"  
+    `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
+    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
+    `Restart 1`   // Restart Tasmota  
 
 Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
