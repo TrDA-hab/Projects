@@ -96,15 +96,13 @@ D2|4|RX|RX
 GND|-|-|GND
 And be sure to short-circuit the RTS and 3V pins together on "Wemos motor shield V1".
 
-
-
 1. Download here for firmware "motor_shield.bin":
  - https://cdn.hackaday.io/files/18439788894176/motor_shield.bin
 
-2. Загрузите STM32Flash отсюда
+2. Download "STM32Flash" from here:
  - https://sourceforge.net/projects/stm32flash/files/
 
-3. Run these commands in the Windows console:  
+3. Run these commands in the Windows console (use your COM port number!):  
 `stm32flash.exe COM4`  
 `stm32flash.exe -k COM4`  
 `stm32flash.exe -f -v -w motor_shield.bin COM4`  
@@ -112,6 +110,8 @@ And be sure to short-circuit the RTS and 3V pins together on "Wemos motor shield
 ![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)  
 ![2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-2.jpg)  
 ![3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-3.jpg)  
+
+
 
 ### Additional Information:
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_190344.jpg)
