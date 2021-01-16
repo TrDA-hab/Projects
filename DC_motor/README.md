@@ -59,17 +59,21 @@ D8|15|PWM1|PWM
 ![20210103_181349](https://user-images.githubusercontent.com/56403720/103484117-6ca8d280-4dfd-11eb-9fb2-0092a9cf9b79.jpg)
 ![904-1](https://user-images.githubusercontent.com/56403720/103484119-70d4f000-4dfd-11eb-90f1-f206ba64f56e.jpg)
 
-# 3. Wemos motor shield V2.
+# 3. Wemos motor shield V1.
 ![905](https://user-images.githubusercontent.com/56403720/103484157-ab3e8d00-4dfd-11eb-994c-e4c4068083b8.jpg)
 ![906](https://user-images.githubusercontent.com/56403720/103484161-b1cd0480-4dfd-11eb-8d08-c48d5672a7b7.jpg)
 
+Wemos Pin|GPIO|Component
+:-:|:-:|:-:
+D1|5|I2C SCL
+D2|4|I2C SDA
+
+If you did everything correctly, then in the console you should see this message:  
 `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
 ### Note:
 I have not been able to test this driver at this time:
-  - maybe this function is disabled in Tasmota.
-  - or my driver is damaged (I will have a new one soon)
-  - [Datasheet](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html)
+  - Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
 
 ### Additional Information:
 ![20210103_190344](https://user-images.githubusercontent.com/56403720/103484187-d5904a80-4dfd-11eb-9f21-dd90526ad8c4.jpg)
