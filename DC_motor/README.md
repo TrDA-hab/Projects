@@ -82,11 +82,11 @@ If you did everything correctly, then in the console you should see this message
     `driver44 SETMOTOR, 0, 2`  // for CW motor rotation 
     `driver44 SETMOTOR, 0, 4`  // for standby (optional)  
 
-[More information:](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
-
+[More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 
 ### Note:
 "WEMOS MOTOR V1" requires a firmware update. Factory installed firmware has reliability issues like I2C bus stuck. The firmware requires regular USB2TTL.
+[More information!](https://hackaday.io/project/18439-motor-shield-reprogramming)  
 
 WEMOS MOTOR Pin|GPIO|Component|USB2TTL
 :-:|:-:|:-:|:-:
