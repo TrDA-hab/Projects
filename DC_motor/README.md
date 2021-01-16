@@ -74,12 +74,12 @@ If you did everything correctly, then in the console you should see this message
 ### How to use it:
  - You must add support for "WEMOS_MOTOR_V1" in my_user_config.h file.
  - Run the commands in the console (you must first configure the GPIO!):  
-    `driver44 SETMOTOR, 0, 1`  // for CCW motor rotation
-    `driver44 SETMOTOR, 0, 3`  // for STOP motor
-    `driver44 SETMOTOR, 0, 2`  // for CW motor rotation
-    `driver44 SETMOTOR, 0, 2`  // for standby (optional)
-### More information:
- - [here](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)
+    `driver44 SETMOTOR, 0, 1`  // for CCW motor rotation  
+    `driver44 SETMOTOR, 0, 3`  // for STOP motor  
+    `driver44 SETMOTOR, 0, 2`  // for CW motor rotation 
+    `driver44 SETMOTOR, 0, 2`  // for standby (optional)  
+### More information:  
+ - [here](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 
 ### Note:
 Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
