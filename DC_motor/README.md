@@ -88,17 +88,12 @@ If you did everything correctly, then in the console you should see this message
 ### Note:
 "WEMOS MOTOR V1" requires a firmware update. Factory installed firmware has reliability issues like I2C bus stuck. The firmware requires regular USB2TTL.
 
-WEMOS MOTOR Pin|GPIO|Component|USB2TT
+WEMOS MOTOR Pin|GPIO|Component|USB2TTL
 :-:|:-:|:-:|:-:
 D1|5|RX|RX
 D2|4|RX|RX
 3V3|-|-|3V3
 GND|-|-|GND
-
-D2 ↔ TX
-D1 ↔ RX
-3V3 ↔ 3V3
-GND ↔ GND
 
 `stm32flash.exe COM4`  
 `stm32flash.exe -k COM4`  
