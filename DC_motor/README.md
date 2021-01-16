@@ -71,15 +71,27 @@ D2|4|I2C SDA
 If you did everything correctly, then in the console you should see this message:  
 `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
+### How to use it:
+ - You must add support for "WEMOS_MOTOR_V1" in my_user_config.h file.
+ - Run the commands in the console (you must first configure the GPIO!):  
+    `driver44 SETMOTOR, 0, 1`  // for CCW motor rotation
+    `driver44 SETMOTOR, 0, 3`  // for STOP motor
+    `driver44 SETMOTOR, 0, 2`  // for CW motor rotation
+    `driver44 SETMOTOR, 0, 2`  // for standby (optional)
+### More information:
+ - [here](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)
+
 ### Note:
 Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
 
 
+
 `stm32flash.exe COM4`  
-![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)  
 `stm32flash.exe -k COM4`  
-![2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-2.jpg)  
 `stm32flash.exe -f -v -w motor_shield.bin COM4`  
+
+![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)  
+![2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-2.jpg)  
 ![3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-3.jpg)  
 
 ### Additional Information:
