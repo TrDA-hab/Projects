@@ -63,6 +63,8 @@ D8|15|PWM1|PWM
 ![905](https://user-images.githubusercontent.com/56403720/103484157-ab3e8d00-4dfd-11eb-994c-e4c4068083b8.jpg)
 ![906](https://user-images.githubusercontent.com/56403720/103484161-b1cd0480-4dfd-11eb-8d08-c48d5672a7b7.jpg)
 
+`00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
+
 ### Note:
 I have not been able to test this driver at this time:
   - maybe this function is disabled in Tasmota.
