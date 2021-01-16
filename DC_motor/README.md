@@ -3,8 +3,8 @@ the control of horizontal curtain or vertical shutters, blinds adjuster or windo
 
 # 1. MX1508 Motor Driver.
 
-![901](https://user-images.githubusercontent.com/56403720/103483573-3ec18f00-4df9-11eb-92f5-2e507bf39e81.jpg)
-![902](https://user-images.githubusercontent.com/56403720/103483578-43864300-4df9-11eb-9c7e-61d11d40a433.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/901.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/902.jpg)
 
 ### How to use it:  
  - You must add support for Shutter in my_user_config.h file.
@@ -27,12 +27,12 @@ D2|4|Relay1|CCW
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
 
 ### Additional Information:
-![20201224_144050](https://user-images.githubusercontent.com/56403720/103483767-97455c00-4dfa-11eb-8e41-f09199c64090.jpg)
-![902-1](https://user-images.githubusercontent.com/56403720/103483770-9ca2a680-4dfa-11eb-937e-5be729167769.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20201224_144050.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/902-1.jpg)
 
 # 2. TB6612FNG Motor Driver.
-![903](https://user-images.githubusercontent.com/56403720/103484034-b04f0c80-4dfc-11eb-8e85-094c5e4c98e7.jpg)
-![904](https://user-images.githubusercontent.com/56403720/103487136-2f9c0a80-4e14-11eb-8649-ef003193efce.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/903.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904.jpg)
 
 ### How to use it:
  - You must add support for Shutter in my_user_config.h file.
@@ -56,12 +56,12 @@ D8|15|PWM1|PWM
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
 
 ### Additional Information:
-![20210103_181349](https://user-images.githubusercontent.com/56403720/103484117-6ca8d280-4dfd-11eb-9fb2-0092a9cf9b79.jpg)
-![904-1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_181349.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
 
 # 3. Wemos motor shield V1.
-![905](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
-![906](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
 
 Wemos Pin|GPIO|Component
 :-:|:-:|:-:
@@ -76,15 +76,15 @@ Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps thi
 
 
 `stm32flash.exe COM4`  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)  
+![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)  
 `stm32flash.exe -k COM4`  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-2.jpg)  
+![2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-2.jpg)  
 `stm32flash.exe -f -v -w motor_shield.bin COM4`  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-3.jpg)  
+![3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-3.jpg)  
 
 ### Additional Information:
-![20210103_190344](https://user-images.githubusercontent.com/56403720/103484187-d5904a80-4dfd-11eb-9f21-dd90526ad8c4.jpg)
-![906-1](https://user-images.githubusercontent.com/56403720/103484196-dcb75880-4dfd-11eb-834e-9016ecf6dfb4.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_190344.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906-1.jpg)
 
 Best regards
 TrDA
