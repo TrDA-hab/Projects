@@ -95,7 +95,7 @@ D2|4|RX|RX
 3V3|-|-|3V3
 GND|-|-|GND
 
-! And be sure to short-circuit the RTS and 3V pins together on "Wemos motor shield V1".
+**! And be sure to short-circuit the RTS and 3V pins together on "Wemos motor shield V1".**
 
 1. Download here for firmware "motor_shield.bin":
  - https://cdn.hackaday.io/files/18439788894176/motor_shield.bin
