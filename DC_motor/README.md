@@ -77,7 +77,7 @@ I have not been able to test this driver at this time:
 
 
 `stm32flash.exe COM4`  
-![906](https://777.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)
 `stm32flash.exe -k COM4`  
 `stm32flash.exe -f -v -w motor_shield.bin COM4`  
 
