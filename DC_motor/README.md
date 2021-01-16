@@ -57,11 +57,11 @@ D8|15|PWM1|PWM
 
 ### Additional Information:
 ![20210103_181349](https://user-images.githubusercontent.com/56403720/103484117-6ca8d280-4dfd-11eb-9fb2-0092a9cf9b79.jpg)
-![904-1](https://user-images.githubusercontent.com/56403720/103484119-70d4f000-4dfd-11eb-90f1-f206ba64f56e.jpg)
+![904-1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
 
 # 3. Wemos motor shield V1.
-![905](https://user-images.githubusercontent.com/56403720/103484157-ab3e8d00-4dfd-11eb-994c-e4c4068083b8.jpg)
-![906](https://user-images.githubusercontent.com/56403720/103484161-b1cd0480-4dfd-11eb-8d08-c48d5672a7b7.jpg)
+![905](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
+![906](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
 
 Wemos Pin|GPIO|Component
 :-:|:-:|:-:
@@ -72,14 +72,15 @@ If you did everything correctly, then in the console you should see this message
 `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
 ### Note:
-I have not been able to test this driver at this time:
-  - Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
+Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
 
 
 `stm32flash.exe COM4`  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)  
 `stm32flash.exe -k COM4`  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-2.jpg)  
 `stm32flash.exe -f -v -w motor_shield.bin COM4`  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-3.jpg)  
 
 ### Additional Information:
 ![20210103_190344](https://user-images.githubusercontent.com/56403720/103484187-d5904a80-4dfd-11eb-9f21-dd90526ad8c4.jpg)
