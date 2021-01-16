@@ -63,6 +63,9 @@ D8|15|PWM1|PWM
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
 
+### Note:
+Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
+
 Wemos Pin|GPIO|Component
 :-:|:-:|:-:
 D1|5|I2C SCL
@@ -77,14 +80,25 @@ If you did everything correctly, then in the console you should see this message
     `driver44 SETMOTOR, 0, 1`  // for CCW motor rotation  
     `driver44 SETMOTOR, 0, 3`  // for STOP motor  
     `driver44 SETMOTOR, 0, 2`  // for CW motor rotation 
-    `driver44 SETMOTOR, 0, 2`  // for standby (optional)  
-### More information:  
- - [here](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
+    `driver44 SETMOTOR, 0, 4`  // for standby (optional)  
+
+[More information:](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
+
 
 ### Note:
-Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
+"WEMOS MOTOR V1" requires a firmware update. Factory installed firmware has reliability issues like I2C bus stuck. The firmware requires regular USB2TTL.
 
+WEMOS MOTOR Pin|GPIO|Component|USB2TT
+:-:|:-:|:-:|:-:
+D1|5|RX|RX
+D2|4|RX|RX
+3V3|-|-|3V3
+GND|-|-|GND
 
+D2 ↔ TX
+D1 ↔ RX
+3V3 ↔ 3V3
+GND ↔ GND
 
 `stm32flash.exe COM4`  
 `stm32flash.exe -k COM4`  
