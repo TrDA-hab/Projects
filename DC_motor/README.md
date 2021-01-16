@@ -75,6 +75,12 @@ If you did everything correctly, then in the console you should see this message
 I have not been able to test this driver at this time:
   - Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
 
+
+`stm32flash.exe COM4`  
+![906](https://777.jpg)
+`stm32flash.exe -k COM4`  
+`stm32flash.exe -f -v -w motor_shield.bin COM4`  
+
 ### Additional Information:
 ![20210103_190344](https://user-images.githubusercontent.com/56403720/103484187-d5904a80-4dfd-11eb-9f21-dd90526ad8c4.jpg)
 ![906-1](https://user-images.githubusercontent.com/56403720/103484196-dcb75880-4dfd-11eb-834e-9016ecf6dfb4.jpg)
