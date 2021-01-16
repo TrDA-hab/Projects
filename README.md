@@ -17,4 +17,6 @@
    - x2 UART sensor
    - x1 I2C display
    - usage example https://www.thingiverse.com/thing:4407535
-4. ...
+4. Support for DC motor:  
+   - x3 motor drivers
+
