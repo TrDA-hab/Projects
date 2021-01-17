@@ -2,6 +2,11 @@
 ### Note:
 Now (01/15/2021) Tasmota has no support for "Magnetic Encoder". Perhaps this support will be added later.
 
+### More info:
+ - [Micro Metal Gearmotor](https://www.pololu.com/product/997)
+ - [Magnetic Encoder](https://www.pololu.com/product/4761)
+ - [BOM](https://aliexpress.ru/item/32843928518.html)
+
 ## 1. TB6612FNG Motor Driver.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor2/911.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor2/912.jpg)
@@ -22,3 +27,6 @@ ON counter#c1>3800 DO Backlog driver44 SETMOTOR, 0, 3; delay 20; Counter1 0; Pow
 Rule2 
 ON Power2#state=1 DO Backlog Counter2 0; driver44 SETMOTOR, 0, 2 ENDON
 ON counter#c1>3800 DO Backlog driver44 SETMOTOR, 0, 3; delay 20; Counter1 0; Power2 0 ENDON
+
+Best regards  
+TrDA
