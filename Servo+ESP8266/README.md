@@ -93,7 +93,10 @@ D5|14|Relay2|DIR
 ![532](https://user-images.githubusercontent.com/56403720/103891626-36b86680-50fb-11eb-99d9-8952761cf5ed.jpg)
 
 ## Additional Information:
-![Servo-2 v8](https://user-images.githubusercontent.com/56403720/103900624-0ecfff80-5109-11eb-9337-f2475449a49b.jpg)
-![Servo1 v12](https://user-images.githubusercontent.com/56403720/103901243-eeed0b80-5109-11eb-955c-31067182cbc5.jpg)
-![20210106_171232](https://user-images.githubusercontent.com/56403720/103900389-cca6be00-5108-11eb-84bd-013708457305.jpg)
-![20210106_171217](https://user-images.githubusercontent.com/56403720/103900410-d29c9f00-5108-11eb-9a53-ae78b4eba9a0.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/Servo-2%20v8.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/Servo1%20v12.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/20210106_171232.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/20210106_171217.jpg)
+
+Best regards  
+TrDA
