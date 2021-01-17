@@ -14,6 +14,8 @@ To operate a servo requires signal uses:
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
  - [Wikipedia](https://en.wikipedia.org/wiki/Servo_control) 
  - [How to Mod a Servo to Get Closed Loop Feedback](https://github.com/arendst/Tasmota/discussions/10387)
+ - [as5600 + Servo motor](https://hackaday.io/project/17079-mocoder-magnetic-encoder)
+
 
 ## Example configuration  
 `EN` and `DIR` are on `Relay1` and `Relay2` respectively. Remember to use a **non-inverse relay** for the enable signal.
@@ -73,11 +75,11 @@ D5|14|Relay2|DIR
    `Restart 1`
 
 **h) Test the shutter1**  
-   `ShutterOpen1`   
+   `ShutterOpen1`      // to open the SERVO1
    `ShutterStop1`      // to stop the SERVO1  
-   `ShutterClose1`  
+   `ShutterClose1`     // to close the SERVO1
 
-**i) Perform the [shutter calibration (optional)](Blinds-and-Shutters.md#calibration)**   
+**i) Perform the [shutter calibration (optional)](https://tasmota.github.io/docs/Blinds-and-Shutters/#calibration)**   
 
 ## Motor Wiring Diagrams  
 ### One Shutter  
