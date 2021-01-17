@@ -1,7 +1,7 @@
 ## AS5600 Position Sensor
 
 ### Note
-Now (01/15/2021) Tasmota has no support for the AC5600 sensor. Maybe support for the AC5600 will be added at a later date.
+Now (01/15/2021) Tasmota has no support for the AS5600 sensor. Maybe support for the AS5600 will be added at a later date.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/AS5600-4.jpg)
 
