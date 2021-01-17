@@ -81,16 +81,16 @@ D5|14|Relay2|DIR
 
 ## Motor Wiring Diagrams  
 ### One Shutter  
-![511](https://user-images.githubusercontent.com/56403720/103891493-fd7ff680-50fa-11eb-9603-8703c8ea10eb.jpg)
+![511](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/511.jpg)
 - Diagram v512: Minimum configuration for one servo, power on continuously.  
-![512](https://user-images.githubusercontent.com/56403720/103891499-ffe25080-50fa-11eb-9eb9-02443a94f826.jpg)
+![512](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/512.jpg)
 
 ### Dual Shutter  
-![521](https://user-images.githubusercontent.com/56403720/103891560-1be5f200-50fb-11eb-9bf2-036c3a825eae.jpg)
+![521](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/521.jpg)
 - Diagram v522: Optimal configuration for two servos, power is supplied through the relay.  
-![522](https://user-images.githubusercontent.com/56403720/103891565-1f797900-50fb-11eb-8b88-10003d6e8437.jpg)
+![522](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/522.jpg)
 - Diagram v532: Maximum configuration for two servos, power is supplied via the relay only if the servo is running. Current control for each servo drive via INA219.
-![532](https://user-images.githubusercontent.com/56403720/103891626-36b86680-50fb-11eb-99d9-8952761cf5ed.jpg)
+![532](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/532.jpg)
 
 ## Additional Information:
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/Servo-2%20v8.jpg)
