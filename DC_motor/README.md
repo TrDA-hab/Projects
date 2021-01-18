@@ -185,6 +185,8 @@ GND|-|-|GND
 ### Additional Information:
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_190344.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906-1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210116_195204.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210118_210516.jpg)
 
 Best regards   
 TrDA
