@@ -92,7 +92,7 @@ D5|14|Relay3| CCW motor1
     `driver44 SETMOTOR, 0, 4`  // for standby motor1 (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 4. Use the rules to control the motor (optional):   
-    `Rule1`   
+  - `Rule1`   
     `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` // CW motor1   
     `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` // Stop motor1   
     `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //CCW motor1   
@@ -137,7 +137,7 @@ D8|15|Relay6| CCW motor2
     `driver44 SETMOTOR, 1, 4`  // for standby motor2 (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino) 
 6. Use the rules to control the **motor1** and **motor2** (optional):   
-    `Rule1`   
+  - `Rule1`   
     `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` //  CW motor1   
     `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` //  Stop motor1   
     `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //  CCW motor1   
