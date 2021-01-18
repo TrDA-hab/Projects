@@ -76,9 +76,9 @@ Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
 D1|5|I2C SCL| ---
 D2|4|I2C SDA| ---
-D3|0|I2C SDA| ---
-D4|2|I2C SDA| ---
-D5|14|I2C SDA| ---
+D3|0|Relay1| CW motor
+D4|2|Relay2| Stop motor
+D5|14|Relay3| CCW motor
 
   **If you did everything correctly, then in the console you should see this message:**  
    `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
@@ -89,11 +89,11 @@ D5|14|I2C SDA| ---
     `driver44 SETMOTOR, 0, 2`  // for CW motor rotation  
     `driver44 SETMOTOR, 0, 4`  // for standby (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
-4. Use the rules to control the motor:   
+4. Use the rules to control the motor (optional):   
     `Rule1`   
-    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON`   // CW motor1
-    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON`   // Stop motor1
-    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON`   //CCW motor1
+    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` // CW motor1   
+    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` // Stop motor1   
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //CCW motor1   
   - `Rule1 1` // run rule1  
 5. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`   
