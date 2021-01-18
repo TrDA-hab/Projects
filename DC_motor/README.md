@@ -149,9 +149,10 @@ D8|15|Relay6| CCW motor2
     `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 40; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //CCW motor2   
   - `Rule2 1` // run rule2  
 7. Add "logic" to the control WEB buttons (optional):   
-    `Backlog WebButton4 &#8634; WebButton5 Stp2; WebButton6 &#8635` 
+    `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650` 
+    `Backlog WebButton4 &#8634; WebButton5 Stop2; WebButton6 &#8635` 
 
-### Note:
+# Note!!! :
 "WEMOS MOTOR V1" requires a firmware update. Factory installed firmware has reliability issues like I2C bus stuck. The firmware requires regular USB2TTL.
 [More information!](https://hackaday.io/project/18439-motor-shield-reprogramming)  
 
