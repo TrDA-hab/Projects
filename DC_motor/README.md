@@ -64,7 +64,7 @@ D8|15|PWM1|PWM
 ### Note:
 Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
 
-## Using one motor.
+## Using ONE motor.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
@@ -100,7 +100,7 @@ D5|14|Relay3| CCW motor1
 5. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`   
 
-## Using dual motor.
+## Using DUAL motor.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/907.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/908.jpg)
@@ -147,7 +147,7 @@ D8|15|Relay6| CCW motor2
   - `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON // Stop motor2   
   - `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 40; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //CCW motor2   
 7. Add "logic" to the control WEB buttons (optional):   
-    `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650` 
+    `Backlog WebButton4 &#8634; WebButton5 Stp2; WebButton6 &#8635` 
 
 ### Note:
 "WEMOS MOTOR V1" requires a firmware update. Factory installed firmware has reliability issues like I2C bus stuck. The firmware requires regular USB2TTL.
