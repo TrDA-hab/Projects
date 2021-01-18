@@ -136,16 +136,18 @@ D8|15|Relay6| CCW motor2
     `driver44 SETMOTOR, 1, 2`  // for CW motor2  
     `driver44 SETMOTOR, 1, 4`  // for standby motor2 (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino) 
-6. Use the rules to control the motor (optional):   
+6. Use the rules to control the **motor1** and **motor2** (optional):   
     `Rule1`   
     `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` // CW motor1   
     `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` // Stop motor1   
     `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //CCW motor1   
   - `Rule1 1` // run rule1  
+  
   - `Rule2`   
-  - `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 1; delay 40; driver44 SETMOTOR, 1, 3; Power4 0 ENDON` // CW motor2
-  - `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON // Stop motor2   
-  - `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 40; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //CCW motor2   
+    `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 1; delay 40; driver44 SETMOTOR, 1, 3; Power4 0 ENDON` // CW motor2
+    `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON // Stop motor2   
+    `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 40; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //CCW motor2   
+  - `Rule2 1` // run rule2  
 7. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton4 &#8634; WebButton5 Stp2; WebButton6 &#8635` 
 
