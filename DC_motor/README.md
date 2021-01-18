@@ -93,9 +93,9 @@ D5|14|Relay3| CCW motor1
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 4. Use the rules to control the motor (optional):   
   - `Rule1`  // remove comments before using the rule!   
-    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 55; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` // CW motor1, delay 55" controls the opening time 69 = 5.5 sec."   
+    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 55; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` // CW motor1, "delay 55" controls the opening time 69 = 5.5 sec.   
     `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` // Stop motor1   
-    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 55; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //CCW motor1, delay 55" controls the opening time 69 = 5.5 sec."   
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 55; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //CCW motor1, "delay 55" controls the opening time 69 = 5.5 sec.   
   - `Rule1 1`  //  run rule1   
 5. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`   
@@ -140,13 +140,13 @@ D8|15|Relay6| CCW motor2
   - `Rule1`  // remove comments before using the rule!   
     `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 69; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` //  CW motor1, "delay 69" controls the opening time 69 = 6.9 sec."   
     `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` //  Stop motor1   
-    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 69; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //  CCW motor1", delay 69" controls the opening time 69 = 6.9 sec."   
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 69; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //  CCW motor1, "delay 69" controls the opening time 69 = 6.9 sec.   
   - `Rule1 1` // run rule1  
   
   - `Rule2`  // remove comments before using the rule!   
-    `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 1; delay 77; driver44 SETMOTOR, 1, 3; Power4 0 ENDON` //  CW motor2, delay 77" controls the opening time 69 = 7.7 sec."   
+    `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 1; delay 77; driver44 SETMOTOR, 1, 3; Power4 0 ENDON` //  CW motor2, "delay 77" controls the opening time 69 = 7.7 sec.   
     `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON` //  Stop motor2    
-    `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 77; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //  CCW motor2, delay 77" controls the opening time 69 = 7.7 sec."    
+    `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 77; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //  CCW motor2, "delay 77" controls the opening time 69 = 7.7 sec.    
   - `Rule2 1` // run rule2  
 6. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`  
