@@ -76,6 +76,9 @@ Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
 D1|5|I2C SCL| ---
 D2|4|I2C SDA| ---
+D3|0|I2C SDA| ---
+D4|2|I2C SDA| ---
+D5|14|I2C SDA| ---
 
   **If you did everything correctly, then in the console you should see this message:**  
    `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
@@ -101,12 +104,12 @@ D2|4|I2C SDA| ---
 
 WEMOS MOTOR Pin|GPIO|Component|USB2TTL
 :-:|:-:|:-:|:-:
-D1|5|RX|RX
-D2|4|RX|RX
+D1|5|RX|TX
+D2|4|TX|RX
 3V3|-|-|3V3
 GND|-|-|GND
 
-**! And be sure to short-circuit the RTS and 3V pins together on "Wemos motor shield V1".**
+**!!! And be sure to short-circuit the RTS and 3V pins together on "Wemos motor shield V1".**
 
 1. Download here for firmware "motor_shield.bin":
  - https://cdn.hackaday.io/files/18439788894176/motor_shield.bin
@@ -123,7 +126,7 @@ GND|-|-|GND
 ![2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-2.jpg)  
 ![3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-3.jpg)  
   
-**After finishing the firmware, disconnect all wires (including the 3V and RTS pin), connect the shield to the ESP device and it should work!**
+**!!! After finishing the firmware, disconnect all wires (including the 3V and RTS pin), connect the shield to the ESP device and it should work!**
 
 ### Additional Information:
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_190344.jpg)
