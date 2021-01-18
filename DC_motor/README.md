@@ -8,7 +8,7 @@ the control of horizontal curtain or vertical shutters, blinds adjuster or windo
 
 ### How to use it:  
  - You must add support for Shutter in my_user_config.h file.
- - Run the commands in the console (you must first configure the GPIO!):  
+ - Run commands in the console to test the motor (you must first configure the GPIO!):  
     `ShutterMode 1`   // Enabling "Shutter mode 1"  
     `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
     `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
@@ -36,7 +36,7 @@ D2|4|Relay1|CCW
 
 ### How to use it:
  - You must add support for Shutter in my_user_config.h file.
- - Run the commands in the console (you must first configure the GPIO!):  
+ - Run commands in the console to test the motor (you must first configure the GPIO!):  
     `ShutterMode 1`   // Enabling "Shutter mode 1"  
     `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
     `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
@@ -60,11 +60,14 @@ D8|15|PWM1|PWM
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
 
 # 3. Wemos motor shield V1.
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
 
 ### Note:
 Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
+
+### How to use it:
 
 Wemos Pin|GPIO|Component
 :-:|:-:|:-:
@@ -74,13 +77,21 @@ D2|4|I2C SDA
 If you did everything correctly, then in the console you should see this message:  
 `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
-### How to use it:
- - You must add support for "WEMOS_MOTOR_V1" in my_user_config.h file.
- - Run the commands in the console (you must first configure the GPIO!):  
+1. You must add support for "WEMOS_MOTOR_V1" in my_user_config.h file.
+2. Run commands in the console to test the motor (you must first configure the GPIO!):  
     `driver44 SETMOTOR, 0, 1`  // for CCW motor rotation  
     `driver44 SETMOTOR, 0, 3`  // for STOP motor  
     `driver44 SETMOTOR, 0, 2`  // for CW motor rotation 
     `driver44 SETMOTOR, 0, 4`  // for standby (optional)  
+3. Use the rules to control the motor:   
+    `Rule1`   
+    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON`   
+    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON`   
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON`   
+  - `Rule1 1` // run rule1  
+4. Add "logic" to the control buttons:
+    `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`
+
 
 [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 
