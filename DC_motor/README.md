@@ -88,11 +88,11 @@ D2|4|I2C SDA| ---
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 4. Use the rules to control the motor:   
     `Rule1`   
-    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON`   
-    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON`   
-    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON`   
+    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON`   // CW motor1
+    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON`   // Stop motor1
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON`   //CCW motor1
   - `Rule1 1` // run rule1  
-5. Add "logic" to the control buttons:   
+5. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`   
 
 ### Note:
