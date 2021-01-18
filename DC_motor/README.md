@@ -148,7 +148,7 @@ D8|15|Relay6| CCW motor2
     `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON` //  Stop motor2    
     `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 40; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //  CCW motor2    
   - `Rule2 1` // run rule2  
-7. Add "logic" to the control WEB buttons (optional):   
+6. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`  
     `Backlog WebButton4 &#8634; WebButton5 Stop2; WebButton6 &#8635`  
 
@@ -190,5 +190,5 @@ GND|-|-|GND
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210116_195204.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210118_210516.jpg)
 
-Best regards   
-TrDA
+**Best regards   
+TrDA**
