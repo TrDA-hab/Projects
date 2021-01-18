@@ -145,7 +145,7 @@ D8|15|Relay6| CCW motor2
   
   - `Rule2`   
     `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 1; delay 40; driver44 SETMOTOR, 1, 3; Power4 0 ENDON` //  CW motor2   
-    `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON //  Stop motor2    
+    `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON` //  Stop motor2    
     `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 40; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //  CCW motor2    
   - `Rule2 1` // run rule2  
 7. Add "logic" to the control WEB buttons (optional):   
