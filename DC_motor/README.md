@@ -64,6 +64,8 @@ D8|15|PWM1|PWM
 ### Note:
 Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
 
+## Using one motor.
+
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906.jpg)
 
@@ -76,18 +78,18 @@ Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
 D1|5|I2C SCL| ---
 D2|4|I2C SDA| ---
-D3|0|Relay1| CW motor
-D4|2|Relay2| Stop motor
-D5|14|Relay3| CCW motor
+D3|0|Relay1| CW motor1
+D4|2|Relay2| Stop motor1
+D5|14|Relay3| CCW motor1
 
   **If you did everything correctly, then in the console you should see this message:**  
    `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
 3. Run commands in the console to test the motor (you must first configure the GPIO!):  
-    `driver44 SETMOTOR, 0, 1`  // for CCW motor rotation  
-    `driver44 SETMOTOR, 0, 3`  // for STOP motor  
-    `driver44 SETMOTOR, 0, 2`  // for CW motor rotation  
-    `driver44 SETMOTOR, 0, 4`  // for standby (optional)  
+    `driver44 SETMOTOR, 0, 1`  // for CCW motor1  
+    `driver44 SETMOTOR, 0, 3`  // for STOP motor1  
+    `driver44 SETMOTOR, 0, 2`  // for CW motor1  
+    `driver44 SETMOTOR, 0, 4`  // for standby motor1 (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 4. Use the rules to control the motor (optional):   
     `Rule1`   
@@ -97,6 +99,55 @@ D5|14|Relay3| CCW motor
   - `Rule1 1` // run rule1  
 5. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`   
+
+## Using dual motor.
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/907.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/908.jpg)
+
+### How to use it:
+
+1. You must add support for "WEMOS_MOTOR_V1" in my_user_config.h file.
+2. Сonfigure the GPIO:  
+
+Wemos Pin|GPIO|Component|Motor Signal
+:-:|:-:|:-:|:-:
+D1|5|I2C SCL| ---
+D2|4|I2C SDA| ---
+D3|0|Relay1| CW motor1
+D4|2|Relay2| Stop motor1
+D5|14|Relay3| CCW motor1
+D6|12|Relay4| CW motor2
+D7|13|Relay5| Stop motor2
+D8|15|Relay6| CCW motor2
+
+  **If you did everything correctly, then in the console you should see this message:**  
+   `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
+
+3. Run commands in the console to test the **motor1** (you must first configure the GPIO!):  
+    `driver44 SETMOTOR, 0, 1`  // for CCW motor1  
+    `driver44 SETMOTOR, 0, 3`  // for STOP motor1  
+    `driver44 SETMOTOR, 0, 2`  // for CW motor1  
+    `driver44 SETMOTOR, 0, 4`  // for standby motor1 (optional)  
+    [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
+4. Run commands in the console to test the **motor2** (you must first configure the GPIO!):  
+    `driver44 SETMOTOR, 1, 1`  // for CCW motor2  
+    `driver44 SETMOTOR, 1, 3`  // for STOP motor2  
+    `driver44 SETMOTOR, 1, 2`  // for CW motor2  
+    `driver44 SETMOTOR, 1, 4`  // for standby motor2 (optional)  
+    [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino) 
+6. Use the rules to control the motor (optional):   
+    `Rule1`   
+    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 40; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` // CW motor1   
+    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` // Stop motor1   
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 40; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //CCW motor1   
+  - `Rule1 1` // run rule1  
+  - `Rule2`   
+  - `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 1; delay 40; driver44 SETMOTOR, 1, 3; Power4 0 ENDON` // CW motor2
+  - `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON // Stop motor2   
+  - `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 40; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //CCW motor2   
+7. Add "logic" to the control WEB buttons (optional):   
+    `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650` 
 
 ### Note:
 "WEMOS MOTOR V1" requires a firmware update. Factory installed firmware has reliability issues like I2C bus stuck. The firmware requires regular USB2TTL.
