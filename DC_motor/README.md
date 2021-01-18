@@ -69,11 +69,6 @@ Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps thi
 
 ### How to use it:
 
-
-
-If you did everything correctly, then in the console you should see this message:  
-`00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
-
 1. You must add support for "WEMOS_MOTOR_V1" in my_user_config.h file.
 2. Сonfigure the GPIO:  
 
@@ -82,8 +77,8 @@ Wemos Pin|GPIO|Component|Motor Signal
 D1|5|I2C SCL| ---
 D2|4|I2C SDA| ---
 
-**If you did everything correctly, then in the console you should see this message:**  
-`00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
+  **If you did everything correctly, then in the console you should see this message:**  
+   `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
 3. Run commands in the console to test the motor (you must first configure the GPIO!):  
     `driver44 SETMOTOR, 0, 1`  // for CCW motor rotation  
