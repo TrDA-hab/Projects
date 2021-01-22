@@ -63,6 +63,7 @@ D8|15|PWM1|PWM
 ### Additional Information:
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_181349.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190721.jpg)
 
 # 3. Wemos motor shield V1.
 
@@ -194,6 +195,7 @@ GND|-|-|GND
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210116_195204.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210118_210516.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190830.jpg)
 
 **Best regards   
 TrDA**
