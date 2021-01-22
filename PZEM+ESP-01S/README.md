@@ -14,15 +14,15 @@ For PZEM-004 (V1/V2):
 
  Wemos Pin|GPIO|Component|PZEM-004 Signal
 :-:|:-:|:-:|:-:
-Tx|1|PZEM0XX Tx|Tx
-Rx|3|PZEM0XX Rx|Rx
+Tx|1|PZEM0XX Tx|Rx
+Rx|3|PZEM0XX Rx|Tx
 
 For PZEM-004 (V3):
 
  Wemos Pin|GPIO|Component|PZEM-004 Signal
 :-:|:-:|:-:|:-:
-Tx|1|PZEM0XX Tx|Tx
-Rx|3|PZEM016 Rx|Rx
+Tx|1|PZEM0XX Tx|Rx
+Rx|3|PZEM016 Rx|Tx
 
  ## PZEM-004 portable power monitoring unit (x1 phases)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-831.jpg)
@@ -73,4 +73,5 @@ Rx|3|PZEM016 Rx|Rx
  - [PZEM-004 DIN rail mounted power monitoring unit](https://www.thingiverse.com/thing:4583701)
  - [x3 phase PZEM-004 DIN rail mounted power monitoring unit](https://www.thingiverse.com/thing:4587966)
 
-
+**Best regards
+TrDA**
