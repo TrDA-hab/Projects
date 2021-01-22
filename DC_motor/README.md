@@ -2,9 +2,14 @@
 the control of horizontal curtain or vertical shutters, blinds adjuster or window opener, pet feeders, opening of a water tap for watering the lawn, rotating table for subject photography, opening the ventilation flap, PTZ camera, 3D Scanner Table, linear Actuator.
 
 # 1. MX1508 Motor Driver.
-
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/901.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/902.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20201224_144050.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/902-1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190559.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_192617.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_212409.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_214905.jpg)
 
 ### How to use it:  
  - You must add support for Shutter in my_user_config.h file.
@@ -25,14 +30,6 @@ D2|4|Relay1|CCW
 ### More information:
  - [About shutter](https://tasmota.github.io/docs/Blinds-and-Shutters/)
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
-
-### Additional Information:
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20201224_144050.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/902-1.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190559.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_192617.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_212409.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_214905.jpg)
 
 # 2. TB6612FNG Motor Driver.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/903.jpg)
