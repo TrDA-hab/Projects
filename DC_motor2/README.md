@@ -28,5 +28,14 @@ Rule2
 ON Power2#state=1 DO Backlog Counter2 0; driver44 SETMOTOR, 0, 2 ENDON
 ON counter#c1>3800 DO Backlog driver44 SETMOTOR, 0, 3; delay 20; Counter1 0; Power2 0 ENDON
 
+
+### Another project (and another author). For your information only:   
+
+Instructions (in Russian): https://mysku.ru/blog/diy/80051.html   
+PCB (easyeda): https://easyeda.com/cpsskipper/esp8266_copy_copy_copy_copy_copy_copy_copy   
+Sofware (githab): https://github.com/cpsskipper/Roller_NG   
+3D model (thingiverse): https://www.thingiverse.com/thing:4365833   
+BOM: https://aliexpress.ru/item/32914576824.html   
+
 Best regards  
 TrDA
