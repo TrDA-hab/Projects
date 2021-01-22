@@ -34,6 +34,9 @@ D2|4|Relay1|CCW
 # 2. TB6612FNG Motor Driver.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/903.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_181349.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190721.jpg)
 
 ### How to use it:
  - You must add support for Shutter in my_user_config.h file.
@@ -56,11 +59,6 @@ D8|15|PWM1|PWM
  - [About shutter](https://tasmota.github.io/docs/Blinds-and-Shutters/)
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
  - [About TB6612FNG](https://www.pololu.com/product/713)
-
-### Additional Information:
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_181349.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190721.jpg)
 
 # 3. Wemos motor shield V1.
 
