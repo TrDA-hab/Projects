@@ -37,5 +37,5 @@ Sofware (githab): https://github.com/cpsskipper/Roller_NG
 3D model (thingiverse): https://www.thingiverse.com/thing:4365833   
 BOM: https://aliexpress.ru/item/32914576824.html   
 
-Best regards  
-TrDA
+**Best regards  
+TrDA**
