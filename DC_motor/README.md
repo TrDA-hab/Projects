@@ -58,6 +58,7 @@ D8|15|PWM1|PWM
 ### More information:
  - [About shutter](https://tasmota.github.io/docs/Blinds-and-Shutters/)
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
+ - [About TB6612FNG](https://www.pololu.com/product/713)
 
 ### Additional Information:
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_181349.jpg)
