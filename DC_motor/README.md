@@ -20,6 +20,8 @@ the control of horizontal curtain or vertical shutters, blinds adjuster or windo
     `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
     `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
     `Restart 1`   // Restart Tasmota  
+    `ShutterOpen`   // CW motor rotation  
+    `ShutterClose`  // CWW motor rotation 
 
 Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
@@ -55,11 +57,14 @@ D2|4|Relay1|CCW
  - Run commands in the console to test the motor (you must first configure the GPIO!):  
     `ShutterMode 1`   // Enabling "Shutter mode 1"  
     `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
-    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
+    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds
+    `Restart 1`   // Restart Tasmota  
+    `ShutterOpen`   // CW motor rotation  
+    `ShutterClose`  // CWW motor rotation 
 
 Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
-D6|12|Relay3|STBY
+D5|14|Relay3|STBY
 D6|12|Relay1|CW
 D7|13|Relay2|CCW
 D8|15|PWM1|PWM
