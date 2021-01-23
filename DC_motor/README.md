@@ -7,9 +7,11 @@ the control of horizontal curtain or vertical shutters, blinds adjuster or windo
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20201224_144050.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/902-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190559.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_192617.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_212409.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_214905.jpg)
+
+### Video of the driver's work:
+ - https://youtu.be/9aGlk5LSMys
 
 ### How to use it:  
  - You must add support for Shutter in my_user_config.h file.
