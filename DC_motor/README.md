@@ -50,11 +50,12 @@ D2|4|Relay1|CCW
  - You must add support for Shutter in my_user_config.h file.
  - Run commands in the console (you must first configure the GPIO!):  
     `Rule1 ON system#boot DO Backlog Power3 1; Dimmer 75 ENDON `   // Enabling the driver and setting the PWM to 75%.  
+    `Rule1 1`   // Enabling Rule1  
+    `WebButton4 STBY`   // To rename a web button (optional)  
  - Run commands in the console to test the motor (you must first configure the GPIO!):  
     `ShutterMode 1`   // Enabling "Shutter mode 1"  
     `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
     `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
-    `Restart 1`   // Restart Tasmota  
 
 Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
