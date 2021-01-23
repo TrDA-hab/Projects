@@ -13,6 +13,9 @@ the control of horizontal curtain or vertical shutters, blinds adjuster or windo
 ### Video of the driver's work:
  - https://youtu.be/9aGlk5LSMys
 
+### Note:
+ - you cannot control the RPM of the DC motor
+
 ### How to use it:  
  - You must add support for Shutter in my_user_config.h file.
  - Run commands in the console to test the motor (you must first configure the GPIO!):  
@@ -27,9 +30,6 @@ Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
 D1|5|Relay2|CW
 D2|4|Relay1|CCW
-
-### Note:
- - you cannot control the RPM of the DC motor
 
 ### More information:
  - [About shutter](https://tasmota.github.io/docs/Blinds-and-Shutters/)
@@ -47,6 +47,9 @@ D2|4|Relay1|CCW
 
 ### Video of the driver's work:
  - https://youtu.be/e9kBO-Brymo
+
+### Note:
+ - you can control the RPM of the DC motor !
 
 ### How to use it:
  - You must add support for Shutter in my_user_config.h file.
@@ -68,9 +71,6 @@ D5|14|Relay3|STBY
 D6|12|Relay1|CW
 D7|13|Relay2|CCW
 D8|15|PWM1|PWM
-
-### Note:
- - you can control the RPM of the DC motor !
 
 ### More information:
  - [About shutter](https://tasmota.github.io/docs/Blinds-and-Shutters/)
