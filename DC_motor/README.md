@@ -37,9 +37,17 @@ D2|4|Relay1|CCW
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_181349.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190721.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_170009.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_160002.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_155956.jpg)
+
+### Video of the driver's work:
+![](https://youtu.be/e9kBO-Brymo)
 
 ### How to use it:
  - You must add support for Shutter in my_user_config.h file.
+ - Run commands in the console (you must first configure the GPIO!):  
+    `Rule1 ON system#boot DO Backlog Power3 1; Dimmer 75 ENDON `   // Enabling the driver and setting the PWM to 75%.  
  - Run commands in the console to test the motor (you must first configure the GPIO!):  
     `ShutterMode 1`   // Enabling "Shutter mode 1"  
     `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
@@ -48,6 +56,7 @@ D2|4|Relay1|CCW
 
 Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
+D6|12|Relay3|STBY
 D6|12|Relay1|CW
 D7|13|Relay2|CCW
 D8|15|PWM1|PWM
