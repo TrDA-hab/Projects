@@ -42,7 +42,7 @@ D2|4|Relay1|CCW
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_155956.jpg)
 
 ### Video of the driver's work:
-![](https://youtu.be/e9kBO-Brymo)
+ - https://youtu.be/e9kBO-Brymo
 
 ### How to use it:
  - You must add support for Shutter in my_user_config.h file.
