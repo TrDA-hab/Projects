@@ -171,11 +171,11 @@ D8|15|Relay6| CCW motor2
     `Backlog WebButton4 &#8634; WebButton5 Stop2; WebButton6 &#8635`  
 
 ### Additional Information:
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_190344.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906-1.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210116_195204.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210118_210516.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190830.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_190344.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/906-1.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190830.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210124_174710.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210124_174415.jpg)
 
 # Note!!! :
 "WEMOS MOTOR V1" requires a firmware update. Factory installed firmware has reliability issues like I2C bus stuck. The firmware requires regular USB2TTL.
