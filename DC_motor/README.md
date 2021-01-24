@@ -82,6 +82,9 @@ D8|15|PWM1|PWM
 ### Note:
 Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
 
+### Video of the driver's work:
+ - https://youtu.be/gah3zCJPPUc
+
 ## 3.1 Using ONE motor.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
