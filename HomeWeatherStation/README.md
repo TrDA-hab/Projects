@@ -9,3 +9,6 @@
 ![4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/20200908_203218.jpg)
 ![5](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/Schematic_WHM.png)
 
+## My PCB for x3 phases (open source hardware). For non-commercial use only!:
+ - [easyeda_source](https://github.com/TrDA-hab/Projects/tree/master/HomeWeatherStation/easyeda_source)
+ - [gerber files](https://github.com/TrDA-hab/Projects/tree/master/HomeWeatherStation/gerber)
