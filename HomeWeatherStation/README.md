@@ -11,7 +11,6 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/WHM-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/20200814_145417.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/20200908_203218.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/Schematic_WHM.png)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/Graph-1.jpg)
 
 ## My PCB for x3 phases (open source hardware). For non-commercial use only!:
