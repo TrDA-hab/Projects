@@ -1,4 +1,4 @@
-## AS5600 Position Sensor
+## Home Weather Station (multi sensors board)
 
 ## My practice:
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/Multi-sensor%20221.jpg)
