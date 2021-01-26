@@ -1,7 +1,7 @@
 ## Home Weather Station (multi sensors board)
 
 ## My practice:
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/Multi-sensor%20221.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/Multi-sensor-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/WHM-4.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/WHM-5.jpg)
 
