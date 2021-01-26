@@ -17,3 +17,6 @@
 ![5](https://raw.githubusercontent.com/TrDA-hab/Projects/master/HomeWeatherStation/Schematic_WHM.png)
  - [easyeda_source](https://github.com/TrDA-hab/Projects/tree/master/HomeWeatherStation/easyeda_source)
  - [gerber files](https://github.com/TrDA-hab/Projects/tree/master/HomeWeatherStation/gerber)
+
+**Best regards   
+TrDA**
