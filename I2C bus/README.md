@@ -31,7 +31,7 @@ https://aliexpress.ru/item/33018940484.html
 #UPD # 2.    
 Here it is generally stated "up to 300 meters" on a twisted pair:   
 1. https://www.ebay.com/itm/RJ45-Different ... 1776789204   
-2. https://www.ebay.com/itm/Differential-I ... 2580556568   
+2. https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Buck-Converter-for-Arduino/111776754128?epid=1858735300&hash=item1a0669e9d0:g:zgIAAOSwsB9V~nva8   
 
 **Best regards   
 TrDA**
