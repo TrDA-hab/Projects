@@ -1,0 +1,20 @@
+## 0. About using the I2C bus:
+- the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
+- it is not allowed to use devices with the same addresses.
+- the maximum number of devices on the I2C bus is no more than 126 pcs. Addresses from 0 to 126, one for "master" and others for "slave".
+- ready-made I2C modules, already have pull-up resistors, and you should not worry.
+- if you need a "longer" I2C bus, you must use a repeater (1).
+- if you need more devices with the same address, you must use a multiplexer (2).
+- I2C bus allows connecting hot-swappable (hot) modules.
+- for the I2C bus, you can use the Rx and Tx of your ESP8266.
+
+## 1. If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:
+![1.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%201.1%20.jpg)
+
+
+
+## 2. If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:
+![2.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%202.1%20.jpg)
+
+**Best regards   
+TrDA**
