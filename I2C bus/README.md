@@ -17,6 +17,21 @@ https://www.onsemi.com...lateral/PCA9517A-D.PDF
 
 ## 2. If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:
 ![2.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%202.1%20.jpg)
+- software support required (!).
+https://aliexpress.ru/item/4000067621113.html
+https://www.ti.com/lit/ds/symlink/tca9548a.pdf
+
+## 3. It is perfectly possible to combine both options (1+2).
+#UPD # 1.
+1. Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:
+https://learn.sparkfun.com/tutorials/qw ... -guide / all
+2. Sell here:
+https://aliexpress.ru/item/33018940484.html
+#UPD # 2.
+Here it is generally stated "up to 300 meters" on a twisted pair:
+https://www.ebay.com/itm/RJ45-Different ... 1776789204
+https://www.ebay.com/itm/Differential-I ... 2580556568
+
 
 **Best regards   
 TrDA**
