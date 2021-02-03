@@ -24,7 +24,7 @@ https://www.ti.com/lit/ds/symlink/tca9548a.pdf
 ## 3. It is perfectly possible to combine both options (1+2).
 #UPD # 1.   
 1. Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:   
-https://learn.sparkfun.com/tutorials/qw ... -guide / all   
+https://learn.sparkfun.com/tutorials/qwiic-differential-i2c-bus-extender-pca9615-hookup-guide   
 2. Sell here:
 https://aliexpress.ru/item/33018940484.html
 
