@@ -30,8 +30,8 @@ https://aliexpress.ru/item/33018940484.html
 
 #UPD # 2.    
 Here it is generally stated "up to 300 meters" on a twisted pair:   
-https://www.ebay.com/itm/RJ45-Different ... 1776789204   
-https://www.ebay.com/itm/Differential-I ... 2580556568   
+1. https://www.ebay.com/itm/RJ45-Different ... 1776789204   
+2. https://www.ebay.com/itm/Differential-I ... 2580556568   
 
 **Best regards   
 TrDA**
