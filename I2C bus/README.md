@@ -3,7 +3,7 @@
 - [sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
 
 ## 0. 
-### About using the I2C bus:
+**About using the I2C bus:**
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
 - it is not allowed to use devices with the same addresses.
 - the maximum number of devices on the I2C bus is no more than 126 pcs. Addresses from 0 to 125, one for "master" and others for "slave".
@@ -16,7 +16,7 @@
 - for the I2C bus, you can use the Rx and Tx of your ESP8266.
 
 ## 1. 
-If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:
+**If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:**
 
 ![1.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%201.1%20.jpg)
 - no software support required (!).   
@@ -55,18 +55,18 @@ https://www.ebay.com/itm/I2C-IIC-Extender-for-Arduino-Sensor-Shield-with-Cable/1
 
 ...
 
-#UPD# 1.   
+**#UPD 1.**   
 Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:   
 https://learn.sparkfun.com/tutorials/qwiic-differential-i2c-bus-extender-pca9615-hookup-guide   
 Sell here:
 https://aliexpress.ru/item/33018940484.html
 
-#UPD# 2.    
+**#UPD 2.**    
 Here it is generally stated "up to 300 meters" on a twisted pair:   
 https://www.ebay.com/itm/RJ45-Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-Arduino/121765222831    
 https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-for-Arduino/112580556568     
 
-#UPD# 3.   
+**#UPD 3.**   
 The manufacturer claims up to 20 meters if you use two P82B715 controllers:   
 https://www.ebay.com/itm/I2C-IIC-Active-Long-Cable-Extender-P82B715-Module-for-Arduino-and-Other-MCUs/112292264539   
 
