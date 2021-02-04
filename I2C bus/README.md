@@ -1,6 +1,6 @@
 ## About I2C bus:
-[wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
-[sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
+- [wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
+- [sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
 
 ## 0. About using the I2C bus:
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
