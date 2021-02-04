@@ -59,5 +59,9 @@ Here it is generally stated "up to 300 meters" on a twisted pair:
 https://www.ebay.com/itm/RJ45-Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-Arduino/121765222831    
 https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-for-Arduino/112580556568     
 
+#UPD # 3.   
+The manufacturer claims up to 20 meters if you use two P82B715 controllers:   
+https://www.ebay.com/itm/I2C-IIC-Active-Long-Cable-Extender-P82B715-Module-for-Arduino-and-Other-MCUs/112292264539   
+
 **Best regards   
 TrDA**
