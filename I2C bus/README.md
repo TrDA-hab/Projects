@@ -11,7 +11,7 @@
 - if you need a "longer" I2C bus, you must use a repeater ([1](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1)).  
 - if you need more devices with the same address, you must use a multiplexer ([2](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2)).  
 - if it is necessary to logically match the levels, you must use alevel translator ([3](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#3)).
-- if you need to connect several sensors, you must use I2C extender ([4](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#4).
+- if you need to connect several sensors, you must use I2C extender ([4](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#4)).
 - I2C bus allows connecting hot-swappable (hot) modules.
 - for the I2C bus, you can use the Rx and Tx of your ESP8266.
 
@@ -51,7 +51,7 @@ https://aliexpress.ru/item/32965171426.html
 https://www.ebay.com/itm/I2C-IIC-Extender-for-Arduino-Sensor-Shield-with-Cable/121200480686     
 
 ## 5. 
-**It is perfectly possible to combine both options (1+2+3+4).**  
+**It is possible to combine different options (1+2+3+4).**  
 
 ...
 
