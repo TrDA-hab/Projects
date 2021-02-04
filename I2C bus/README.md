@@ -23,7 +23,7 @@ https://www.onsemi.com...lateral/PCA9517A-D.PDF
 
 ## 2. If it is necessary to bypass the same addresses on the I2C bus, then it is necessary to use - TCA9548A multiplexer:
 ![2.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%202.1%20.jpg)
-- software support required (!).   
+- software support required (!!!), now (02/01/2021) is not supported in Tasmota.   
 https://aliexpress.ru/item/4000067621113.html   
 https://www.ti.com/lit/ds/symlink/tca9548a.pdf   
 
