@@ -1,3 +1,7 @@
+## About I2C bus:
+[wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
+[sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
+
 ## 0. About using the I2C bus:
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
 - it is not allowed to use devices with the same addresses.
@@ -30,8 +34,8 @@ https://aliexpress.ru/item/33018940484.html
 
 #UPD # 2.    
 Here it is generally stated "up to 300 meters" on a twisted pair:   
-1. https://www.ebay.com/itm/RJ45-Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-Arduino/121765222831?hash=item1c59c5d9af:g:dTcAAOSwVL1V~oP8  
-2. https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Buck-Converter-for-Arduino/111776754128?epid=1858735300&hash=item1a0669e9d0:g:zgIAAOSwsB9V~nva8   
+1. https://www.ebay.com/itm/RJ45-Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-Arduino/121765222831  
+2. https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-for-Arduino/112580556568   
 
 **Best regards   
 TrDA**
