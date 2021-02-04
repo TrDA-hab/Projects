@@ -33,7 +33,7 @@ https://www.ti.com/lit/ds/symlink/tca9548a.pdf
 
 ## 3. 
 **If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:**
-[About logic level](https://learn.sparkfun.com/tutorials/logic-levels)   
+- [About logic level](https://learn.sparkfun.com/tutorials/logic-levels)   
 
 - no software support required (!).   
 https://www.ti.com/lit/gpn/PCA9306  
