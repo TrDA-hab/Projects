@@ -3,7 +3,7 @@
 - [sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
 
 ## 0. 
-## About using the I2C bus:
+# About using the I2C bus:
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
 - it is not allowed to use devices with the same addresses.
 - the maximum number of devices on the I2C bus is no more than 126 pcs. Addresses from 0 to 125, one for "master" and others for "slave".
