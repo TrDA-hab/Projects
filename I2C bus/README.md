@@ -29,25 +29,25 @@ https://www.ti.com/lit/ds/symlink/tca9548a.pdf
 ## 3. If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:
 [About logic level](https://learn.sparkfun.com/tutorials/logic-levels)   
 
-https://www.ti.com/lit/gpn/PCA9306
-https://www.sparkfun.com/products/15439
-https://aliexpress.ru/item/4000507058874.html
-https://aliexpress.ru/item/32805554320.html
+https://www.ti.com/lit/gpn/PCA9306  
+https://www.sparkfun.com/products/15439  
+https://aliexpress.ru/item/4000507058874.html  
+https://aliexpress.ru/item/32805554320.html  
 
 ## 4. It is perfectly possible to combine both options (1+2+3).  
 
 ...
 
 #UPD # 1.   
-1. Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:   
+Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:   
 https://learn.sparkfun.com/tutorials/qwiic-differential-i2c-bus-extender-pca9615-hookup-guide   
-2. Sell here:
+Sell here:
 https://aliexpress.ru/item/33018940484.html
 
 #UPD # 2.    
 Here it is generally stated "up to 300 meters" on a twisted pair:   
-1. https://www.ebay.com/itm/RJ45-Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-Arduino/121765222831  
-2. https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-for-Arduino/112580556568   
+https://www.ebay.com/itm/RJ45-Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-Arduino/121765222831    
+https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-for-Arduino/112580556568     
 
 **Best regards   
 TrDA**
