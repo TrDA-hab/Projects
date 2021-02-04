@@ -5,10 +5,11 @@
 ## 0. About using the I2C bus:
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
 - it is not allowed to use devices with the same addresses.
-- the maximum number of devices on the I2C bus is no more than 126 pcs. Addresses from 0 to 126, one for "master" and others for "slave".
+- the maximum number of devices on the I2C bus is no more than 126 pcs. Addresses from 0 to 125, one for "master" and others for "slave".
 - ready-made I2C modules, already have pull-up resistors, and you should not worry.
 - if you need a "longer" I2C bus, you must use a repeater (1).
 - if you need more devices with the same address, you must use a multiplexer (2).
+- if it is necessary to logically match the levels (3).
 - I2C bus allows connecting hot-swappable (hot) modules.
 - for the I2C bus, you can use the Rx and Tx of your ESP8266.
 
@@ -25,7 +26,20 @@ https://www.onsemi.com...lateral/PCA9517A-D.PDF
 https://aliexpress.ru/item/4000067621113.html
 https://www.ti.com/lit/ds/symlink/tca9548a.pdf
 
-## 3. It is perfectly possible to combine both options (1+2).
+## 3. If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:
+
+About logic levels:
+https://learn.sparkfun.com/tutorials/logic-levels
+
+https://www.ti.com/lit/gpn/PCA9306
+https://www.sparkfun.com/products/15439
+https://aliexpress.ru/item/4000507058874.html
+https://aliexpress.ru/item/32805554320.html
+
+## 4. It is perfectly possible to combine both options (1+2+3).  
+
+...
+
 #UPD # 1.   
 1. Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:   
 https://learn.sparkfun.com/tutorials/qwiic-differential-i2c-bus-extender-pca9615-hookup-guide   
