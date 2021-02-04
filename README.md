@@ -18,7 +18,7 @@
    - x1 I2C display
    - usage example https://www.thingiverse.com/thing:4407535
 4. Support for DC motor:  
-   - x3 motor drivers
+   - x2 motor drivers
 5. Support for Servo:
    - x2 Servo
 6. AS5600 Position Sensor.
