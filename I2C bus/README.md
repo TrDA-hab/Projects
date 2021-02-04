@@ -7,8 +7,8 @@
 - it is not allowed to use devices with the same addresses.
 - the maximum number of devices on the I2C bus is no more than 126 pcs. Addresses from 0 to 125, one for "master" and others for "slave".
 - ready-made I2C modules, already have pull-up resistors, and you should not worry.
-- [if you need a "longer" I2C bus, you must use a repeater](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1).
-- if you need more devices with the same address, you must use a multiplexer (2).
+- [if you need a "longer" I2C bus, you must use a repeater](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1).  
+- [if you need more devices with the same address, you must use a multiplexer0] (https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2).  
 - if it is necessary to logically match the levels, you must use alevel translator (3).
 - if you need to connect several sensors, you must use I2C extender (4).
 - I2C bus allows connecting hot-swappable (hot) modules.
@@ -23,13 +23,15 @@ https://aliexpress.ru/item/32757561351.html
 https://www.ti.com/lit...pdf?&ts=1589295453250   
 https://www.onsemi.com...lateral/PCA9517A-D.PDF   
 
-## 2. If it is necessary to bypass the same addresses on the I2C bus, then it is necessary to use - TCA9548A multiplexer:
+## 2. 
+If it is necessary to bypass the same addresses on the I2C bus, then it is necessary to use - TCA9548A multiplexer:
 ![2.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%202.1%20.jpg)
 - software support required (!!!), now (02/01/2021) is not supported in Tasmota.   
 https://aliexpress.ru/item/4000067621113.html   
 https://www.ti.com/lit/ds/symlink/tca9548a.pdf   
 
-## 3. If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:
+## 3. 
+If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:
 [About logic level](https://learn.sparkfun.com/tutorials/logic-levels)   
 
 - no software support required (!).   
@@ -38,7 +40,8 @@ https://www.sparkfun.com/products/15439
 https://aliexpress.ru/item/4000507058874.html  
 https://aliexpress.ru/item/32805554320.html  
 
-## 4. If you need to connect several sensors, you must use - I2C extender:
+## 4. 
+If you need to connect several sensors, you must use - I2C extender:
 - no software support required (!).  
 https://aliexpress.ru/item/4001116856790.html   
 https://aliexpress.ru/item/1005001351911782.html   
@@ -46,7 +49,8 @@ https://aliexpress.ru/item/32964147782.html
 https://aliexpress.ru/item/32965171426.html   
 https://www.ebay.com/itm/I2C-IIC-Extender-for-Arduino-Sensor-Shield-with-Cable/121200480686     
 
-## 5. It is perfectly possible to combine both options (1+2+3+4).  
+## 5. 
+It is perfectly possible to combine both options (1+2+3+4).  
 
 ...
 
