@@ -25,14 +25,14 @@ https://www.ti.com/lit...pdf?&ts=1589295453250
 https://www.onsemi.com...lateral/PCA9517A-D.PDF   
 
 ## 2. 
-If it is necessary to bypass the same addresses on the I2C bus, then it is necessary to use - TCA9548A multiplexer:
+### If it is necessary to bypass the same addresses on the I2C bus, then it is necessary to use - TCA9548A multiplexer:
 ![2.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%202.1%20.jpg)
 - software support required (!!!), now (02/01/2021) is not supported in Tasmota.   
 https://aliexpress.ru/item/4000067621113.html   
 https://www.ti.com/lit/ds/symlink/tca9548a.pdf   
 
 ## 3. 
-If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:
+### If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:
 [About logic level](https://learn.sparkfun.com/tutorials/logic-levels)   
 
 - no software support required (!).   
@@ -42,7 +42,7 @@ https://aliexpress.ru/item/4000507058874.html
 https://aliexpress.ru/item/32805554320.html  
 
 ## 4. 
-If you need to connect several sensors, you must use - I2C extender:
+### If you need to connect several sensors, you must use - I2C extender:
 - no software support required (!).  
 https://aliexpress.ru/item/4001116856790.html   
 https://aliexpress.ru/item/1005001351911782.html   
@@ -51,22 +51,22 @@ https://aliexpress.ru/item/32965171426.html
 https://www.ebay.com/itm/I2C-IIC-Extender-for-Arduino-Sensor-Shield-with-Cable/121200480686     
 
 ## 5. 
-It is perfectly possible to combine both options (1+2+3+4).  
+### It is perfectly possible to combine both options (1+2+3+4).  
 
 ...
 
-#UPD # 1.   
+#UPD# 1.   
 Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:   
 https://learn.sparkfun.com/tutorials/qwiic-differential-i2c-bus-extender-pca9615-hookup-guide   
 Sell here:
 https://aliexpress.ru/item/33018940484.html
 
-#UPD # 2.    
+#UPD# 2.    
 Here it is generally stated "up to 300 meters" on a twisted pair:   
 https://www.ebay.com/itm/RJ45-Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-Arduino/121765222831    
 https://www.ebay.com/itm/Differential-I2C-Long-Cable-Extender-PCA9600-with-Boost-Converter-for-Arduino/112580556568     
 
-#UPD # 3.   
+#UPD# 3.   
 The manufacturer claims up to 20 meters if you use two P82B715 controllers:   
 https://www.ebay.com/itm/I2C-IIC-Active-Long-Cable-Extender-P82B715-Module-for-Arduino-and-Other-MCUs/112292264539   
 
