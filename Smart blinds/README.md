@@ -57,6 +57,7 @@ https://www.thingiverse.com/thing:4163505
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20201213_172828.jpg)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20191130_192502.jpg)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20200411_203935.jpg)
+![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/007-2.jpg)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20200412_153343.jpg)
 
 ## 4. Venetian blinds (jalousie).
