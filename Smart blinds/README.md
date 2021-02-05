@@ -6,7 +6,7 @@
 ## 1. MID roller blinds.
 ### NONE:
 - 3D models and BOM you can find here (optional):   
-https://www.thingiverse.com/thing:4583701   
+https://www.thingiverse.com/thing:4163340   
 
 ![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/MID%20dlinds/416-2.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/MID%20dlinds/20200301_183806.jpg)
