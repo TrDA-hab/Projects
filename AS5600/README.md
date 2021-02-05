@@ -27,5 +27,5 @@ Now (01/15/2021) Tasmota has no support for the AS5600 sensor. Maybe support for
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/20200507_181514.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/AS5600/20200507_185034.jpg)
 
-Best regards  
-TrDA
+**Best regards  
+TrDA**
