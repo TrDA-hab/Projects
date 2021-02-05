@@ -1,7 +1,7 @@
 ## 1. MID roller blinds.
 ### NONE:
-- 3D models and BOM you can find here (optional): 
-https://www.thingiverse.com/thing:4583701
+- 3D models and BOM you can find here (optional):   
+https://www.thingiverse.com/thing:4583701   
 
 ![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/MID%20dlinds/416-2.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/MID%20dlinds/20200301_183806.jpg)
@@ -15,6 +15,9 @@ https://www.thingiverse.com/thing:4583701
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/MID%20dlinds/20200416_211911.jpg)
 
 ## 2. BIG roller blinds.
+- 3D models and BOM you can find here (optional):   
+https://www.thingiverse.com/thing:4301158   
+
 ![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Blinds-412-2.jpg)
 ![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Board-412.jpg)
 ![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/002.PNG)
@@ -34,6 +37,9 @@ https://www.thingiverse.com/thing:4583701
 
 
 ## 3. x2 Blinds.
+- 3D models and BOM you can find here (optional):   
+https://www.thingiverse.com/thing:4163505   
+
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/422-1.jpg)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/422-2.jpg)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/Board%20-%20422.jpg)
