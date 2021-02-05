@@ -2,7 +2,7 @@
 - [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters)   
 - [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters)   
 - Now it is highly recommended to use TMC 2208 instead of А4988 (!).   
-- !!! step by step instructions coming soon !!!.   
+- !!! step by step instructions coming soon !!!   
 
 ## 1. MID roller blinds.
 ### NONE:
