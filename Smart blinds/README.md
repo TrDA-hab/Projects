@@ -25,7 +25,7 @@ https://www.thingiverse.com/thing:4163340
 https://www.thingiverse.com/thing:4301158   
 
 ![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Blinds-412-2.jpg)
-![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Board-412.jpg)
+![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Board-412.jpg)  
 ![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/002.PNG)
 ![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Roller-gear%20v.2%20v36.png)
 ![412](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Roller-gear%20v.2%20v35.jpg)
