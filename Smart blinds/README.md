@@ -17,5 +17,9 @@
 ![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Roller-gear%20v.2%20v36.png)
 ![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Roller-gear%20v.2%20v35.jpg)
 ![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/Roller-gear%20v.2%20v37.png)
+![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/20200416_163055.jpg)
+![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/20200416_164141.jpg)
+![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/20200416_164537.jpg)
+![416](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/BIG%20blinds%20-2/20200416_170800.jpg)
 
 ## 1. x2 BIG roller blinds.
