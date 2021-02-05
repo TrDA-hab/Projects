@@ -37,5 +37,7 @@
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/blinds-x2-NEMA-17%20v23-2.png)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20200307_174831.jpg)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20201213_172915.jpg)
-![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20201206_200835.jpg)
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20201213_172828.jpg)
+![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20191130_192502.jpg)
+![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20200411_203935.jpg)
+![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20200412_153343.jpg)
