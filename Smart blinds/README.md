@@ -1,3 +1,8 @@
+## 0. How to use it.
+- [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters)   
+- [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters)   
+- step by step instructions coming soon!
+
 ## 1. MID roller blinds.
 ### NONE:
 - 3D models and BOM you can find here (optional):   
