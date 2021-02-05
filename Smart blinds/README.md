@@ -25,8 +25,8 @@
 ## 2.1. BIG roller blinds.
 ![432](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/INA219/A4988-INA219%20v1.jpg)
 ![](https://github.com/TrDA-hab/Projects/blob/master/Smart%20blinds/INA219/A4988-INA219%20v2.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/INA219/Roller-gear%20v.3%20v20.png)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/INA219/20200620_173756.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/INA219/Roller-gear%20v.3%20v20.png)
 
 
 ## 1. x2 BIG roller blinds.
