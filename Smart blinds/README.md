@@ -29,4 +29,7 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/INA219/Roller-gear%20v.3%20v20.png)
 
 
-## 1. x2 BIG roller blinds.
+## 3. x2 Blinds.
+![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/422-1.jpg)
+![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/422-2.jpg)
+![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/Board%20-%20422.jpg)
