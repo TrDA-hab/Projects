@@ -28,9 +28,9 @@ Rx|3|PZEM016 Rx|Tx
 1. Run commands in the console to reset values:
  - `EnergyReset1 0`   // reset values for Today  
  - `EnergyReset2 0`   // reset values for Yesterday  
- - `EnergyReset3 0`   // reset values for Today  
+ - `EnergyReset3 0`   // reset values for Total  
 2. Run commands in the console to set values:
- - `EnergyReset3 33557123`   // set values for Today (33557123 = 33557.123kWh)
+ - `EnergyReset3 33557123`   // set values for Total (33557123 = 33557.123kWh)
 3. Run the commands in the console to set the settings of the two tariff counters "day / night":
  - `tariff1 07:00,23:00`   // set values for tariff 1 (from 07:00 to 23:00)
  - `tariff2 23:00,07:00`   // set values for tariff 2 (from 23:00 to 07:00)
