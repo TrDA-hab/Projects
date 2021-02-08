@@ -13,7 +13,7 @@
 - if you need more devices with the same address, you must use a multiplexer ([2](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2)).  
 - if it is necessary to logically match the levels, you must use alevel translator ([3](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#3)).
 - if you need to connect several sensors, you must use I2C extender ([4](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#4)).
-- I2C bus allows connecting hot-swappable (hot) modules.
+- I2C bus allows connecting ([hot-swappable](https://www.ti.com/lit/an/scpa058/scpa058.pdf)) modules.
 - for the I2C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266.  
 
 ## 1. 
