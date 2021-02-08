@@ -1,6 +1,7 @@
 ## About I2C bus:
-- [wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
-- [sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
+- [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
+- [Sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
+- [Supported I2C devices](https://tasmota.github.io/docs/I2CDevices/#supported-i2c-devices)  
 
 ## 0. 
 **About using the I2C bus:**
