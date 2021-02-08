@@ -10,6 +10,7 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20200312_232513.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20200428_215212.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20200428_215905.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20200428_214347.jpg)
 
 ## **3D models** and **BOM** you can find here (optional):   
 https://www.thingiverse.com/thing:4438088  
