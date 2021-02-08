@@ -1,7 +1,7 @@
 ## Solar panel control & multi sensors board
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/Solar0.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20200606_145204.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/Solar1.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20200606_145204.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/Solav%20v2.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/Solar%20graph.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20200309_161455.jpg)
