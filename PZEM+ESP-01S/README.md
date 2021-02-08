@@ -44,6 +44,7 @@ Rx|3|PZEM016 Rx|Tx
 
  ## PZEM-004 DIN rail mounted power monitoring unit x1 phases
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-841.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/graph-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-V4%20v14-2.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM004-V4%20v14-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/20200722_221525.jpg)
