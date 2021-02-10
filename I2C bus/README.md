@@ -3,7 +3,7 @@
 - [Sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
 - [Supported I2C devices](https://tasmota.github.io/docs/I2CDevices/#supported-i2c-devices)  
 
-## 0. 
+## 1. 
 **About using the I2C bus:**
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
 - it is not allowed to use devices with the same addresses.
@@ -16,7 +16,7 @@
 - I2C bus allows connecting ([hot-swappable](https://www.ti.com/lit/an/scpa058/scpa058.pdf)) modules.
 - for the I2C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266.  
 
-## 1. 
+## 2. 
 **If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:**
 - no software support required (!).   
 https://aliexpress.ru/item/32757561351.html   
@@ -25,14 +25,14 @@ https://www.onsemi.com...lateral/PCA9517A-D.PDF
 
 ![1.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%201.1%20.jpg) 
 
-## 2. 
+## 3. 
 **If it is necessary to bypass the same addresses on the I2C bus, then it is necessary to use - TCA9548A multiplexer:**
 - software support required (!!!), now (02/01/2021) is not supported in Tasmota.   
 https://aliexpress.ru/item/4000067621113.html   
 https://www.ti.com/lit/ds/symlink/tca9548a.pdf 
 
 ![2.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%202.1%20.jpg)
-![3.2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%203.2%20.jpg)  
+![3.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%203.2%20.jpg)  
 
 ## 3. 
 **If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:**
@@ -44,7 +44,7 @@ https://www.sparkfun.com/products/15439
 https://aliexpress.ru/item/4000507058874.html  
 https://aliexpress.ru/item/32805554320.html  
 
-## 4. 
+## 5. 
 **If you need to connect several sensors, you must use - I2C extender:**
 - no software support required (!).  
 https://aliexpress.ru/item/4001116856790.html   
@@ -53,10 +53,10 @@ https://aliexpress.ru/item/32964147782.html
 https://aliexpress.ru/item/32965171426.html   
 https://www.ebay.com/itm/I2C-IIC-Extender-for-Arduino-Sensor-Shield-with-Cable/121200480686     
 
-## 5. 
+## 6. 
 **It is possible to combine different options (1+2+3+4).**  
 
-...
+## 7. 
 
 **#UPD 1.**   
 Manufacturer claims up to 100 feet (~ 30 meters) for each PCA9615 controller:   
