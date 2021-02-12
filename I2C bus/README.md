@@ -20,16 +20,14 @@
 - for the I2C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266.  
 
 ## 1. 
-**0x00 - 0x07 and 0x78 - 0x7F are reserved I2C addresses:**
-0x00 - Reserved - General Call Address
-0x01 - Reserved for CBUS Compatibility
-0x02 - Reserved for I2C-compatible Bus Variants
-0x03 - Reserved for Future Use
-0x04, 0x05, 0x06, 0x07 - Reserved for Hs-mode Master
-0x78 0x79 0x7A 0x7B - Reserved for 10-bit I2C Addressing
-0x7C 0x7D 0x7E 0x7F - Reserved for Future Purposes
-
-
+**0x00 - 0x07 and 0x78 - 0x7F are reserved I2C addresses:**  
+- 0x00 - Reserved - General Call Address.  
+- 0x01 - Reserved for CBUS Compatibility.  
+- 0x02 - Reserved for I2C-compatible Bus Variants.  
+- 0x03 - Reserved for Future Use.  
+- 0x04, 0x05, 0x06, 0x07 - Reserved for Hs-mode Master.  
+- 0x78, 0x79, 0x7A, 0x7B - Reserved for 10-bit I2C Addressing.  
+- 0x7C, 0x7D, 0x7E, 0x7F - Reserved for Future Purposes.  
 
 ## 2. 
 **If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:**
