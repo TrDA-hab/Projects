@@ -10,7 +10,7 @@
 **About using the I2C bus:**
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
 - it is not allowed to use devices with the same addresses.
-- the maximum number of devices on the I2C bus is no more than 128 pcs. Addresses from 0 to 127, one for "master" and others for "slave". Excluding reserved addresses ([1}(https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1)).
+- the maximum number of devices on the I2C bus is no more than 128 pcs. Addresses from 0 to 127, one for "master" and others for "slave". Excluding reserved addresses ([1](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1)).
 - ready-made I2C modules, already have pull-up resistors, and you should not worry.
 - if you need a "longer" I2C bus, you must use a repeater ([2](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2)).  
 - if you need more devices with the same address, you must use a multiplexer ([3](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#3)).  
