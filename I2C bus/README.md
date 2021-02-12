@@ -3,18 +3,33 @@
 - [Sparkfun](https://learn.sparkfun.com/tutorials/i2c)  
 - [Supported I2C devices](https://tasmota.github.io/docs/I2CDevices/#supported-i2c-devices)  
 
-## 1. 
+## 0. 
+**About using the I2C bus:**
+
+## 0. 
 **About using the I2C bus:**
 - the maximum allowable bus capacitance is 400 pF, the bus length does NOT matter.
 - it is not allowed to use devices with the same addresses.
-- the maximum number of devices on the I2C bus is no more than 126 pcs. Addresses from 0 to 125, one for "master" and others for "slave".
+- the maximum number of devices on the I2C bus is no more than 128 pcs. Addresses from 0 to 127, one for "master" and others for "slave". Excluding reserved addresses ([1}(https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1)).
 - ready-made I2C modules, already have pull-up resistors, and you should not worry.
-- if you need a "longer" I2C bus, you must use a repeater ([1](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1)).  
-- if you need more devices with the same address, you must use a multiplexer ([2](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2)).  
-- if it is necessary to logically match the levels, you must use alevel translator ([3](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#3)).
-- if you need to connect several sensors, you must use I2C extender ([4](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#4)).
+- if you need a "longer" I2C bus, you must use a repeater ([1](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2)).  
+- if you need more devices with the same address, you must use a multiplexer ([2](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#3)).  
+- if it is necessary to logically match the levels, you must use alevel translator ([3](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#4)).
+- if you need to connect several sensors, you must use I2C extender ([4](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#5)).
 - I2C bus allows connecting ([hot-swappable](https://www.ti.com/lit/an/scpa058/scpa058.pdf)) modules.
 - for the I2C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266.  
+
+## 1. 
+**0x00 - 0x07 and 0x78 - 0x7F are reserved I2C addresses:**
+0x00 - Reserved - General Call Address
+0x01 - Reserved for CBUS Compatibility
+0x02 - Reserved for I2C-compatible Bus Variants
+0x03 - Reserved for Future Use
+0x04, 0x05, 0x06, 0x07 - Reserved for Hs-mode Master
+0x78 0x79 0x7A 0x7B - Reserved for 10-bit I2C Addressing
+0x7C 0x7D 0x7E 0x7F - Reserved for Future Purposes
+
+
 
 ## 2. 
 **If it is necessary to "increase the capacity" of the I2C bus, then it is necessary to use - the PCA9515A repeater:**
