@@ -44,7 +44,7 @@ https://www.ti.com/lit/ds/symlink/tca9548a.pdf
 ![2.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%202.1%20.jpg)
 ![3.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20bus/I2C%203.1%20.jpg)  
 
-## 3. 
+## 4. 
 **If it is necessary to logically match the levels (for example 5V and 3.3V), then it is necessary to use - Level Translator PCA9306:**
 - [About logic level](https://learn.sparkfun.com/tutorials/logic-levels)   
 
