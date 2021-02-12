@@ -17,7 +17,7 @@
 - for the I2C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266.  
 
 ## 1. 
-**0x00 - 0x07 and 0x78 - 0x7F are reserved I2C addresses:**  
+**Reserved I2C addresses:**  
 - 0x00 - Reserved - General Call Address.  
 - 0x01 - Reserved for CBUS Compatibility.  
 - 0x02 - Reserved for I2C-compatible Bus Variants.  
