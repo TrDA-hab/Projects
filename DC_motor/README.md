@@ -83,6 +83,9 @@ D8|15|PWM1|PWM
  - https://youtu.be/gah3zCJPPUc  
  - https://youtu.be/8P2wTgeavdo  
 
+### More information:  
+- https://www.wemos.cc/en/latest/d1_mini_shield/motor.html
+
 ## 3.1 Using ONE motor.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/905.jpg)
