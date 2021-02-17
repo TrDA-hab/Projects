@@ -77,13 +77,11 @@ D8|15|PWM1|PWM
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
  - [About TB6612FNG](https://www.pololu.com/product/713)
 
-# 3. Wemos motor shield V1.
-
-### Note:
-Now (01/15/2021) Tasmota has no support for "Wemos motor shield V2". Perhaps this support will be added later.
+# 3. Wemos motor shield V1 & V2.
 
 ### Video of the driver's work:
- - https://youtu.be/gah3zCJPPUc
+ - https://youtu.be/gah3zCJPPUc  
+ - https://youtu.be/8P2wTgeavdo  
 
 ## 3.1 Using ONE motor.
 
@@ -107,16 +105,16 @@ D5|14|Relay3| CCW motor1
    `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
 3. Run commands in the console to test the motor (you must first configure the GPIO!):  
-    `driver44 SETMOTOR, 0, 1`  // for CCW motor1  
-    `driver44 SETMOTOR, 0, 3`  // for STOP motor1  
-    `driver44 SETMOTOR, 0, 2`  // for CW motor1  
-    `driver44 SETMOTOR, 0, 4`  // for standby motor1 (optional)  
+    `driver44 SETMOTOR,0,1,80`  // for CCW motor1 (80% duty - optional)  
+    `driver44 SETMOTOR,0,3`  // for STOP motor1  
+    `driver44 SETMOTOR,0,2,80`  // for CW motor1 (80% duty - optional)  
+    `driver44 SETMOTOR,0,4`  // for standby motor1 (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 4. Use the rules to control the motor (optional):   
   - `Rule1`  // remove comments before using the rule!   
-    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 55; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` // CW motor1, "delay 55" controls the opening (time 55 = 5.5 sec).   
-    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` // Stop motor1   
-    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 55; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //CCW motor1, "delay 55" controls the closing  (time 55 = 5.5 sec).   
+    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR,0,3; delay 10; driver44 SETMOTOR,0,1,80; delay 55; driver44 SETMOTOR,0,3; Power1 0 ENDON` // CW motor1, "delay 55" controls the opening (time 55 = 5.5 sec).   
+    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR,0,3; Power2 0 ENDON` // Stop motor1   
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR,0,3; delay 10; driver44 SETMOTOR,0,2,80; delay 55; driver44 SETMOTOR,0,3; Power3 0 ENDON` //CCW motor1, "delay 55" controls the closing  (time 55 = 5.5 sec).   
   - `Rule1 1`  //  run rule1   
 5. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`   
@@ -146,28 +144,28 @@ D8|15|Relay6| CCW motor2
    `00:00:00.062 I2C: WEMOS_MOTOR_V1 found at 0x30`
 
 3. Run commands in the console to test the **motor1** (you must first configure the GPIO!):  
-    `driver44 SETMOTOR, 0, 1`  // for CCW motor1  
-    `driver44 SETMOTOR, 0, 3`  // for STOP motor1  
-    `driver44 SETMOTOR, 0, 2`  // for CW motor1  
-    `driver44 SETMOTOR, 0, 4`  // for standby motor1 (optional)  
+    `driver44 SETMOTOR,0,1,75`  // for CCW motor1 (75% duty - optional) 
+    `driver44 SETMOTOR,0,3`  // for STOP motor1  
+    `driver44 SETMOTOR,0,2,75`  // for CW motor1  (75% duty - optional)
+    `driver44 SETMOTOR,0,4`  // for standby motor1 (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino)  
 4. Run commands in the console to test the **motor2** (you must first configure the GPIO!):  
-    `driver44 SETMOTOR, 1, 1`  // for CCW motor2  
-    `driver44 SETMOTOR, 1, 3`  // for STOP motor2  
-    `driver44 SETMOTOR, 1, 2`  // for CW motor2  
-    `driver44 SETMOTOR, 1, 4`  // for standby motor2 (optional)  
+    `driver44 SETMOTOR,1,1,50`  // for CCW motor2 (50% duty - optional)  
+    `driver44 SETMOTOR,1,3`  // for STOP motor2  
+    `driver44 SETMOTOR,1,2,50`  // for CW motor2 (50% duty - optional)  
+    `driver44 SETMOTOR,1,4`  // for standby motor2 (optional)  
     [More information!](https://github.com/arendst/Tasmota/blob/development/tasmota/xdrv_34_wemos_motor_v1.ino) 
 6. Use the rules to control the **motor1** and **motor2** (optional):   
   - `Rule1`  // remove comments before using the rule!   
-    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 1; delay 69; driver44 SETMOTOR, 0, 3; Power1 0 ENDON` //  CW motor1, "delay 69" controls the opening (time 69 = 6.9 sec.)"   
-    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR, 0, 3; Power2 0 ENDON` //  Stop motor1   
-    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR, 0, 3; delay 10; driver44 SETMOTOR, 0, 2; delay 69; driver44 SETMOTOR, 0, 3; Power3 0 ENDON` //  CCW motor1, "delay 69" controls the closing  (time 69 = 6.9 sec).   
+    `ON Power1#state=1 DO Backlog Power2 0; Power3 0; driver44 SETMOTOR,0,3; delay 10; driver44 SETMOTOR,0,1,75; delay 69; driver44 SETMOTOR,0,3; Power1 0 ENDON` //  CW motor1, "delay 69" controls the opening (time 69 = 6.9 sec.)"   
+    `ON Power2#state=1 DO Backlog Power1 0; Power3 0; driver44 SETMOTOR,0,3; Power2 0 ENDON` //  Stop motor1   
+    `ON Power3#state=1 DO Backlog Power1 0; Power2 0; driver44 SETMOTOR,0,3; delay 10; driver44 SETMOTOR,0,2,75; delay 69; driver44 SETMOTOR,0,3; Power3 0 ENDON` //  CCW motor1, "delay 69" controls the closing  (time 69 = 6.9 sec).   
   - `Rule1 1` // run rule1  
   
   - `Rule2`  // remove comments before using the rule!   
-    `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 1; delay 77; driver44 SETMOTOR, 1, 3; Power4 0 ENDON` //  CW motor2, "delay 77" controls the opening (time 77 = 7.7 sec).   
-    `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR, 1, 3; Power5 0 ENDON` //  Stop motor2    
-    `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR, 1, 3; delay 10; driver44 SETMOTOR, 1, 2; delay 77; driver44 SETMOTOR, 1, 3; Power6 0 ENDON` //  CCW motor2, "delay 77" controls the closing  (time 77 = 7.7 sec).    
+    `ON Power4#state=1 DO Backlog Power5 0; Power6 0; driver44 SETMOTOR,1,3; delay 10; driver44 SETMOTOR,1,1,50; delay 77; driver44 SETMOTOR,1,3; Power4 0 ENDON` //  CW motor2, "delay 77" controls the opening (time 77 = 7.7 sec).   
+    `ON Power5#state=1 DO Backlog Power4 0; Power6 0; driver44 SETMOTOR,1,3; Power5 0 ENDON` //  Stop motor2    
+    `ON Power6#state=1 DO Backlog Power4 0; Power5 0; driver44 SETMOTOR,1,3; delay 10; driver44 SETMOTOR,1,2,50; delay 77; driver44 SETMOTOR,1,3; Power6 0 ENDON` //  CCW motor2, "delay 77" controls the closing  (time 77 = 7.7 sec).    
   - `Rule2 1` // run rule2  
 6. Add "logic" to the control WEB buttons (optional):   
     `Backlog WebButton1 &#8648; WebButton2 Stop1; WebButton3 &#8650`  
