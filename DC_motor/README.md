@@ -126,7 +126,7 @@ D5|14|Relay3| CCW motor1
 
 ### How to use it:
 
-1. You must add support for "WEMOS_MOTOR_V1" in my_user_config.h file.
+1. You must add support for "WEMOS_MOTOR_V2" in my_user_config.h file.
 2. Сonfigure the GPIO:  
 
 Wemos Pin|GPIO|Component|Motor Signal
