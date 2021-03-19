@@ -49,9 +49,6 @@ D2|4|Relay1|CCW
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/903.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210103_181349.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904-1.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210120_190721.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_170009.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_160002.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_155956.jpg)
 
