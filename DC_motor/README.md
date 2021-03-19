@@ -87,7 +87,7 @@ D8|15|PWM1|PWM
  - Run commands in the console (you must first configure the GPIO!):  
     `SetOption68 1`   // Enable multi-channel PWM  
     `SetOption73 1`   // Enable detach buttons from relays  
-    `Rule1 ON system#boot DO Backlog Power5 1; Power6 1; Power7 1; Channel6 50; Channel7 75 ENDON`   // Enabling the driver and setting the PWM to 75%.  
+    `Rule1 ON system#boot DO Backlog Power5 1; Power6 1; Power7 1; Channel6 50; Channel7 75 ENDON`   // Enable PWM to 50% and 75%.  
     `Rule1 1`   // Enable Rule1  
     `Backlog WebButton5 PWM1; WebButton6 PWM2; WebButton7 STNB`   // To rename a web button (optional)  
  - Run commands in the console to test the motor (you must first configure the GPIO!):  
