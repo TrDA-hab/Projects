@@ -41,6 +41,10 @@ D2|4|Relay1|CCW
  - [Shutter commands](https://tasmota.github.io/docs/Commands/#shutters)
  - [About TB6612FNG](https://www.pololu.com/product/713)
 
+### Video of the driver's work:
+ - https://youtu.be/e9kBO-Brymo
+ - https://youtu.be/3fbM7FQ-1wY
+
 ## 2.1 Using ONE motor
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/903.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/904.jpg)
@@ -50,9 +54,6 @@ D2|4|Relay1|CCW
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_170009.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_160002.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210123_155956.jpg)
-
-### Video of the driver's work:
- - https://youtu.be/e9kBO-Brymo
 
 ### Note:
  - you can control the RPM of the DC motor !
@@ -83,20 +84,20 @@ D8|15|PWM1|PWM
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/909.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/9010.jpg)
 
-### Video of the driver's work:
- - https://youtu.be/3fbM7FQ-1wY
-
 ### Note:
  - you can control the RPM of the DC motors !
 
 ESP-01M Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
-D5|14|Relay3|STBY
-D6|12|Relay1|CW
-D7|13|Relay2|CCW
-D8|15|PWM1|PWM
-
-
+D2|04|PWM1|PWM1 motor1
+D6|12|Relay1|CW motor1
+D7|13|Relay2|CCW motor1
+FL|09|Button1|Up/Down#1
+D4|02|PWM1|PWM2 motor2
+D7|13|Relay3|CW# motor2
+D8|15|Relay4|CCW motor2
+FL|09|Button2|Up/Down#2
+D5|14|Relay4|Stnb
 
 # 3. Wemos motor shield V1 & V2.
 
