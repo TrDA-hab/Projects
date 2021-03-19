@@ -77,7 +77,7 @@ D8|15|PWM1|PWM
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/909.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/9010.jpg)
-
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/909-1.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210315_224338.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210317_202159.jpg)
 
