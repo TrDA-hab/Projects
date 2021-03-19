@@ -113,7 +113,7 @@ FL|09|Button1|Up/Down#1
 D4|02|PWM1|PWM2 motor2
 D7|13|Relay3|CW# motor2
 D8|15|Relay4|CCW motor2
-FL|09|Button2|Up/Down#2
+FL|10|Button2|Up/Down#2
 D5|14|Relay4|Stnb
 
 # 3. Wemos motor shield V1 & V2.
