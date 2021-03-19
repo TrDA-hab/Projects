@@ -79,6 +79,9 @@ D8|15|PWM1|PWM
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/909.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/9010.jpg)
 
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210315_224338.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/20210317_202159.jpg)
+
 ### Note:
  - you can control the RPM of the DC motors !
 
@@ -99,6 +102,8 @@ D8|15|PWM1|PWM
     `ShutterClose1`  // test CWW motor1 rotation 
     `ShutterOpen2`   // test CW motor2 rotation  
     `ShutterClose2`  // test CWW motor2 rotation 
+    `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
+    `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2    
 
 ESP-01M Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
