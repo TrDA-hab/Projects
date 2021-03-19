@@ -63,11 +63,9 @@ D2|4|Relay1|CCW
     `WebButton4 STBY`   // To rename a web button (optional)  
  - Run commands in the console to test the motor (you must first configure the GPIO!):  
     `ShutterMode 1`   // Enabling "Shutter mode 1"  
-    `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
-    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds
     `Restart 1`   // Restart Tasmota  
-    `ShutterOpen`   // CW motor rotation  
-    `ShutterClose`  // CWW motor rotation 
+    `ShutterOpen`   // test CW motor rotation  
+    `ShutterClose`  // test CWW motor rotation 
 
 Wemos Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
@@ -83,6 +81,24 @@ D8|15|PWM1|PWM
 
 ### Note:
  - you can control the RPM of the DC motors !
+
+### How to use it:
+ - You must add support for Shutter in my_user_config.h file.
+ - Run commands in the console (you must first configure the GPIO!):  
+    `SetOption68 1`   // Enable multi-channel PWM  
+    `SetOption73 1`   // Enable detach buttons from relays  
+    `Rule1 ON system#boot DO Backlog Power5 1; Power6 1; Power7 1; Channel6 50; Channel7 75 ENDON`   // Enabling the driver and setting the PWM to 75%.  
+    `Rule1 1`   // Enable Rule1  
+    `Backlog WebButton5 PWM1; WebButton6 PWM2; WebButton7 STNB`   // To rename a web button (optional)  
+ - Run commands in the console to test the motor (you must first configure the GPIO!):  
+    `ShutterMode 1`   // Enabling "Shutter mode 1"  
+    `ShutterRelay1 1`   // for relay Relay1 and Relay2  
+    `ShutterRelay2 3`   // for relay Relay3 and Relay4  
+    `Restart 1`   // Restart Tasmota  
+    `ShutterOpen1`   // test CW motor1 rotation  
+    `ShutterClose1`  // test CWW motor1 rotation 
+    `ShutterOpen2`   // test CW motor2 rotation  
+    `ShutterClose2`  // test CWW motor2 rotation 
 
 ESP-01M Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
