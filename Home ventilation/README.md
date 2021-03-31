@@ -14,7 +14,8 @@
 ![RobotDyn Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/PZEM-862.jpg)
 
 ## More about using PZEM-004:
- - ![about using PZEM-004](https://github.com/arendst/Tasmota/discussions/10567)
+ - [Tasmota PZEM-004](https://tasmota.github.io/docs/PZEM-0XX/)
+ - [about using PZEM-004](https://github.com/arendst/Tasmota/discussions/10567)
 
  ## How to use it (for ESP-01S):
 1. Run commands in the console to reset values:
