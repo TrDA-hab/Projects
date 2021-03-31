@@ -20,7 +20,7 @@
  ## How to use it (for ESP-01S#1):
 1. Run commands in the console (remove comments first):  
   `Rule1`  
-  `ON Tele-ENERGY#Current>0.5 DO publish cmnd/Motor-1/Power1 0 ENDON`   // if motor # 2 is on, then turn off motor # 1  
-  `ON Tele-ENERGY#Current<0.5 DO Backlog publish cmnd/Motor-1/Power1 1; publish cmnd/Motor-1/Dimmer 25 ENDON`   // if motor # 2 is off, then turn on motor # 1 and set motor dimming to 25%  
+  `ON Tele-ENERGY#Current>0.5 DO publish cmnd/Motor-1/Power1 0 ENDON`   // if motor#2 is ON, then turn OFF motor#1  
+  `ON Tele-ENERGY#Current<0.5 DO Backlog publish cmnd/Motor-1/Power1 1; publish cmnd/Motor-1/Dimmer 25 ENDON`   // if motor # 2 is OFF, then turn on motor#1 and set motor#1 dimming to 25%  
   `Rule1 1`   // Enable Rule1  
 
