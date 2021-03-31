@@ -39,6 +39,9 @@
     `Rule2`  
     `ON Dimmer#State>80 DO Dimmer 25 ENDON`  //turn on motor#2 and set motor#2 dimming to 25% (note(!) - see below.)  
     `Rule2 1`   // Enable Rule2  
+    
+    `Rule 5`   // Now the MQTT message will be sent once and only once as long as the condition (!!!) is met. It is ideal for turning on / off the on / off of the exhaust fan depending on external conditions.       
+    https://tasmota.github.io/docs/Rules/#usage-of-one-shot-once
  
  ## Note:
 - Sonoff D1 has problems on a regular basis and sets the dimming to 100% (it's very loud).  
