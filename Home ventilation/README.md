@@ -1,7 +1,7 @@
 # Home ventilation (automation). 
 ## How I use this project in my city apartment:
 - I have a main exhaust ventilation and it is automatically controlled by smart home sensors (Sonoff D1).
-- every 6-9 you need to clean (maintain) the main ventilation.
+- every 6 ... 9 months I need to clean (maintain) the main exhaust ventilation.
 - and there is a backup exhaust ventilation which is operated manually.
 - the main and backup exhaust ventilation must not interfere with each other (must not be able to work simultaneously).
 - main and backup exhaust ventilation are located in different rooms (this is important).
@@ -54,3 +54,6 @@
 - Sonoff D1 has problems on a regular basis and sets the dimming to 100% (it's very loud).  
 - to treat problems with Sonoff D1 and you need Rule2.
 
+
+**Best regards   
+TrDA**
