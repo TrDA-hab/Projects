@@ -23,4 +23,5 @@
    - x2 Servo
 6. AS5600 Position Sensor.
 7. I2C protocol:
-8. ...
+8. Home ventilation.
+9. ...
