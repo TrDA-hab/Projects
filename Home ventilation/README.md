@@ -13,12 +13,15 @@
  - this is unacceptable (work stopped) - see note below.
 
 ![RobotDyn Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/PZEM-852.jpg)
+![RobotDyn Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/20210331_202713.jpg)
+
 
 ## 2. Sonoff D1 Dimmer.  
  - this only works if your AC motor is dimmable.
  - it works very well (almost).
  
-![RobotDyn Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/PZEM-862.jpg)
+![Sonoff D1 Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/PZEM-862.jpg)
+![Sonoff D1 Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/20210331_202908.jpg)
 
 ## More about using PZEM-004:
  - [Tasmota PZEM-004](https://tasmota.github.io/docs/PZEM-0XX/)
