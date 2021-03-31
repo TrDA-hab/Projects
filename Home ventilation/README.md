@@ -20,6 +20,9 @@
  - this only works if your AC motor is dimmable.
  - it works very well (almost).
  
+ ### Video of the driver's work:
+ - https://youtu.be/S4nMcrPoYII
+ 
 ![Sonoff D1 Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/PZEM-862.jpg)
 ![Sonoff D1 Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/20210331_202908.jpg)
 
