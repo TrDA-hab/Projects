@@ -35,7 +35,7 @@
   `Rule1`  
   `ON system#boot DO Backlog Power1 0; delay 10; Power1 1; Dimmer 25 ENDON`  //turn on motor#2 and set motor#2 dimming to 25%  
   `Rule1 1`   // Enable Rule1  
-
+  
   `Rule2`  
   `ON Dimmer#State>80 DO Dimmer 25 ENDON`  //turn on motor#2 and set motor#2 dimming to 25% (note(!) - see below.)  
   `Rule2 1`   // Enable Rule2  
