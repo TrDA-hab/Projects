@@ -1,4 +1,4 @@
-# Home ventilation. 
+# Home ventilation (automation). 
 
 ## 1. RobotDyn AC Light Dimmer.  
  - this only works if your AC motor is dimmable.
