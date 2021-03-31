@@ -13,3 +13,12 @@
  
 ![RobotDyn Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/PZEM-862.jpg)
 
+## More about using PZEM-004:
+ - ![about using PZEM-004](https://github.com/arendst/Tasmota/discussions/10567)
+
+ ## How to use it (for ESP-01S):
+1. Run commands in the console to reset values:
+ - `EnergyReset1 0`   // reset values for Today  
+ - `EnergyReset2 0`   // reset values for Yesterday  
+ - `EnergyReset3 0`   // reset values for Total 
+
