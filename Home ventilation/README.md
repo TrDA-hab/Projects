@@ -19,6 +19,8 @@
 
  ## How to use it (for ESP-01S & motor#1):
 1. Run commands in the console to reset values:  
+  `Rule1`  
   `ON Tele-ENERGY#Current>0.5 DO publish cmnd/Motor-1/Power1 0 ENDON`   // reset values for Today  
   `ON Tele-ENERGY#Current<0.5 DO Backlog publish cmnd/Motor-1/Power1 1; publish cmnd/Motor-1/Dimmer 25 ENDON`   // reset values for Today  
+  `Rule1 1`   // Enable Rule1  
 
