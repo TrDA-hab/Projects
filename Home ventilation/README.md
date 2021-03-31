@@ -1,9 +1,16 @@
 # Home ventilation (automation). 
+## How I use this project in my city apartment:
+- I have a main exhaust ventilation and it is automatically controlled by smart home sensors (Sonoff D1).
+- every 6-8 you need to clean (maintain) the main ventilation.
+- and there is a back-up exhaust ventilation which is operated manually.
+- the main and backup exhaust ventilation must not interfere with each other (must not be able to work simultaneously).
+- main and backup exhaust ventilation are located in different rooms (this is important).
+- I had to do this automation.
 
 ## 1. RobotDyn AC Light Dimmer.  
  - this only works if your AC motor is dimmable.
  - it hums a lot when running (low frequency hum).
- - this is unacceptable (work stopped).
+ - this is unacceptable (work stopped) - see note below.
 
 ![RobotDyn Dimmer](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Home%20ventilation/PZEM-852.jpg)
 
