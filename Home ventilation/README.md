@@ -24,11 +24,15 @@
   `ON Tele-ENERGY#Current<0.5 DO Backlog publish cmnd/Motor-1/Power1 1; publish cmnd/Motor-1/Dimmer 25 ENDON`   // if motor # 2 is OFF, then turn on motor#1 and set motor#1 dimming to 25%  
   `Rule1 1`   // Enable Rule1  
 
-1. Run commands in the console for ESP-01S (remove comments first):  
+1. Run commands in the console for Sonoff D1 (remove comments first):  
   `Rule1`  
   `ON system#boot DO Backlog Power1 0; delay 10; Power1 1; Dimmer 25 ENDON`  //turn on motor#2 and set motor#2 dimming to 25%  
   `Rule1 1`   // Enable Rule1  
   `Rule2`  
-  `ON Dimmer#State>80 DO Dimmer 25 ENDON`  //turn on motor#2 and set motor#2 dimming to 25%  
+  `ON Dimmer#State>80 DO Dimmer 25 ENDON`  //turn on motor#2 and set motor#2 dimming to 25% (note(!) - see below.)  
   `Rule1 1`   // Enable Rule1  
  
+ ## Note:
+- Sonoff D1 has problems on a regular basis and sets the dimming to 100% (it's very loud).  
+- to treat problems with Sonoff D1 and you need Rule2.
+
