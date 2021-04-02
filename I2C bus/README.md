@@ -4,7 +4,7 @@
 - [Tasmota - Supported I2C devices](https://tasmota.github.io/docs/I2CDevices/#supported-i2c-devices)
 - [NXP - I2C-bus specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 - [TI - I2C Bus Pullup Resistor Calculation](https://www.ti.com/lit/an/slva689/slva689.pdf)
-
+- [Online - I2C Pull up resistor calculator](https://atman-iot.com/blog/i2c-pull-up-calculator/)
 
 ## 0. 
 **About using the I2C bus:**
@@ -12,6 +12,7 @@
 - it is not allowed to use devices with the same addresses.
 - the maximum number of devices on the I2C bus is no more than 128 pcs. Addresses from 0 to 127, one for "master" and others for "slave". Excluding reserved addresses ([1](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1)).
 - ready-made I2C modules, already have pull-up resistors, and you should not worry.
+- what type of Pull-Up Resistors should we choose for "handmade" device? It depends on many factors, but to be on the safe side anything between 2 kΩ and 16 kΩ (optimal 4.7 kΩ and 10 kΩ.).
 - if you need a "longer" I2C bus, you must use a repeater ([2](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2)).  
 - if you need more devices with the same address, you must use a multiplexer ([3](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#3)).  
 - if it is necessary to logically match the levels, you must use alevel translator ([4](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#4)).
