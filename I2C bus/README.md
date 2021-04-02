@@ -2,9 +2,9 @@
 - [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
 - [Sparkfun - I2C tutorial](https://learn.sparkfun.com/tutorials/i2c)  
 - [Tasmota - Supported I2C devices](https://tasmota.github.io/docs/I2CDevices/#supported-i2c-devices)
-- [NXP - I2C-bus specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
-- [TI - I2C Bus Pullup Resistor Calculation](https://www.ti.com/lit/an/slva689/slva689.pdf)
-- [Online - I2C Pull up resistor calculator](https://atman-iot.com/blog/i2c-pull-up-calculator/)
+- [NXP - I2C bus specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
+- [TI - I2C Bus Pullup resistor calculation](https://www.ti.com/lit/an/slva689/slva689.pdf)
+- [Online - I2C Bus Pullup resistor calculator](https://atman-iot.com/blog/i2c-pull-up-calculator/)
 
 ## 0. 
 **About using the I2C bus:**
