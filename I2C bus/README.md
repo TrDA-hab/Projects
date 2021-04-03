@@ -15,13 +15,14 @@
 - the maximum number of devices on the I²C bus is no more than 128 pcs. Addresses from 0 to 127, one for "master" and others for "slave". Excluding reserved addresses ([1](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#1)).
 - ready-made I²C modules, already have pull-up resistors, and you should not worry.
 - what type of pull-up resistors should we choose for "handmade" device? It depends on many factors, but to be on the safe side anything between 1.5 kΩ and 14 kΩ (optimal 4.7 kΩ for 5V devices and 2.4 kΩ for 3.3V devices). The more devices are connected to the I²C bus the smaller(!) has to be the resistor.
+- the ESP8266 activates its internal pull-up resistors for SDA and SCL, so you usually don't need to install external ones (they are required for slaves).
 - if you need a "longer" I²C bus, you must use a repeater ([2](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#2)).  
 - if you need more devices with the same address, you must use a multiplexer ([3](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#3)).  
 - if it is necessary to logically match the levels, you must use alevel translator ([4](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#4)).
 - if you need to connect several sensors, you must use I²C extender ([5](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#5)).
 - I²C bus allows connecting ([hot-swappable](https://www.ti.com/lit/an/scpa058/scpa058.pdf)) modules.
 - for the I²C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266. 
-- ESP8266 chip does not have hardware I²C, so module uses software I²C driver. It can be set up on any GPIO pins. The recommended convention for the I²C bus is used to select the GPIO pins - `SDA` on GPIO4 (D2) and  `SCL` on GPIO5 (D1).
+- the ESP8266 chip does not have hardware I²C, so module uses software I²C driver. It can be set up on any GPIO pins. The recommended convention for the I²C bus is used to select the GPIO pins - `SDA` on GPIO4 (D2) and  `SCL` on GPIO5 (D1). For ESP32 recommend using GPIO pins - `SDA` on GPIO21 and` SCL` on GPIO22.
 - if you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP8266 you will see all the found I²C devices.   
   `00:00:00 I2C: BME280 found at 0x76`  
   `00:00:00 I2C: INA219 found at 0x40`  
