@@ -1,5 +1,7 @@
 ## Using PZEM-004 (Energy Monitoring)
 
+## https://img.shields.io/static/v1?label=&message=NOTE&color=red Caution High Voltage! Check if you have disconnected the high voltage.
+
 ### More information:
  - [Tasmota PZEM-004](https://tasmota.github.io/docs/PZEM-0XX/)
  - [About PZEM-004 (V3)](https://innovatorsguru.com/pzem-004t-v3/)
@@ -7,8 +9,8 @@
  - [x3 phase PZEM-004 V3 (EN)](https://zorruno.com/w/EnergyMonitoringPZEM004T)
  - [x3 phase PZEM-004 V3 (DE)](https://forum.iobroker.net/topic/28453/tutorial-pzem-004t-3-phasen-%C3%BCberwachung)
  - [github-Tasmota PZEM-004 (3 phase)](https://github.com/arendst/Tasmota/issues/2315)
-  
-## PIN configuration 
+
+## PIN configuration
 
 For PZEM-004 (V1/V2):
 
@@ -34,7 +36,7 @@ Rx|3|PZEM016 Rx|Tx
 3. Run the commands in the console to set the settings of the two tariff counters "day / night":
  - `tariff1 07:00,23:00`   // set values for tariff 1 (from 07:00 to 23:00)
  - `tariff2 23:00,07:00`   // set values for tariff 2 (from 23:00 to 07:00)
-  
+
  ## PZEM-004 portable power monitoring unit (x1 phases)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-831.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/graph-0.jpg)
