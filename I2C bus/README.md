@@ -29,9 +29,14 @@
   `00:00:00 I2C: INA219 found at 0x41`  
   `00:00:00 I2C: INA219 found at 0x44`    
 - also using the `i2cscan` command you can see the detected I²C devices.   
-  `10:45:22 CMD: i2cscan`  
+  `10:45:22 CMD: i2cscan  `
   `10:45:22 MQT: stat/Sonoff_Baro_1/RESULT = {"I2CScan":"Device(s) found at 0x40 0x41 0x44 0x76"}`  
 - you can also enable and disable I2C devices using the `I2cDriver` command (they are always enabled by default). More details ([here](https://tasmota.github.io/docs/I2CDevices/#look-at-pre-compiled-builds-to-see-which-driver-is-compiled-in-the-release-binarys)).
+  `11:58:14 CMD: I2cDriver  `
+  `11:58:14 MQT: stat/Sonoff_Baro_1/RESULT = {"I2CDriver":"10,11,14"}  `
+  `11:58:22 CMD: I2cDriver14 0  `
+  `11:58:22 MQT: stat/Sonoff_Baro_1/RESULT = {"I2CDriver":"10,11,!14"}  `
+
 
 ## 1. 
 **Reserved I²C addresses:**  
