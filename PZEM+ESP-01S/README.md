@@ -1,6 +1,6 @@
 ## Using PZEM-004 (Energy Monitoring)
 
-## https://img.shields.io/static/v1?label=&message=NOTE&color=red Caution High Voltage! Check if you have disconnected the high voltage.
+## ![](https://img.shields.io/static/v1?label=&message=NOTE&color=red) Caution High Voltage! Check if you have disconnected the high voltage.
 
 ### More information:
  - [Tasmota PZEM-004](https://tasmota.github.io/docs/PZEM-0XX/)
