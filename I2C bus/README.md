@@ -1,4 +1,4 @@
-## About I2C bus:
+## About I²C (I2C, IIC) bus:
 - [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
 - [Sparkfun - I²C Bus tutorial](https://learn.sparkfun.com/tutorials/i2c)  
 - [Tasmota - Supported I²C devices](https://tasmota.github.io/docs/I2CDevices/#supported-i2c-devices)
@@ -19,7 +19,7 @@
 - if you need to connect several sensors, you must use I²C extender ([5](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#5)).
 - I²C bus allows connecting ([hot-swappable](https://www.ti.com/lit/an/scpa058/scpa058.pdf)) modules.
 - for the I²C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266. 
-- ESP8266 chip does not have hardware I²C, so module uses software I²C driver. It can be set up on any GPIO pins including GPIO16 (see below).
+- ESP8266 chip does not have hardware I²C, so module uses software I²C driver. It can be set up on any GPIO pins. The recommended convention for the I²C bus is used to select the GPIO pins - `SDA` on GPIO4 (D2) and  `SCL` on GPIO5 (D1).
 - if you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP8266 you will see all the found I²C devices.   
   `00:00:00 I2C: BME280 found at 0x76`  
   `00:00:00 I2C: INA219 found at 0x40`  
