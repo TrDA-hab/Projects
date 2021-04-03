@@ -8,8 +8,6 @@
 - [TI - I²C Bus Pull-up resistor calculation](https://www.ti.com/lit/an/slva689/slva689.pdf)
 - [Online - I²C Bus Pull-up resistor calculator](https://atman-iot.com/blog/i2c-pull-up-calculator/)
 
-https://www.wemos.cc/en/latest/d1/d1_mini.html#pin
-
 ## 0. 
 **About using the I²C bus:**
 - the maximum allowable I²C bus capacitance is 400 pF, the bus length does NOT matter.
