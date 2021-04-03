@@ -19,7 +19,7 @@
 - if you need to connect several sensors, you must use I2C extender ([5](https://github.com/TrDA-hab/Projects/blob/master/I2C%20bus/README.md#5)).
 - I2C bus allows connecting ([hot-swappable](https://www.ti.com/lit/an/scpa058/scpa058.pdf)) modules.
 - for the I2C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266. 
-- if you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP8266 you will see the found I2C devices.   
+- if you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP8266 you will see all the found I2C devices.   
   `00:00:00 I2C: BME280 found at 0x76`  
   `00:00:00 I2C: INA219 found at 0x40`  
   `00:00:00 I2C: INA219 found at 0x41`  
