@@ -1,6 +1,7 @@
 ## About I²C (I2C, IIC) bus:
 - [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)  
 - [Sparkfun - I²C Bus tutorial](https://learn.sparkfun.com/tutorials/i2c)  
+- [NodeMCU - I²C Bus tutorial](https://nodemcu.readthedocs.io/en/release/modules/i2c/)  
 - [Tasmota - Supported I²C devices](https://tasmota.github.io/docs/I2CDevices/#supported-i2c-devices)
 - [NXP - I²C bus specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 - [TI - I²C Bus Pull-up resistor calculation](https://www.ti.com/lit/an/slva689/slva689.pdf)
