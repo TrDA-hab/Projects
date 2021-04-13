@@ -41,6 +41,18 @@ D4|2|Counter1|STP
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4112.jpg)
 
+Wemos Pin|GPIO|Component|Stepper Signal
+:-:|:-:|:-:|:-:
+D1|5|Relay1i|EN
+D2|4|Relay2|DIR
+D3|0|PWM1|STP
+D4|2|Counter1|STP
+D6|5|SCL|INA219
+D7|4|SLA|INA219
+RX|3|Button1|Up button
+TX|1|Button2|Down button
+
+
 # 3. Two stepper motors (medium configuration):
 ### Device List:
  - Nema-17 (stepper motor).
@@ -49,3 +61,14 @@ D4|2|Counter1|STP
  - MP1584 (DC/DC step-down module).
  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4122.jpg)
+
+Wemos Pin|GPIO|Component|Stepper Signal
+:-:|:-:|:-:|:-:
+D1|5|Relay1i|EN
+D2|4|Relay2|DIR
+D3|0|PWM1|STP
+D4|2|Counter1|STP
+D5|14|Relay3i|EN
+D6|12|Relay4|DIR
+D7|13|PWM2|STP
+D8|15|Counter2|STP
