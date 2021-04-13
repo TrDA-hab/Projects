@@ -9,8 +9,6 @@ http://stepcontrol.com/pdf/step101.pdf
    - A4988 - https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/
    - DRV8825 - https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/
    - TMC2208 - https://wiki.fysetc.com/TMC2208/ 
-- TMC2208 vs a4988 (Table 2)- https://www.trinamic.com/fileadmin/assets/Support/Appnotes/AN045-How_to_replace_Allegro_A4988_with_TMC2208_01.pdf 
-
 
 # 1. One stepper motor (minimum configuration):  
 ### Device List:  
