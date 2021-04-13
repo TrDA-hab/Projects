@@ -8,8 +8,8 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4102.jpg)  
 
 ### How to use it:  
- - You must add support for Shutter in my_user_config.h file.
- - Or flash your ESP8266 module with tasmota.bin file.
+ - You must add support for Shutter in `my_user_config.h` file.
+ - Or flash your ESP8266 module with `tasmota.bin` file.
  - Run commands in the console to run the "Stepper" mode (you must first configure the GPIO!):  
     `SetOption80 1`   // Set "Shutter" mode.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
