@@ -16,7 +16,7 @@
     `Restart 1`   // Restart Tasmota  
   - Execute commands in the console to configure the motor operation (you must first configure the GPIO!):  
     `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
-    `ShutterMotorDelay1 2.5`  // Stepper do not like infinite momentum. Ramp up/down speed allow much higher frequencies(default = 0 seconds).  
+    `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
