@@ -1,6 +1,6 @@
 ## 0. About using stepper motors.
 - You can only use bipolar(!) stepper motor using this instruction (unipolar stepper motor not supported).  
-- Для работы с шаговыми двигателями вам необходимо импользовать режим жалюзи
+- To work with stepper motors you need to use Shutters mode:
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
   - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
 - Now it is highly recommended to use stepper motor driver TMC2208 instead of А4988/DRV8825 (!).   
