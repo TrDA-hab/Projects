@@ -14,15 +14,16 @@
     `SetOption80 1`   // Set "Shutter" mode.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
     `Restart 1`   // Restart Tasmota  
-  - Execute commands in the console to configure the motor operation (you must first configure the GPIO!):  
+  -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
     `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
     `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
-  - Execute commands in the console to configure the motor operation (you must first configure the GPIO!):      
-    `ShutterOpen`   // Checking the Opening of the Curtains  
-    `ShutterClose`  // Checking the Closure of the Curtains  
+  -  Run commands in the consolee to configure the motor operation (you must first configure the GPIO!):      
+    `ShutterOpen`   // Opening check.    
+    `ShutterStop`   // Stop check.    
+    `ShutterClose`  // Closing check.  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
