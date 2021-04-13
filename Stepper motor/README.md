@@ -3,7 +3,7 @@
 - Using "Shutters mode" you can also simply control the:
   - DC motors(!) using this instruction. https://github.com/arendst/Tasmota/discussions/10387  
   - servo motors using this instruction. https://github.com/arendst/Tasmota/discussions/10443  
-- To work with stepper motors you need to use Shutters mode:
+- To work with stepper motors you need to use "Shutters mode":
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
   - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
 - Now it is highly recommended to use stepper motor driver TMC2208 instead of А4988/DRV8825 (!).   
