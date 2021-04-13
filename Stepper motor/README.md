@@ -9,7 +9,7 @@ http://stepcontrol.com/pdf/step101.pdf
    - A4988 - https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/  
    - DRV8825 - https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/  
    - TMC2208 - https://wiki.fysetc.com/TMC2208/  
- - Don't forget to customize the microstep for your needs.
+ - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs.
 
 # 1. One stepper motor (minimum configuration):  
 ### Device List:  
@@ -45,7 +45,7 @@ D3|0|PWM1|STP
 D4|2|Counter1|STP
 
 # 2. One stepper motor (maximum configuration):
-### Device List:
+### Device List:  
  - Nema-17 (stepper motor).
  - DRV8825 (stepper motor driver).
  - Wemos D1 mini (ESP8266 series wireless board).
