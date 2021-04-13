@@ -6,12 +6,10 @@
 - Modifying a 28BYJ-48-12V stepper motor from unipolar to bipolar tutorial:
 https://coeleveld.com/wp-content/uploads/2016/10/Modifying-a-28BYJ-48-step-motor-from-unipolar-to-bipolar.pdf     
 - More information about 28BYJ-48: https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/ 
-- More information about the effect of voltage on stepper motor operation can be found in the tutorial: (see 5. POWER SUPPLY):
+- The diagrams show the supply voltage of the NEMA-17 stepper motor, capacitor should be 35 ... 50 volts). More information about the effect of voltage on stepper motor operation can be found in the tutorial: (see 5. POWER SUPPLY):
 http://stepcontrol.com/pdf/step101.pdf   
-- The diagrams show the supply voltage of the NEMA-17 stepper motor 12 volts (this is the minimum voltage). The recommended voltage is 24 ... 35 volts (respectively, the capacitor should be 35 ... 50 volts). More information about the effect of voltage on stepper motor operation can be found in the tutorial: (see 5. POWER SUPPLY):
-http://stepcontrol.com/pdf/step101.pdf   
-   - for 28BYJ-48 (5v) recommended voltage is 12v (only if modifying to bipolar).
-   - for 28BYJ-48 (12v) recommended voltage is 24v (only if modifying to bipolar).
+   - for 28BYJ-48-5v recommended voltage is 12v (only if modifying to bipolar).
+   - for 28BYJ-48-12v recommended voltage is 24v (only if modifying to bipolar).
 - Stepper drivers configuration tutorials:
    - A4988 - https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/  
    - DRV8825 - https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/  
