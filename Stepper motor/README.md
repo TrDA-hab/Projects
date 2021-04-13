@@ -9,12 +9,18 @@
 
 ### How to use it:  
  - You must add support for Shutter in my_user_config.h file.
- - Run commands in the console to test the motor (you must first configure the GPIO!):  
+ - Or flash your ESP8266 module with tasmota.bin file.
+ - Run commands in the console to run the "Stepper" mode (you must first configure the GPIO!):  
     `SetOption80 1`   // Enable "Shutter"   
     `ShutterMode 4`   // Enable "Shutter mode 4"  
-    `ShutterOpenDuration 2`   // Shutter opening time = 2 seconds  
-    `ShutterCloseDuration 2`  // Shutter closing time = 2 seconds  
     `Restart 1`   // Restart Tasmota  
+  - Execute commands in the console to configure the motor operation (you must first configure the GPIO!):  
+    `ShutterFrequency 2500`   // this is a global variable for all steppers (1000rpm by default)
+    `ShutterMotorDelay1 2.5`  // Stepper do not like infinite momentum. Ramp up/down speed allow much higher frequencies.
+    `ShutterOpenDuration 20`  // Shutter opening time = 20 seconds (default 10 seconds)  
+    `ShutterCloseDuration 20` // Shutter closing time = 20 seconds (default 10 seconds)
+    `Restart 1`   // Restart Tasmota  
+  - Execute commands in the console to configure the motor operation (you must first configure the GPIO!):      
     `ShutterOpen`   // CW motor rotation  
     `ShutterClose`  // CWW motor rotation 
 
