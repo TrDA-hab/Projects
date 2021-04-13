@@ -10,6 +10,7 @@ http://stepcontrol.com/pdf/step101.pdf
    - DRV8825 - https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/  
    - TMC2208 - https://wiki.fysetc.com/TMC2208/  
  - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs.
+ - Remember to set the current limiting for your stepper motor driver.
 
 # 1. One stepper motor (minimum configuration):  
 ### Device List:  
