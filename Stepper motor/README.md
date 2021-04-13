@@ -1,7 +1,7 @@
 ## 0. About using stepper motors.
 - [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters)   
 - [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters)   
-- Now it is highly recommended to use TMC 2208 instead of А4988/DRV8825 (!).   
+- Now it is highly recommended to use stepper motor driver TMC2208 instead of А4988/DRV8825 (!).   
 - And I highly recommend using the power supply of 24 volts for your projects, minimum recommended voltage 12 volts (!).
 - Modifying a 28BYJ-48-12V stepper motor from unipolar to bipolar tutorial:
 https://coeleveld.com/wp-content/uploads/2016/10/Modifying-a-28BYJ-48-step-motor-from-unipolar-to-bipolar.pdf     
