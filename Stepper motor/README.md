@@ -2,7 +2,14 @@
 - [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters)   
 - [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters)   
 - Now it is highly recommended to use TMC 2208 instead of А4988/DRV8825 (!).   
-- And I highly recommend using the power supply of 24 volts for your projects (!).   
+- And I highly recommend using the power supply of 24 volts for your projects (!).  
+- More information about the effect of voltage on stepper motor operation can be found in the tutorial: (see 5. POWER SUPPLY):
+http://stepcontrol.com/pdf/step101.pdf   
+- Stepper drivers configuration tutorials:
+   - A4988 - https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/
+   - DRV8825 - https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/
+   - TMC2208 - https://wiki.fysetc.com/TMC2208/ 
+- TMC2208 vs a4988 (Table 2)- https://www.trinamic.com/fileadmin/assets/Support/Appnotes/AN045-How_to_replace_Allegro_A4988_with_TMC2208_01.pdf 
 
 
 # 1. One stepper motor (minimum configuration):  
