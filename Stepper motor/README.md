@@ -17,5 +17,11 @@
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4112.jpg)
 
-# 3. Two stepper motors (medium configuration)::
+# 3. Two stepper motors (medium configuration):
+### Device List:
+ - Nema-17 (stepper motor).
+ - DRV8825 (stepper motor driver).
+ - Wemos D1 mini (ESP8266 series wireless board).
+ - MP1584 (DC/DC Converter).
+ 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4122.jpg)
