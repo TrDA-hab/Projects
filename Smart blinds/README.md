@@ -5,7 +5,6 @@
 - !!! step by step instructions coming soon !!!   
 
 ## 1. MID roller blinds.
-### NONE:
 - 3D models and BOM you can find here (optional):   
 https://www.thingiverse.com/thing:4163340   
 
