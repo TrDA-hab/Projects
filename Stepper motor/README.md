@@ -1,3 +1,10 @@
+## 0. How to use it.
+- [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters)   
+- [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters)   
+- Now it is highly recommended to use TMC 2208 instead of А4988/DRV8825 (!).   
+- And I highly recommend using the power supply of 24 volts for your projects (!).   
+
+
 # 1. One stepper motor (minimum configuration):  
 ### Device List:  
  - 28BYJ-48-12V (stepper motor with 64:1 gear reducer).  
