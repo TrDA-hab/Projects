@@ -47,8 +47,8 @@ D1|5|Relay1i|EN
 D2|4|Relay2|DIR
 D3|0|PWM1|STP
 D4|2|Counter1|STP
-D6|5|SCL|INA219
-D7|4|SLA|INA219
+D6|12|SCL|INA219
+D7|13|SLA|INA219
 RX|3|Button1|Up button
 TX|1|Button2|Down button
 
