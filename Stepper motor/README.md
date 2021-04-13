@@ -6,9 +6,10 @@
 - More information about the effect of voltage on stepper motor operation can be found in the tutorial: (see 5. POWER SUPPLY):
 http://stepcontrol.com/pdf/step101.pdf   
 - Stepper drivers configuration tutorials:
-   - A4988 - https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/
-   - DRV8825 - https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/
-   - TMC2208 - https://wiki.fysetc.com/TMC2208/ 
+   - A4988 - https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/  
+   - DRV8825 - https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/  
+   - TMC2208 - https://wiki.fysetc.com/TMC2208/  
+ - Don't forget to customize the microstep for your needs.
 
 # 1. One stepper motor (minimum configuration):  
 ### Device List:  
