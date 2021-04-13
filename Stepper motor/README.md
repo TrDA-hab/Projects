@@ -21,8 +21,8 @@
     `ShutterCloseDuration 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
   - Execute commands in the console to configure the motor operation (you must first configure the GPIO!):      
-    `ShutterOpen`   // CW motor rotation  
-    `ShutterClose`  // CWW motor rotation 
+    `ShutterOpen`   // Checking the Opening of the Curtains  
+    `ShutterClose`  // Checking the Closure of the Curtains  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
