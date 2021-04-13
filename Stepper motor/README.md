@@ -1,5 +1,5 @@
 ## 0. About using stepper motors.
-- You can only use `bipolar` stepper motor using this instruction (`unipolar` stepper motor not supported).  
+- You can only use `bipolar` stepper motor using this instruction `unipolar` stepper motor not supported).  
 - Using Shutters mode you can also simply control the DC motors(!) using this instruction.  https://github.com/arendst/Tasmota/discussions/10387
 - To work with stepper motors you need to use Shutters mode:
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
