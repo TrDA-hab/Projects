@@ -83,19 +83,27 @@ D4|2|Counter1|STP
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
     `ShutterFrequency 2500`    // This is a global variable for all steppers (default = 1000ppm).  
-    `ShutterMotorDelay1 2.5`   // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
-    `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
-    `ShutterCloseDuration1 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
+    `ShutterMotorDelay1 2.5`   // Shutter#1 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
+    `ShutterOpenDuration1 20`  // Shutter#1 opening time = 20 seconds (default = 10 seconds).  
+    `ShutterCloseDuration1 20` // Shutter#1 closing time = 20 seconds (default = 10 seconds).  
+    `ShutterMotorDelay2 2.5`   // Shutter#2 acceleration/deceleration speed for stepper motor(default = 0 seconds). 
+    `ShutterOpenDuration2 20`  // Shutter#2 opening time = 20 seconds (default = 10 seconds).  
+    `ShutterCloseDuration2 20` // Shutter#2 closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
-    `ShutterOpen1`   // Opening check.    
-    `ShutterStop1`   // Stop check.    
-    `ShutterClose1`  // Closing check.  
+    `ShutterOpen1`   // Opening check (Shutter#1).    
+    `ShutterStop1`   // Stop check (Shutter#1).    
+    `ShutterClose1`  // Closing check (Shutter#1).  
+    `ShutterOpen2`   // Opening check (Shutter#2).    
+    `ShutterStop2`   // Stop check (Shutter#2).    
+    `ShutterClose2`  // Closing check (Shutter#2).  
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
   -  Run commands in the consolee for configuring the drive:  
     `SetOption73 1`   // Enable detach buttons from relays  
     `Rule1 ON system#boot DO Backlog SetOption1 1; SetOption11 0; SetOption13 1 ENDON`  
+    `Rule2 1`   // Enable Rule1  
     `Rule2 ON button1#state DO ShutterOpen1 ENDON ON button2#state DO ShutterClose1 ENDON`  
+    `Rule2 1`   // Enable Rule2  
     `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
     `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2  
 
