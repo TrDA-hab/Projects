@@ -87,9 +87,9 @@ D4|2|Counter1|STP
     `ShutterCloseDuration1 20` // Closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
-    `ShutterOpen1`   // Opening check (Shutter#1).    
-    `ShutterStop1`   // Stop check (Shutter#1).    
-    `ShutterClose1`  // Closing check (Shutter#1).  
+    `ShutterOpen1`   // Opening check.    
+    `ShutterStop1`   // Stop check.    
+    `ShutterClose1`  // Closing check.  
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
   -  Run commands in the consolee for configuring the drive (optional):  
     `SetOption73 1`   // Enable detach buttons from relays  
