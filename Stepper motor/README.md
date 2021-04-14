@@ -66,7 +66,7 @@ D4|2|Counter1|STP
 
 # 2. One stepper motor (maximum configuration):
 ### Device List:  
- - Nema-17 (stepper motor).
+ - Nema-17 (planetary gear motor 1:27).
  - DRV8825 (stepper motor driver).
  - Wemos D1 mini (ESP8266 series wireless board).
  - INA219 (power-monitoring board).
