@@ -73,6 +73,25 @@ D4|2|Counter1|STP
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4112.jpg)
 
+### How to use it:  
+ - You must add support for Shutter in `my_user_config.h` file.  
+ - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
+    `SetOption80 1`   // Enable shutters support.   
+    `ShutterMode 4`   // Enable "Shutter mode 4".  
+    `ShutterRelay2 3`   // For relay Relay3i and Relay4.      
+    `Restart 1`   // Restart Tasmota  
+  -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
+    `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
+    `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
+    `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
+    `ShutterCloseDuration1 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
+    `Restart 1`   // Restart Tasmota  
+  -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
+    `ShutterOpen1`   // Opening check.    
+    `ShutterStop1`   // Stop check.    
+    `ShutterClose1`  // Closing check.  
+     Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
+
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
 D1|5|Relay1i|EN
