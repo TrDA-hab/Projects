@@ -149,7 +149,7 @@ TX|1|Button2|Down button
   -  Run commands in the consolee for configuring the drive:  
     `SetOption73 1`   // Enable detach buttons from relays  
     `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
-    `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2 
+    `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
