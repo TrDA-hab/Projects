@@ -21,9 +21,9 @@
  - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above).
  - Remember to set the current limiting for your stepper motor driver (see tutorials above).
  - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image.  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c4.png)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c5.jpg)  
 
-Original motor Wiring|Reverse otor Wiring
+Original motor Wiring|Reverse motor Wiring
 :-:|:-:|
 ![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|
 ![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|
