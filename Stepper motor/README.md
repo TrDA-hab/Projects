@@ -86,7 +86,7 @@ D4|2|Counter1|STP
     `ShutterMotorDelay1 2.5`   // Shutter#1 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration1 20`  // Shutter#1 opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration1 20` // Shutter#1 closing time = 20 seconds (default = 10 seconds).  
-    `ShutterMotorDelay2 2.5`   // Shutter#2 acceleration/deceleration speed for stepper motor(default = 0 seconds). 
+    `ShutterMotorDelay2 2.5`   // Shutter#2 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration2 20`  // Shutter#2 opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration2 20` // Shutter#2 closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
