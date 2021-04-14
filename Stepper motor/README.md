@@ -32,7 +32,7 @@ Origimal motorWiring|GPIO|
 
 https://img.shields.io/static/v1?label=&message=RED&color=red
 https://img.shields.io/static/v1?label=&message=GEEN&color=greem
-https://img.shields.io/static/v1?label=&message=BLUE&color=blue
+![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)
 https://img.shields.io/static/v1?label=&message=BLACK&color=black
 
 # 1. One stepper motor (minimum configuration):  
