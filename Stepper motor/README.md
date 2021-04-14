@@ -104,8 +104,6 @@ D4|2|Counter1|STP
     `Rule2 1`   // Enable Rule1  
     `Rule2 ON button1#state DO ShutterOpen1 ENDON ON button2#state DO ShutterClose1 ENDON`  
     `Rule2 1`   // Enable Rule2  
-    `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
-    `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
