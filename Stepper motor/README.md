@@ -3,7 +3,7 @@
   - [DC motors using this instruction.](https://github.com/arendst/Tasmota/discussions/10387) 
   - [Servo motors using this instruction](https://github.com/arendst/Tasmota/discussions/10443)
   - Stepper motors using this instruction (see instructions below).    
-- You can only use **bipolar** stepper motor using this instruction, **unipolar** stepper motor not supported. 
+- You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
 - To work with stepper motors you need to use **Shutters mode**:
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
   - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
