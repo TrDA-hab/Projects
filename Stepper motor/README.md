@@ -25,10 +25,10 @@
 
 Origimal motorWiring|GPIO|
 :-:|:-:|
-https://img.shields.io/static/v1?label=&message=BLACK&color=black|5|
-https://img.shields.io/static/v1?label=&message=GEEN&color=greem|4|
-https://img.shields.io/static/v1?label=&message=RED&color=red|4|
-https://img.shields.io/static/v1?label=&message=BLUE&color=blue|4|
+![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|5|
+![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|4|
+![](https://img.shields.io/static/v1?label=&message=RED&color=red)|4|
+![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|4|
 
 https://img.shields.io/static/v1?label=&message=RED&color=red
 https://img.shields.io/static/v1?label=&message=GEEN&color=greem
