@@ -45,7 +45,7 @@ Original motor Wiring|Reverse motor Wiring
     `SetOption80 1`   // Enable shutters support.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
     `Restart 1`   // Restart Tasmota  
-  -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
+  -  Run commands in the console to configure the motor operation:  
     `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
     `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
