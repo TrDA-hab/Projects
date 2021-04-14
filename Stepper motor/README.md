@@ -104,6 +104,8 @@ D4|2|Counter1|STP
     `Rule2 1`   // Enable Rule1  
     `Rule2 ON button1#state DO ShutterOpen1 ENDON ON button2#state DO ShutterClose1 ENDON`  
     `Rule2 1`   // Enable Rule2  
+    `Rule3 ON INA219#Current>0.500 DO Backlog ShutterStop1; ShutterStop2 ENDON`  
+    `Rule3 1`   // Enable Rule3  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
