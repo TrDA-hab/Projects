@@ -100,7 +100,7 @@ D8|15|PWM1|PWM
     `ShutterOpen1`   // test CW motor1 rotation  
     `ShutterClose1`  // test CWW motor1 rotation 
     `ShutterOpen2`   // test CW motor2 rotation  
-    `ShutterClose2`  // test CWW motor2 rotation 
+    `ShutterClose2`  // test CWW motor2 rotation  
     `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
     `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2    
 
