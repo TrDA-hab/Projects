@@ -55,6 +55,7 @@ Original motor Wiring|Reverse motor Wiring
     `ShutterOpen1`   // Opening check.    
     `ShutterStop1`   // Stop check.    
     `ShutterClose1`  // Closing check.  
+  -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
