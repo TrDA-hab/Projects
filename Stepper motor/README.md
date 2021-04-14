@@ -56,7 +56,7 @@ Original motor Wiring|Reverse motor Wiring
     `ShutterStop1`   // Stop check.    
     `ShutterClose1`  // Closing check.  
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).  
-
+ 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
 D1|5|Relay1i|EN
@@ -79,11 +79,11 @@ D4|2|Counter1|STP
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
     `SetOption80 1`   // Enable shutters support.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
-    `ShutterRelay2 3`   // For relay Relay3i and Relay4.      
+    `ShutterRelay2 3` // For relay Relay3i and Relay4.      
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
-    `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
-    `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
+    `ShutterFrequency 2500`    // This is a global variable for all steppers (default = 1000ppm).  
+    `ShutterMotorDelay1 2.5`   // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration1 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
@@ -92,6 +92,12 @@ D4|2|Counter1|STP
     `ShutterStop1`   // Stop check.    
     `ShutterClose1`  // Closing check.  
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
+  -  Run commands in the consolee for configuring the drive:  
+    `SetOption73 1`   // Enable detach buttons from relays  
+    `Rule1 ON system#boot DO Backlog SetOption1 1; SetOption11 0; SetOption13 1 ENDON`  
+    `Rule2 ON button1#state DO ShutterOpen1 ENDON ON button2#state DO ShutterClose1 ENDON`  
+    `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
+    `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
@@ -113,6 +119,29 @@ TX|1|Button2|Down button
  - MP1584 (DC/DC step-down module).
  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4122.jpg)
+
+### How to use it:  
+ - You must add support for Shutter in `my_user_config.h` file.  
+ - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
+    `SetOption80 1`   // Enable shutters support.   
+    `ShutterMode 4`   // Enable "Shutter mode 4".  
+    `ShutterRelay2 3` // For relay Relay3i and Relay4.      
+    `Restart 1`   // Restart Tasmota  
+  -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
+    `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
+    `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
+    `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 15 seconds).  
+    `ShutterCloseDuration1 20` // Shutter closing time = 20 seconds (default = 15 seconds).  
+    `Restart 1`   // Restart Tasmota  
+  -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
+    `ShutterOpen1`   // Opening check.    
+    `ShutterStop1`   // Stop check.    
+    `ShutterClose1`  // Closing check.  
+  -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
+  -  Run commands in the consolee for configuring the drive:  
+    `SetOption73 1`   // Enable detach buttons from relays  
+    `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
+    `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2 
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
