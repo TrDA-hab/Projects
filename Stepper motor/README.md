@@ -8,7 +8,7 @@
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
   - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
 - Now it is highly recommended to use stepper motor driver TMC2208 instead of А4988/DRV8825.   
-- And I highly recommend using the power supply of 24 volts for your projects, minimum recommended voltage 12 volts.
+- And it is highly recommend using the power supply of 24 volts for your projects, minimum recommended voltage 12 volts.
 - Modifying a 28BYJ-48-12V stepper motor from unipolar to bipolar [tutorial](https://coeleveld.com/wp-content/uploads/2016/10/Modifying-a-28BYJ-48-step-motor-from-unipolar-to-bipolar.pdf).     
 - More information about [28BYJ-48](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/). 
 - The diagrams show the supply voltage of the NEMA-17 stepper motor, capacitor should be 35 ... 50 volts. More information about the effect of voltage on stepper motor operation can be found in the [tutorial:](http://stepcontrol.com/pdf/step101.pdf) (see 5. POWER SUPPLY):  
