@@ -79,24 +79,17 @@ D4|2|Counter1|STP
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
     `SetOption80 1`   // Enable shutters support.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
-    `ShutterRelay2 3` // For relay Relay3i and Relay4.      
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the console to configure the motor operation:  
     `ShutterFrequency 2500`    // This is a global variable for all steppers (default = 1000ppm).  
-    `ShutterMotorDelay1 2.5`   // Shutter#1 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
-    `ShutterOpenDuration1 20`  // Shutter#1 opening time = 20 seconds (default = 10 seconds).  
-    `ShutterCloseDuration1 20` // Shutter#1 closing time = 20 seconds (default = 10 seconds).  
-    `ShutterMotorDelay2 2.5`   // Shutter#2 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
-    `ShutterOpenDuration2 20`  // Shutter#2 opening time = 20 seconds (default = 10 seconds).  
-    `ShutterCloseDuration2 20` // Shutter#2 closing time = 20 seconds (default = 10 seconds).  
+    `ShutterMotorDelay1 2.5`   // Aacceleration/deceleration speed for stepper motor(default = 0 seconds).  
+    `ShutterOpenDuration1 20`  // Opening time = 20 seconds (default = 10 seconds).  
+    `ShutterCloseDuration1 20` // Closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
     `ShutterOpen1`   // Opening check (Shutter#1).    
     `ShutterStop1`   // Stop check (Shutter#1).    
     `ShutterClose1`  // Closing check (Shutter#1).  
-    `ShutterOpen2`   // Opening check (Shutter#2).    
-    `ShutterStop2`   // Stop check (Shutter#2).    
-    `ShutterClose2`  // Closing check (Shutter#2).  
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
   -  Run commands in the consolee for configuring the drive (optional):  
     `SetOption73 1`   // Enable detach buttons from relays  
@@ -104,7 +97,7 @@ D4|2|Counter1|STP
     `Rule2 1`   // Enable Rule1  
     `Rule2 ON button1#state DO ShutterOpen1 ENDON ON button2#state DO ShutterClose1 ENDON`  
     `Rule2 1`   // Enable Rule2  
-    `Rule3 ON INA219#Current>0.500 DO Backlog ShutterStop1; ShutterStop2 ENDON`  
+    `Rule3 ON INA219#Current>0.500 DO ShutterStop1 ENDON`  
     `Rule3 1`   // Enable Rule3  
 
 Wemos Pin|GPIO|Component|Stepper Signal
@@ -131,20 +124,27 @@ TX|1|Button2|Down button
 ### How to use it:  
  - You must add support for Shutter in `my_user_config.h` file.  
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
-    `SetOption80 1`   // Enable shutters support.   
-    `ShutterMode 4`   // Enable "Shutter mode 4".  
-    `ShutterRelay2 3` // For relay Relay3i and Relay4.      
+    `SetOption80 1`    // Enable shutters support.   
+    `ShutterMode 4`    // Enable "Shutter mode 4".  
+    `ShutterRelay1 1`  // for relay Relay1 and Relay2  
+    `ShutterRelay2 3`  // for relay Relay3 and Relay4    
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
-    `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
-    `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
-    `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 15 seconds).  
-    `ShutterCloseDuration1 20` // Shutter closing time = 20 seconds (default = 15 seconds).  
+    `ShutterFrequency 2000`    // This is a global variable for all steppers (default = 1000ppm).  
+    `ShutterMotorDelay1 1.5`   // Shutter#1 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
+    `ShutterOpenDuration1 15`  // Shutter#1 opening time = 15 seconds (default = 10 seconds).  
+    `ShutterCloseDuration1 15` // Shutter#1 closing time = 15 seconds (default = 10 seconds).  
+    `ShutterMotorDelay2 1.5`   // Shutter#2 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
+    `ShutterOpenDuration2 15`  // Shutter#2 opening time = 15 seconds (default = 10 seconds).  
+    `ShutterCloseDuration2 15` // Shutter#2 closing time = 15 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
-    `ShutterOpen1`   // Opening check.    
-    `ShutterStop1`   // Stop check.    
-    `ShutterClose1`  // Closing check.  
+    `ShutterOpen1`   // Opening check (Shutter#1).    
+    `ShutterStop1`   // Stop check (Shutter#1).    
+    `ShutterClose1`  // Closing check (Shutter#1).  
+    `ShutterOpen2`   // Opening check (Shutter#2).    
+    `ShutterStop2`   // Stop check (Shutter#2).    
+    `ShutterClose2`  // Closing check (Shutter#2).
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
   -  Run commands in the consolee for configuring the drive:  
     `SetOption73 1`   // Enable detach buttons from relays  
@@ -161,3 +161,6 @@ D5|14|Relay3i|EN
 D6|12|Relay4|DIR
 D7|13|PWM2|STP
 D8|15|Counter2|STP
+
+**Best regards   
+TrDA**
