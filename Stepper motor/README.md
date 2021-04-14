@@ -23,6 +23,18 @@
  - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image.  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c4.png)  
 
+Origimal motorWiring|GPIO|
+:-:|:-:|
+https://img.shields.io/static/v1?label=&message=BLACK&color=black|5|
+https://img.shields.io/static/v1?label=&message=GEEN&color=greem|4|
+https://img.shields.io/static/v1?label=&message=RED&color=red|4|
+https://img.shields.io/static/v1?label=&message=BLUE&color=blue|4|
+
+https://img.shields.io/static/v1?label=&message=RED&color=red
+https://img.shields.io/static/v1?label=&message=GEEN&color=greem
+https://img.shields.io/static/v1?label=&message=BLUE&color=blue
+https://img.shields.io/static/v1?label=&message=BLACK&color=black
+
 # 1. One stepper motor (minimum configuration):  
 ### Device List:  
  - 28BYJ-48-12V (stepper motor with 64:1 gear reducer).  
