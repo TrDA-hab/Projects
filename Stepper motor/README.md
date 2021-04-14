@@ -98,7 +98,7 @@ D4|2|Counter1|STP
     `ShutterStop2`   // Stop check (Shutter#2).    
     `ShutterClose2`  // Closing check (Shutter#2).  
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
-  -  Run commands in the consolee for configuring the drive:  
+  -  Run commands in the consolee for configuring the drive (optional):  
     `SetOption73 1`   // Enable detach buttons from relays  
     `Rule1 ON system#boot DO Backlog SetOption1 1; SetOption11 0; SetOption13 1 ENDON`  
     `Rule2 1`   // Enable Rule1  
