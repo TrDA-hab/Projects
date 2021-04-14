@@ -1,8 +1,8 @@
 ## 0. About using stepper motors.
 - Using "Shutters mode" you can also simply control the:
   - DC motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10387) 
-  - Servo motors using this [instruction](https://github.com/arendst/Tasmota/discussions/10443)
-  - You can see a practical example of using a stepper motor here [here](https://github.com/arendst/Tasmota/discussions/10847)
+  - Servo motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10443)
+  - You can see a practical example of using a stepper motor here [here.](https://github.com/arendst/Tasmota/discussions/10847)
   - Stepper motors using this instruction (see instructions below).    
 - You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
 - To work with stepper motors you need to use **Shutters mode**:
