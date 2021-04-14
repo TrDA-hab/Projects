@@ -90,7 +90,7 @@ D4|2|Counter1|STP
     `ShutterOpen1`   // Opening check.    
     `ShutterStop1`   // Stop check.    
     `ShutterClose1`  // Closing check.  
-     Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
+  -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
