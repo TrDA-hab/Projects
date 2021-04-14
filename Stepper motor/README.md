@@ -20,7 +20,7 @@
    - [TMC2208](https://wiki.fysetc.com/TMC2208/)  
  - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above).
  - Remember to set the current limiting for your stepper motor driver (see tutorials above).
- - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image.  
+ - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software rotation of the motor rotation is not supported.    
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c5.jpg)  
 
 Original motor Wiring|Reverse motor Wiring
