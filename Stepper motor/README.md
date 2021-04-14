@@ -4,7 +4,7 @@
   - [Servo motors using this instruction](https://github.com/arendst/Tasmota/discussions/10443)
   - Stepper motors using this instruction (see instructions below).    
 - You can only use **bipolar** stepper motor using this instruction, **unipolar** stepper motor not supported. 
-- To work with stepper motors you need to use "Shutters mode":
+- To work with stepper motors you need to use **Shutters mode**:
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
   - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
 - Now it is highly recommended to use stepper motor driver TMC2208 instead of А4988/DRV8825 (!).   
@@ -33,7 +33,7 @@
 ### How to use it:  
  - You must add support for Shutter in `my_user_config.h` file (оr flash your ESP8266 module with `tasmota.bin` file).  
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
-    `SetOption80 1`   // Set "Shutter" mode.   
+    `SetOption80 1`   // Enable shutters support.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
     `Restart 1`   // Restart Tasmota  
   -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
@@ -42,7 +42,7 @@
     `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration1 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
     `Restart 1`   // Restart Tasmota  
-  -  Run commands in the consolee to configure the motor operation (you must first configure the GPIO!):      
+  -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
     `ShutterOpen1`   // Opening check.    
     `ShutterStop1`   // Stop check.    
     `ShutterClose1`  // Closing check.  
