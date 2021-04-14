@@ -37,6 +37,7 @@ Original motor Wiring|Reverse motor Wiring
  - ESP-01S (ESP8266 series wireless module).  
  - K7803-500R3 (DC/DC step-down module).  
 
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4101.jpg) 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4102.jpg)  
 
 ### How to use it:  
@@ -72,6 +73,7 @@ D4|2|Counter1|STP
  - INA219 (power-monitoring board).
  - MP1584 (DC/DC step-down moduler).
 
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4111.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4112.jpg)
 
 ### How to use it:  
@@ -118,7 +120,8 @@ TX|1|Button2|Down button
  - DRV8825 (stepper motor driver).
  - Wemos D1 mini (ESP8266 series wireless board).
  - MP1584 (DC/DC step-down module).
- 
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4121.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4122.jpg)
 
 ### How to use it:  
