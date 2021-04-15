@@ -2,7 +2,7 @@
 - [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters)   
 - [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters)   
 - Now it is highly recommended to use TMC 2208 instead of А4988 (!).   
-- !!! step by step instructions coming soon !!!   
+- [Step by step instructions](https://github.com/arendst/Tasmota/discussions/11731).   
 
 ## 1. MID roller blinds.
 - 3D models and BOM you can find here (optional):   
@@ -60,8 +60,8 @@ https://www.thingiverse.com/thing:4163505
 ![422](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Smart%20blinds/Blind%20x2/20200412_153343.jpg)
 
 ## 4. Venetian blinds (jalousie).
-- !!! step by step instructions coming soon !!!.   
+- [How to use DC motors](https://github.com/arendst/Tasmota/discussions/10387).
 - [video](https://youtu.be/2r1aYv723qo)    
-
+- [video](https://youtu.be/QtgAn3ByDkc)
 **Best regards  
 TrDA**
