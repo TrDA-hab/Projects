@@ -19,7 +19,7 @@
    - [A4988](https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/)  
    - [DRV8825](https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/)  
    - [TMC2208](https://wiki.fysetc.com/TMC2208/)  
- - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode (MS1 / MS2 / MS3) you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q).   
+ - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q). Each stepper motor driver must use its own microstepping mode.   
  - Remember to set the current limiting for your stepper motor driver (see tutorials above).
  - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software reverse rotation of the motor is not supported.    
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c5.jpg)  
