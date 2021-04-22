@@ -1,4 +1,4 @@
-## 0.  About SPI E-Paper Display:
+## 0.  About E-Paper Display:
 - Tasmota E-Paper support [1](https://tasmota.github.io/docs/Displays/#notes-on-e-paper-displays), [2](https://tasmota.github.io/docs/Displays/#hardware-connections).
 - Tasmota commands for controlling displays. [1](https://tasmota.github.io/docs/Commands/#displays).
 - Tasmota currently (2021-04-21) only supports two E-Ink displays from the **Waveshare** manufacturer: 2.9inch (black, white) and 4.2inch (black, white): [1](https://www.waveshare.com/2.9inch-e-paper-module.htm), [2](https://www.waveshare.com/4.2inch-e-Paper-Module.htm).
