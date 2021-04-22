@@ -53,9 +53,9 @@ D2|4|I2C SDA|-
  - To check, enter the `display` command in the console, you should see the response:   
   `21:11:28.863 RSL: stat/tasmota_302886/RESULT = {"Display":{"Model":5,"Width":128,"Height":296,"Mode":0,"Dimmer":1,"Size":1,"Font":2,"Rotate":1,"Refresh":2,"Cols":[16,8],"Rows":2}}`  
  - Run commands in the console to run the "Display Text" mode (you must first configure the GPIO!):  
-    `DisplayMode 0`   // Set display text support.
+    `DisplayMode 0`  
 - Run the command in the console to rotate the display:   
-    `DisplayRotate 1;`  
+    `DisplayRotate 1`  
  - Run commands in the console fot fot test:  
     `Backlog DisplayText [z]; DisplayText [x20y2t]; DisplayText [x150y2T];` 
     `DisplayText [x20y29t]; DisplayText [x150y29T]; DisplayText [x20y54t]; DisplayText [x150y54T];`
