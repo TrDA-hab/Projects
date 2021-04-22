@@ -4,13 +4,16 @@
 - **Waveshare** has produced three versions of the 2.9inch e-Paper display at different times: Rev1.0, Rev2.0, Rev2.1.
 - **Waveshare** Rev1.0.
   - [Schematic](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V10/20181015111121!2.9inch_e-Paper_Schematic.pdf).
+  - [User manual](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-module-user-manual-en.pdf). 
 - **Waveshare** Rev2.0.
-  - 
+  - [Schematic](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V20/20200103064632!2.9inch_e-Paper_Schematic.pdf).
+  - [Datasheet](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V20/20200331114041!2.9inch_e-Paper_Datasheet.pdf).
+  - [User manual](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-module-user-manual-en.pdf). 
 - **Waveshare** Rev2.1.
-  - 
-
-
-
+  - [Schematic](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch_e-Paper_Schematic.pdf).
+  - [Datasheet](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V20/20200103064632!2.9inch_e-Paper_Schematic.pdf).
+  - [User manual](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-module-user-manual-en.pdf). 
+  - [Specificationl](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-v2-specification.pdf). 
 
 ![4.12.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4121.jpg)
 ![4.12.2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4122.jpg)  
