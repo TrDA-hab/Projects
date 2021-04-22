@@ -15,7 +15,8 @@
   - [User manual](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-module-user-manual-en.pdf). 
   - [Specificationl](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-v2-specification.pdf).  
  
- ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)
+ ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)  
+ ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)  
 
 ## 1. **Waveshare** 2.9inch e-Paper display (simple configuration).
 
@@ -53,6 +54,4 @@ D2|4|I2C SDA|-
  - To check, enter the `display` command in the console, you should see the response:   
   `21:11:28.863 RSL: stat/tasmota_302886/RESULT = {"Display":{"Model":5,"Width":128,"Height":296,"Mode":0,"Dimmer":1,"Size":1,"Font":2,"Rotate":1,"Refresh":2,"Cols":[16,8],"Rows":2}}`  
 
-
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
