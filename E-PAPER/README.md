@@ -25,16 +25,13 @@
 ![4.12.2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4122.jpg) 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)
 
-
-
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)
-
-
+### 1.1. **Waveshare** 2.9inch e-Paper display (medium configuration).
 ![4.12.3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4123.jpg)
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)
+
 
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)
-
-
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
