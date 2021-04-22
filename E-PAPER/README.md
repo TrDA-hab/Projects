@@ -61,7 +61,7 @@ D2|4|I2C SDA|-
     `DisplayText [x20y29t]; DisplayText [x150y29T]; DisplayText [x20y54t]; DisplayText [x150y54T];`
     `DisplayText [x20y79t]; DisplayText [x150y79T]; DisplayText [x20y105t]; DisplayText [x150y105T] 
  - Run commands in the console fot fot test:  
-    `Backlog DisplayText [x0y25r296:2]; DisplayText [x0y50r296:2];` 
+    `Backlog DisplayText [x0y25r296:2]; DisplayText [x0y50r296:2];`  
     `DisplayText [x0y75r296:2]; DisplayText [x0y100r296:2]`    
  - And if you did everything correctly, you should see the following result on the screen::  
 
