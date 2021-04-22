@@ -34,7 +34,7 @@
    `#define USE_DISPLAY`  
    `#define USE_DISPLAY_EPAPER29`  
  - Or flash our ESP8266 module with `tasmota-display.bin` file.
- - If you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP you will see all the found e-Paper display.   .  
+ - If you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP you will see the found e-Paper display.   .  
   `00:00:00.058 SPI: Software using GPIO13(CLK) and GPIO12(MOSI)`  
   `00:00:00.024 DSP: E-Paper 2.9`  
  - To check, enter the `display` command in the console, you should see the response:   
