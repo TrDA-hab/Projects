@@ -24,7 +24,7 @@
 ![4.12.2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4122.jpg) 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)
 
-Wemos Pin|GPIO|Component|e-Paperl
+Wemos Pin|GPIO|Component|e-Paper|
 :-:|:-:|:-:|:-:
 D5|14|EPaper29 CS|CS
 D6|12|SSPI MOSI|DIN
@@ -36,7 +36,7 @@ D7|13|SSPI SCLK|CKL
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)   
 
-Wemos Pin|GPIO|Component|e-Paperl
+Wemos Pin|GPIO|Component|e-Paper|
 :-:|:-:|:-:|:-:
 D5|14|EPaper29 CS|CS
 D6|12|SSPI MOSI|DIN
