@@ -73,3 +73,6 @@ D6|12|SSPI MOSI|DIN
 D7|13|SSPI SCLK|CKL
 D1|5|I2C SCL|-
 D2|4|I2C SDA|-
+
+**Best regards   
+TrDA**
