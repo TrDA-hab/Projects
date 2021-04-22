@@ -45,7 +45,10 @@ D1|5|I2C SCL|-
 D2|4|I2C SDA|-
 
 ## 3. How to use it.  
- - You must add support for "2.9inch e-Paper display" in `my_user_config.h` file #define `USE_SPI`, `#define USE_DISPLAY`, `#define USE_DISPLAY_EPAPER29`.
+ - You must add support for "2.9inch e-Paper display" in `my_user_config.h` file:
+   `#define USE_SPI`  
+   `#define USE_DISPLAY`  
+   `#define USE_DISPLAY_EPAPER29`  
  - Or flash our ESP8266 module with `tasmota-display.bin` file.
  - If you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP you will see all the found e-Paper display.   .  
   `00:00:00.058 SPI: Software using GPIO13(CLK) and GPIO12(MOSI)`  
