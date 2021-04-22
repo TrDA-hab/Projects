@@ -23,6 +23,13 @@
 ![4.12.2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4122.jpg) 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)
 
+Wemos Pin|GPIO|Component|e-Paperl
+:-:|:-:|:-:|:-:
+D5|14|EPaper29 CS|CS
+D6|12|Relay2|DIN
+D7|13|SSPI SCLK|CKL
+
+
 ## 2. **Waveshare** 2.9inch e-Paper display (medium configuration).
 ![4.12.3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4123.jpg)
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
@@ -37,7 +44,7 @@
   `00:00:00.024 DSP: E-Paper 2.9`  
  - To check, enter the `display` command in the console, you should see the response:   
   `21:11:28.863 RSL: stat/tasmota_302886/RESULT = {"Display":{"Model":5,"Width":128,"Height":296,"Mode":0,"Dimmer":1,"Size":1,"Font":2,"Rotate":1,"Refresh":2,"Cols":[16,8],"Rows":2}}`  
- -  
+
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
