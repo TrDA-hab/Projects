@@ -39,7 +39,7 @@
   `00:00:00.058 SPI: Software using GPIO13(CLK) and GPIO12(MOSI)`  
   `00:00:00.024 DSP: E-Paper 2.9`  
  - To check, enter the `display` command in the console, you should see the response:   
-  `21:11:28.863 RSL: stat/tasmota_302886/RESULT = {"Display":{"Model":5,"Width":128,"Height":296,"Mode":0,"Dimmer":1,"Size":1,"Font":2,"Rotate":1,"Refresh":2,"Cols":[16,8],"Rows":2}}`  
+  `00:00:03.024.863 RSL: stat/tasmota_302886/RESULT = {"Display":{"Model":5,"Width":128,"Height":296,"Mode":0,"Dimmer":1,"Size":1,"Font":2,"Rotate":1,"Refresh":2,"Cols":[16,8],"Rows":2}}`  
  - Run commands in the console to run the "Display Text" mode (you must first configure the GPIO!):  
     `DisplayMode 0`  
 - Run the command in the console to rotate the display:   
