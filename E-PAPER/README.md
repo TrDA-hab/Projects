@@ -63,7 +63,7 @@ D5|14|EPaper29 CS|CS
 D6|12|SSPI MOSI|DIN
 D7|13|SSPI SCLK|CKL
 
-## 4. Practical use !!!Very soon!!!.
+## 4. Practical use ... !!!Very soon!!!.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
 
 Wemos Pin|GPIO|Component|e-Paper|
