@@ -29,7 +29,7 @@
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
 
 ## 3. How to use it.  
- - You must add support for "2.9inch e-Paper display" in `my_user_config.h` file:
+ - You must add support for "2.9inch e-Paper display" in `my_user_config.h` file:   
    `#define USE_SPI`  
    `#define USE_DISPLAY`  
    `#define USE_DISPLAY_EPAPER29`  
