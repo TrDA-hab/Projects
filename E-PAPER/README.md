@@ -26,7 +26,7 @@
 Wemos Pin|GPIO|Component|e-Paperl
 :-:|:-:|:-:|:-:
 D5|14|EPaper29 CS|CS
-D6|12|Relay2|DIN
+D6|12|SSPI MOSI|DIN
 D7|13|SSPI SCLK|CKL
 
 
@@ -34,6 +34,14 @@ D7|13|SSPI SCLK|CKL
 ![4.12.3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4123.jpg)
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)   
+
+Wemos Pin|GPIO|Component|e-Paperl
+:-:|:-:|:-:|:-:
+D5|14|EPaper29 CS|CS
+D6|12|SSPI MOSI|DIN
+D7|13|SSPI SCLK|CKL
+D1|5|I2C SCL|-
+D2|4|I2C SDA|-
 
 ## 3. Practical use.
 ### How to use it:  
