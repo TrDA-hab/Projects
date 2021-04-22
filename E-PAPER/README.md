@@ -14,20 +14,21 @@
   - [Datasheet](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V20/20200103064632!2.9inch_e-Paper_Schematic.pdf).
   - [User manual](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-module-user-manual-en.pdf). 
   - [Specificationl](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-v2-specification.pdf). 
+ ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)
+
 
 ## 1. How to use it.
 ### 1.1. **Waveshare** 2.9inch e-Paper display (simple configuration).
 
 ![4.12.1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4121.jpg)
 ![4.12.2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4122.jpg) 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)
 
 
 ![4.12.3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4123.jpg)
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
 
 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)
 
