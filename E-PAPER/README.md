@@ -24,25 +24,10 @@
 ![4.12.2](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4122.jpg) 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)
 
-Wemos Pin|GPIO|Component|e-Paper|
-:-:|:-:|:-:|:-:
-D5|14|EPaper29 CS|CS
-D6|12|SSPI MOSI|DIN
-D7|13|SSPI SCLK|CKL
-
-
 ## 2. **Waveshare** 2.9inch e-Paper display (medium configuration).
 ![4.12.3](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4123.jpg)
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)   
-
-Wemos Pin|GPIO|Component|e-Paper|
-:-:|:-:|:-:|:-:
-D5|14|EPaper29 CS|CS
-D6|12|SSPI MOSI|DIN
-D7|13|SSPI SCLK|CKL
-D1|5|I2C SCL|-
-D2|4|I2C SDA|-
 
 ## 3. How to use it.  
  - You must add support for "2.9inch e-Paper display" in `my_user_config.h` file:
@@ -66,9 +51,24 @@ D2|4|I2C SDA|-
  - Run commands in the console fot fot test:  
     `Backlog DisplayText [x0y25r296:2]; DisplayText [x0y50r296:2];`  
     `DisplayText [x0y75r296:2]; DisplayText [x0y100r296:2]`    
- - And if you did everything correctly, you should see the following result on the screen::  
+ - And if you did everything correctly, you should see the following result on the screen:  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_214833.jpg)
 
+
+Wemos Pin|GPIO|Component|e-Paper|
+:-:|:-:|:-:|:-:
+D5|14|EPaper29 CS|CS
+D6|12|SSPI MOSI|DIN
+D7|13|SSPI SCLK|CKL
+
 ## 4. Practical use !!!Very soon!!!.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
+
+Wemos Pin|GPIO|Component|e-Paper|
+:-:|:-:|:-:|:-:
+D5|14|EPaper29 CS|CS
+D6|12|SSPI MOSI|DIN
+D7|13|SSPI SCLK|CKL
+D1|5|I2C SCL|-
+D2|4|I2C SDA|-
