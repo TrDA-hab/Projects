@@ -78,7 +78,7 @@ Rx|3|PZEM016 Rx|Tx
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/20200823_180740.jpg)  
 
 
-## My PCB for x3 phases (open source hardware). For non-commercial use only!:
+## My PCB for x3 phases (open source hardware). For non-commercial use only!:  
  - [easyeda_source](https://github.com/TrDA-hab/Projects/tree/master/PZEM%2BESP-01S/easyeda_source)
  - [gerber files](https://github.com/TrDA-hab/Projects/tree/master/PZEM%2BESP-01S/gerber)
 
