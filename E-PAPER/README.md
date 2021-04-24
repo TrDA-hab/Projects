@@ -31,11 +31,10 @@
 ![4.12.4](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/4124.jpg)  
 
 ## 3. How to use it.  
- - You must add support for "2.9inch e-Paper display" in `my_user_config.h` file:   
+ - You must add support for "2.9inch e-Paper display" in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file:   
    `#define USE_SPI`  
    `#define USE_DISPLAY`  
    `#define USE_DISPLAY_EPAPER29`  
- - Or flash our ESP8266 module with `tasmota-display.bin` file.
  - If you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP you will see the found e-Paper display.     
   `00:00:00.058 SPI: Software using GPIO13(CLK) and GPIO12(MOSI)`  
   `00:00:00.024 DSP: E-Paper 2.9`  
@@ -47,11 +46,11 @@
     `DisplayRotate 1` 
 - Run the command in the console to set the font scale:   
     `DisplayFont 2`  
- - Run commands in the console fot fot test:  
+ - Run commands in the console for test Display:  
     `Backlog DisplayText [z]; DisplayText [x20y2t]; DisplayText [x150y2T];` 
     `DisplayText [x20y29t]; DisplayText [x150y29T]; DisplayText [x20y54t]; DisplayText [x150y54T];`
-    `DisplayText [x20y79t]; DisplayText [x150y79T]; DisplayText [x20y105t]; DisplayText [x150y105T] 
- - Run commands in the console fot fot test:  
+    `DisplayText [x20y79t]; DisplayText [x150y79T]; DisplayText [x20y105t]; DisplayText [x150y105T]`   
+ - Run commands in the console for test Display:  
     `Backlog DisplayText [x0y25r296:2]; DisplayText [x0y50r296:2];`  
     `DisplayText [x0y75r296:2]; DisplayText [x0y100r296:2]`    
  - And if you did everything correctly, you should see the following result on the screen:  
