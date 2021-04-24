@@ -22,6 +22,7 @@
  
  ## Display modification. 
  For the display to work correctly, you must modify it.  
+Pin|Pin
 :-:|:-:
 RST|VCC|
 DC|GND|
