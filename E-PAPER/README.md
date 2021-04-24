@@ -21,8 +21,8 @@
  ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)  
  
  ## Display modification. 
- For the display to work correctly, you must modify it.
- :-:|:-:
+ For the display to work correctly, you must modify it.  
+:-:|:-:
 RST|VCC|
 DC|GND|
 
