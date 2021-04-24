@@ -20,8 +20,8 @@
  ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)  
  ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)  
  
- ## Display modification. 
- For the display to work correctly, you must modify it.  
+ ### Display modification. 
+For the display to work correctly, you must modify it.  
 Pin-1|Pin-2
 :-:|:-:
 RST|VCC|
@@ -64,7 +64,6 @@ DC|GND|
  - And if you did everything correctly, you should see the following result on the screen:  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_214833.jpg)
-
 
 Wemos Pin|GPIO|Component|e-Paper|
 :-:|:-:|:-:|:-:
