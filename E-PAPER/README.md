@@ -56,14 +56,11 @@ DC|GND|
     `DisplayFont 2`  
  - Run commands in the console for test Display:  
     `Backlog DisplayText [z]; DisplayText [x20y2t]; DisplayText [x150y2T];` 
-    
     `DisplayText [x20y29t]; DisplayText [x150y29T]; DisplayText [x20y54t]; DisplayText [x150y54T];`
-    
     `DisplayText [x20y79t]; DisplayText [x150y79T]; DisplayText [x20y105t]; DisplayText [x150y105T]`   
     
  - Run commands in the console for test Display:  
-    `Backlog DisplayText [x0y25r296:2]; DisplayText [x0y50r296:2];`  
-    `DisplayText [x0y75r296:2]; DisplayText [x0y100r296:2]`    
+    `Backlog DisplayText [x0y25r296:2]; DisplayText [x0y50r296:2]; DisplayText [x0y75r296:2]; DisplayText [x0y100r296:2]`    
  - And if you did everything correctly, you should see the following result on the screen:  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_214833.jpg)
@@ -75,7 +72,7 @@ D5|14|EPaper29 CS|CS
 D6|12|SSPI MOSI|DIN
 D7|13|SSPI SCLK|CKL
 
-## 4. Practical use ... !!!Very soon!!!.
+## 4. Practical use.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/3000x_image.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
