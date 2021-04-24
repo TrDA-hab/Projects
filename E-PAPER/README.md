@@ -56,8 +56,11 @@ DC|GND|
     `DisplayFont 2`  
  - Run commands in the console for test Display:  
     `Backlog DisplayText [z]; DisplayText [x20y2t]; DisplayText [x150y2T];` 
+    
     `DisplayText [x20y29t]; DisplayText [x150y29T]; DisplayText [x20y54t]; DisplayText [x150y54T];`
+    
     `DisplayText [x20y79t]; DisplayText [x150y79T]; DisplayText [x20y105t]; DisplayText [x150y105T]`   
+    
  - Run commands in the console for test Display:  
     `Backlog DisplayText [x0y25r296:2]; DisplayText [x0y50r296:2];`  
     `DisplayText [x0y75r296:2]; DisplayText [x0y100r296:2]`    
