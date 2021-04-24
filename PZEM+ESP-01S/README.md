@@ -7,6 +7,7 @@ Check if you have disconnected the high voltage.
  - [Tasmota PZEM-004](https://tasmota.github.io/docs/PZEM-0XX/)
  - [github-Tasmota PZEM-004 (3 phase)](https://github.com/arendst/Tasmota/issues/2315)
  - [About PZEM-004 (V3)](https://innovatorsguru.com/pzem-004t-v3/)
+ - [Modifying PZEM-004T (V3)](https://youtu.be/qRsjsenvlJA)
  - [Schematics PZEM-004 (V3)](https://github.com/TheHWcave/Peacefair-PZEM-004T-/blob/main/PZEM004T-orig.pdf)
  - [Datasheet PZEM-004 (V3)](https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-Datasheet-User-Manual.pdf)
  - [Datasheet V9881D](http://www.vangotech.com/int/uploadpic/152782258251.pdf)
