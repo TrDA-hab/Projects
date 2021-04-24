@@ -19,6 +19,13 @@
  
  ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095444.jpg)  
  ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_095345.jpg)  
+ 
+ ## Display modification. 
+ For the display to work correctly, you must modify it.
+ :-:|:-:
+RST|VCC|
+DC|GND|
+
  ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)   
 
 ## 1. **Waveshare** 2.9inch e-Paper display (simple configuration).
@@ -44,7 +51,7 @@
     `DisplayMode 0`  
 - Run the command in the console to rotate the display:  
     `DisplayRotate 1` 
-- Run the command in the console to set the font scale:   
+- Run the command in the console to set the [font scale](https://tasmota.github.io/docs/Commands/#displayfont):   
     `DisplayFont 2`  
  - Run commands in the console for test Display:  
     `Backlog DisplayText [z]; DisplayText [x20y2t]; DisplayText [x150y2T];` 
