@@ -1,6 +1,6 @@
 ## Using PZEM-004 (Energy Monitoring)
 
-## ![](https://img.shields.io/static/v1?label=&message=Danger High Voltage!&color=red).
+## ![](https://img.shields.io/static/v1?label=&message=NOTE&color=red) Caution High Voltage!
 Check if you have disconnected the high voltage.
 
 ### More information:
