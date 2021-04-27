@@ -21,8 +21,10 @@ Check if you have disconnected the high voltage.
  - [x3 phase PZEM-004 V3 (EN)](https://www.hackster.io/swisscore/home-power-monitoring-a78c0c)
 
 ## Modification PZEM-004 (V3).  
-It is necessary to modify PZEM-004 (V3) for correct operation, it is necessary to replace two resistors on each device (**R12** and **R14**).
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-mod.jpg)
+It is necessary to modify PZEM-004 (V3) for correct operation, it is necessary to replace two resistors on each device (**R12** and **R14**).  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-mod0.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-mod1.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PZEM%2BESP-01S/PZEM-mod2.jpg)  
 
 ## PIN configuration
 
