@@ -14,7 +14,6 @@
   - [User manual](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-module-user-manual-en.pdf). 
 - **Waveshare** 2.9inch e-Paper display Rev2.1.
   - [Schematic](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch_e-Paper_Schematic.pdf).
-  - [Datasheet](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V20/20200103064632!2.9inch_e-Paper_Schematic.pdf).
   - [User manual](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-module-user-manual-en.pdf). 
   - [Specificationl](https://github.com/TrDA-hab/Projects/blob/master/E-PAPER/V21/2.9inch-e-paper-v2-specification.pdf).  
  
