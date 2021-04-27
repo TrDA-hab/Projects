@@ -22,7 +22,7 @@
  
  ### Display modification. 
 - For correct operation of the display, it is necessary to solder the "BS" jumper to the position for working with a 3-wire SPI interface.  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/E-PAPER-3.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/003.jpg)  
 
 - For the display to work correctly, you must modify it.  
 Pin-1|Pin-2
