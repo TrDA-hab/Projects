@@ -25,10 +25,11 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/003.jpg)  
 
 - For the display to work correctly, you must modify it.  
+
 Pin-1|Pin-2
 :-:|:-:
-RST|VCC|
-DC|GND|
+RST|VCC
+DC|GND
 
  ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_100745.jpg)   
 
