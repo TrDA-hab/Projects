@@ -54,7 +54,7 @@ D5|14|Relay2|DIR
 
 ## How to use it:
 
-- Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):
+- Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):   
    `SetOption80 1`     // Enable shutters support.   
    `Shuttermode 5`     // Enable Shutter mode for servo    
    `PWMfrequency 200`  // this is a global variable for all Servos  
