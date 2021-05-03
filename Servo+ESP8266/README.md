@@ -66,7 +66,7 @@ D5|14|Relay2|DIR
    `ShutterCloseDuration1 0.5`  // define the close time, in seconds 
    `ShutterMotorDelay1 0.2`     // servo does not like abrupt start / stop
    `Restart 1`
- - Run commands in the consolee to test the motor operation:   
+- Run commands in the consolee to test the motor operation:   
    `ShutterOpen1`      // to open the SERVO1
    `ShutterStop1`      // to stop the SERVO1  
    `ShutterClose1`     // to close the SERVO1
