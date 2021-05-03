@@ -52,29 +52,21 @@ D3|0|Relay1|EN
 D4|2|PWM1|PLS
 D5|14|Relay2|DIR
 
-**a) Set ShutterMode**  
-   `Shuttermode 5`   // enable Shutter mode for servo 
+## How to use it:
 
-**b) Setting the PWM frequency**  
-   `PWMfrequency 200`   // this is a global variable for all Servos  
+- Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):
+   `SetOption80 1`     // Enable shutters support.
+   `Shuttermode 5`     // Enable Shutter mode for servo 
+   `PWMfrequency 200`  // this is a global variable for all Servos  
+   `SetOption15 0`     // to control the storage of values
 
-**c) Set control values**  
-   `SetOption15 0`  // to control the storage of values
-
-**d) Set the pulse width range**  
+- Run commands in the console to configure the motor operation:
    `ShutterPwmRange1 100, 500`  //this is a global variable for all Servos
-
-**e) Set SERVO1 running time (more - slower)**  
-  `ShutterOpenDuration1 0.5`  // define the open time, in seconds
-  `ShutterCloseDuration1 0.5`  // define the close time, in seconds
-
-**f) Set at least a small ramp-up/ramp down period (optional)**  
-   `ShutterMotorDelay1 0.2`  // servo does not like abrupt start / stop
-
-**g) Restart Tasmota**  
+   `ShutterOpenDuration1 0.5`   // define the open time, in seconds
+   `ShutterCloseDuration1 0.5`  // define the close time, in seconds 
+   `ShutterMotorDelay1 0.2`     // servo does not like abrupt start / stop
    `Restart 1`
-
-**h) Test the shutter1**  
+ - Run commands in the consolee to test the motor operation: 
    `ShutterOpen1`      // to open the SERVO1
    `ShutterStop1`      // to stop the SERVO1  
    `ShutterClose1`     // to close the SERVO1
