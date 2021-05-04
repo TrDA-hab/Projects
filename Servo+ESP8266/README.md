@@ -71,7 +71,7 @@ D5|14|Relay2|DIR
    `ShutterStop1`      // to stop the SERVO#1.   
    `ShutterClose1`     // to close the SERVO#1.  
    
-- Perform the [shutter calibration (optional)](https://tasmota.github.io/docs/Blinds-and-Shutters/#calibration)**   
+- Perform the [shutter calibration](https://tasmota.github.io/docs/Blinds-and-Shutters/#calibration)  (optional).   
 
 ## Motor Wiring Diagrams  
 ### One Shutter  
