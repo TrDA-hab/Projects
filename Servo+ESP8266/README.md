@@ -6,7 +6,7 @@ The servo has no direction of rotation (clockwise or counterclockwise), but only
 To operate a servo requires signal uses:
 
 -  `EN` (enable) turn on / off servo.
--  `PLS` (Pulse) for controls rotation angl.
+-  `PLS` (pulse) for controls rotation angl.
 -  `DIR` (direction) only shows the direction of rotation, but does not control it. 
 
 ## More information:
@@ -71,7 +71,7 @@ D5|14|Relay2|DIR
    `ShutterStop1`      // to stop the SERVO#1.   
    `ShutterClose1`     // to close the SERVO#1.  
    
-**i) Perform the [shutter calibration (optional)](https://tasmota.github.io/docs/Blinds-and-Shutters/#calibration)**   
+- Perform the [shutter calibration (optional)](https://tasmota.github.io/docs/Blinds-and-Shutters/#calibration)**   
 
 ## Motor Wiring Diagrams  
 ### One Shutter  
