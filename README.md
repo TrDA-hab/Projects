@@ -24,4 +24,5 @@
 6. AS5600 Position Sensor.
 7. I2C protocol:
 8. Home ventilation.
-9. ...
+9. E-PAPER (E-INK).
+10. ...
