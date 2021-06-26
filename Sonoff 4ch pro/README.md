@@ -21,7 +21,6 @@
    `ShutterOpenDuration2 8` //Time, in seconds, it takes to fully open the shutter2.  
    `ShutterCloseDuration2 8` // Time, in seconds, it takes to fully close the shutter2.     
 
-
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Sonoff%204ch%20pro/14-1-1.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Sonoff%204ch%20pro/14-1-2.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Sonoff%204ch%20pro/14-1-3.jpg)  
