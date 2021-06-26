@@ -8,6 +8,7 @@
     `Interlock 1`       //Enable relay interlock .  
     `ShutterRelay1 1`   //Set for relay Relay1 and Relay2.
     `ShutterRelay2 3`   //Set for relay Relay3 and Relay4.  
+    
 -  Run commands in the console to tast and configure the motor operation: 
    `ShutterOpen1` // Engage the relay to open the shutter1.  
    `ShutterClose1` // Engage the relay to close the shutter1.  
