@@ -1,3 +1,5 @@
+### How to control the AD / DC motor using Sonoff 4ch pro.
+
 ### How to use it:  
  - You must add support for Shutter in `my_user_config.h` file (оr flash your ESP8266 module with `tasmota.bin` file).  
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
