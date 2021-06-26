@@ -6,7 +6,7 @@
     `Restart 1`         // Restart Tasmota.  
     `Interlock 1,2 3,4` //Group Relay1 and Relay2 in "group 1" and Relay3 and Relay4 in "group 2".  
     `Interlock 1`       //Enable relay interlock .  
-    `ShutterRelay1 1`   //Set for relay Relay1 and Relay2.
+    `ShutterRelay1 1`   //Set for relay Relay1 and Relay2.   
     `ShutterRelay2 3`   //Set for relay Relay3 and Relay4.  
     
 -  Run commands in the console to tast and configure the motor operation: 
