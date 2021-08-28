@@ -187,7 +187,11 @@ D8|15|Counter2|STP
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4162.jpg)
 
-# 4. Components for creating devices:   
+# 4. Changing the interface (Optional):  
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/so15.jpg)  
+
+# 5. Components for creating devices (Optional):   
 
 ### To customize your devices you can use:  
 1. Stepper motor board.  
