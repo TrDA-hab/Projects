@@ -119,7 +119,7 @@ TX|1|Button2|Down button
 # 3. Two stepper motors (medium configuration):
 ### Device List:
  - Nema-17 (stepper motor).
- - DRV8825 (stepper motor driver).
+ - TMC2208 (stepper motor driver).
  - Wemos D1 mini (ESP8266 series wireless board).
  - MP1584 (DC/DC step-down module).
 
@@ -166,6 +166,27 @@ D5|14|Relay3i|EN
 D6|12|Relay4|DIR
 D7|13|PWM2|STP
 D8|15|Counter2|STP
+
+# 3.1 Two stepper motors (medium parallel configuration):  
+### Device List:  
+ - Nema-17 (stepper motor).  
+ - TMC2208 (stepper motor driver).  
+ - Wemos D1 mini (ESP8266 series wireless board).  
+ - Stepper motor parallel board.  
+ - Mini560 (DC/DC step-down module).  
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4161.jpg)
+
+# 3.2 Four stepper motors (medium parallel configuration):  
+### Device List:  
+ - Nema-17 (stepper motor).  
+ - TMC2208 (stepper motor driver).  
+ - Wemos D1 mini (ESP8266 series wireless board).  
+ - Stepper motor parallel board.  
+ - Mini560 (DC/DC step-down module).  
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4162.jpg)
+
 
 **Best regards   
 TrDA**
