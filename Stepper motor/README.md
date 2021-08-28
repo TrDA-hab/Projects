@@ -47,13 +47,13 @@ Original motor Wiring|Reverse motor Wiring
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
     `SetOption80 1`   // Enable shutters support.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
-    `Restart 1`   // Restart Tasmota  
+    `Restart 1`   // Restart Tasmota.  
   -  Run commands in the console to configure the motor operation:  
     `ShutterFrequency 2500`   // This is a global variable for all steppers (default = 1000ppm).  
     `ShutterMotorDelay1 2.5`  // Acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration1 20`  // Shutter opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration1 20` // Shutter closing time = 20 seconds (default = 10 seconds).  
-    `Restart 1`   // Restart Tasmota  
+    `Restart 1`   // Restart Tasmota.  
   -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
     `ShutterOpen1`   // Opening check.    
     `ShutterStop1`   // Stop check.    
@@ -83,26 +83,26 @@ D4|2|Counter1|STP
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
     `SetOption80 1`   // Enable shutters support.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
-    `Restart 1`   // Restart Tasmota  
+    `Restart 1`   // Restart Tasmota.  
   -  Run commands in the console to configure the motor operation:  
     `ShutterFrequency 2500`    // This is a global variable for all steppers (default = 1000ppm).  
     `ShutterMotorDelay1 2.5`   // Aacceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration1 20`  // Opening time = 20 seconds (default = 10 seconds).  
     `ShutterCloseDuration1 20` // Closing time = 20 seconds (default = 10 seconds).  
-    `Restart 1`   // Restart Tasmota  
+    `Restart 1`   // Restart Tasmota.  
   -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
     `ShutterOpen1`   // Opening check.    
     `ShutterStop1`   // Stop check.    
     `ShutterClose1`  // Closing check.  
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
   -  Run commands in the consolee for configuring the drive (optional):  
-    `SetOption73 1`   // Enable detach buttons from relays  
+    `SetOption73 1`   // Enable detach buttons from relays.  
     `Rule1 ON system#boot DO Backlog SetOption1 1; SetOption11 0; SetOption13 1 ENDON`  
-    `Rule2 1`   // Enable Rule1  
+    `Rule2 1`   // Enable Rule1.  
     `Rule2 ON button1#state DO ShutterOpen1 ENDON ON button2#state DO ShutterClose1 ENDON`  
-    `Rule2 1`   // Enable Rule2  
+    `Rule2 1`   // Enable Rule2.  
     `Rule3 ON INA219#Current>0.500 DO ShutterStop1 ENDON`  
-    `Rule3 1`   // Enable Rule3  
+    `Rule3 1`   // Enable Rule3.  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
@@ -131,9 +131,9 @@ TX|1|Button2|Down button
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
     `SetOption80 1`    // Enable shutters support.   
     `ShutterMode 4`    // Enable "Shutter mode 4".  
-    `ShutterRelay1 1`  // for relay Relay1 and Relay2  
-    `ShutterRelay2 3`  // for relay Relay3 and Relay4    
-    `Restart 1`   // Restart Tasmota  
+    `ShutterRelay1 1`  // for relay Relay1 and Relay2.  
+    `ShutterRelay2 3`  // for relay Relay3 and Relay4.    
+    `Restart 1`   // Restart Tasmota.  
   -  Run commands in the console to configure the motor operation (you must first configure the GPIO!):  
     `ShutterFrequency 2000`    // This is a global variable for all steppers (default = 1000ppm).  
     `ShutterMotorDelay1 1.5`   // Shutter#1 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
@@ -142,7 +142,7 @@ TX|1|Button2|Down button
     `ShutterMotorDelay2 1.5`   // Shutter#2 acceleration/deceleration speed for stepper motor(default = 0 seconds).  
     `ShutterOpenDuration2 15`  // Shutter#2 opening time = 15 seconds (default = 10 seconds).  
     `ShutterCloseDuration2 15` // Shutter#2 closing time = 15 seconds (default = 10 seconds).  
-    `Restart 1`   // Restart Tasmota  
+    `Restart 1`   // Restart Tasmota.  
   -  Run commands in the consolee to test the motor operation (you must first configure the GPIO!):      
     `ShutterOpen1`   // Opening check (Shutter#1).    
     `ShutterStop1`   // Stop check (Shutter#1).    
@@ -152,9 +152,9 @@ TX|1|Button2|Down button
     `ShutterClose2`  // Closing check (Shutter#2).
   -  Perform the [shutter calibration](Blinds-and-Shutters.md#calibration) (Optional).
   -  Run commands in the consolee for configuring the drive:  
-    `SetOption73 1`   // Enable detach buttons from relays  
-    `ShutterButton1 1 updown 0`  // Assigns button1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
-    `ShutterButton2 2 updown 0`  // Assigns button2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2  
+    `SetOption73 1`   // Enable detach buttons from relays.  
+    `ShutterButton1 1 updown 0`  // Assigns button1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1.   
+    `ShutterButton2 2 updown 0`  // Assigns button2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2.  
 
 Wemos Pin|GPIO|Component|Stepper Signal
 :-:|:-:|:-:|:-:
@@ -186,6 +186,29 @@ D8|15|Counter2|STP
  - Mini560 (DC/DC step-down module).  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4162.jpg)
+
+# 4. Components for creating devices: 
+
+### To customize your devices you can use:
+1. Stepper motor board.
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/11.jpg)
+https://aliexpress.ru/item/4000393299508.html
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/12.jpg)
+https://aliexpress.ru/item/32870732179.html
+https://aliexpress.ru/item/33055392128.html
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/21.jpg)
+https://aliexpress.ru/item/32905538087.html
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/31.jpg)
+https://aliexpress.ru/item/1000007369401.htm
+
+2. Stepper motor parallel board.
+
+
+
 
 
 **Best regards   
