@@ -189,7 +189,7 @@ D8|15|Counter2|STP
 
 # 4. Changing the interface (Optional):  
 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/so15.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/SO15.jpg)  
 
 # 5. Components for creating devices (Optional):   
 
