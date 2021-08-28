@@ -193,21 +193,29 @@ D8|15|Counter2|STP
 1. Stepper motor board.  
   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/11.jpg)  
-https://aliexpress.ru/item/4000393299508.html  
+https://aliexpress.com/item/4000393299508.html  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/12.jpg)   
-https://aliexpress.ru/item/32870732179.html  
-https://aliexpress.ru/item/33055392128.html  
+https://aliexpress.com/item/32870732179.html  
+https://aliexpress.com/item/33055392128.html  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/21.jpg)  
-https://aliexpress.ru/item/32905538087.html  
+https://aliexpress.com/item/32905538087.html  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/31.jpg)  
-https://aliexpress.ru/item/1000007369401.html  
+https://aliexpress.com/item/1000007369401.html  
 
-2. Stepper motor parallel board.
+2. Stepper motor parallel board.  
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/41.jpg) 
+https://aliexpress.com/item/33019883744.html  
+
+3. Stepper motor cable.  
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/51.jpg) 
+https://aliexpress.com/item/32769553792.html  
+https://aliexpress.com/item/32811275446.html  
 
 
-
-**Best regards   
+**Best regards,   
 TrDA**
