@@ -189,9 +189,21 @@ D8|15|Counter2|STP
 
 # 4. Changing the interface (Optional):  
 
- - By default, `SetOption15` is ON and you see two unused components. To hide unused components, run the `SetOption15 OFF` command in the console.  
+- By default, `SetOption15` is ON and you see two unused components. To hide unused components, run the `SetOption15 OFF` command in the console.  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/SO15.jpg)  
+
+- You can change the labels on the control buttons. Run commands in the console.  
+
+`Backlog WebButton1 &#8648; WebButton2 &#8650`
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/01.jpg) 
+
+`Backlog WebButton1 &#8634; WebButton2 &#8635`
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/02.jpg) 
+
+- To return to the default interface. Run command in the console.  
+`Backlog WebButton1 ▲; WebButton2 ▼`
+
 
 # 5. Components for creating devices (Optional):   
 
