@@ -203,7 +203,7 @@ https://aliexpress.ru/item/33055392128.html
 https://aliexpress.ru/item/32905538087.html
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/31.jpg)
-https://aliexpress.ru/item/1000007369401.htm
+https://aliexpress.ru/item/1000007369401.html
 
 2. Stepper motor parallel board.
 
