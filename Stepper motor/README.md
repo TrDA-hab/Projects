@@ -187,23 +187,23 @@ D8|15|Counter2|STP
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4162.jpg)
 
-# 4. Components for creating devices: 
+# 4. Components for creating devices:   
 
-### To customize your devices you can use:
-1. Stepper motor board.
+### To customize your devices you can use:  
+1. Stepper motor board.  
+  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/11.jpg)  
+https://aliexpress.ru/item/4000393299508.html  
 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/11.jpg)
-https://aliexpress.ru/item/4000393299508.html
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/12.jpg)   
+https://aliexpress.ru/item/32870732179.html  
+https://aliexpress.ru/item/33055392128.html  
 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/12.jpg)
-https://aliexpress.ru/item/32870732179.html
-https://aliexpress.ru/item/33055392128.html
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/21.jpg)  
+https://aliexpress.ru/item/32905538087.html  
 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/21.jpg)
-https://aliexpress.ru/item/32905538087.html
-
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/31.jpg)
-https://aliexpress.ru/item/1000007369401.html
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/31.jpg)  
+https://aliexpress.ru/item/1000007369401.html  
 
 2. Stepper motor parallel board.
 
