@@ -1,4 +1,9 @@
-## 0. About using stepper motors.
+## 0. Credits.
+- @stefanbode (Stefan Bode / DE), developed and strongly promoted "Shutter mode".Efficiency 98.99% - the work was done by this very cool man.  
+- @meingraham (Michael Ingraham / USA), Efficiency 01.00% - brilliantly organized the work to create support for "Shutter mode" at the end of 2019.  
+- @TrDA-hab (Dmitriy Tretnyakov / RUS), Efficiency 00.01% - this is me, you can see my work below.  
+
+## 1. About using stepper motors.
 - Using "Shutters mode" you can also simply control the:
   - DC motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10387) 
   - Servo motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10443)
@@ -32,7 +37,7 @@ Original motor Wiring|Reverse motor Wiring
 ![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|
 ![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
-# 1. One stepper motor (minimum configuration):  
+# 2. One stepper motor (minimum configuration):  
 ### Device List:  
  - 28BYJ-48-12V (stepper motor with 64:1 gear reducer).  
  - A4988 (stepper motor driver).  
@@ -67,7 +72,7 @@ D2|4|Relay2|DIR
 D3|0|PWM1|STP
 D4|2|Counter1|STP
 
-# 2. One stepper motor (maximum configuration):
+# 3. One stepper motor (maximum configuration):
 ### Device List:  
  - Nema-17 (planetary gear motor 1:27).
  - DRV8825 (stepper motor driver).
@@ -116,7 +121,7 @@ RX|3|Button1|Up button
 TX|1|Button2|Down button
 
 
-# 3. Two stepper motors (medium configuration):
+# 4. Two stepper motors (medium configuration):
 ### Device List:
  - Nema-17 (stepper motor).
  - TMC2208 (stepper motor driver).
@@ -167,7 +172,7 @@ D6|12|Relay4|DIR
 D7|13|PWM2|STP
 D8|15|Counter2|STP
 
-# 3.1 Two stepper motors (medium parallel configuration):  
+# 4.1 Two stepper motors (medium parallel configuration):  
 ### Device List:  
  - Nema-17 (stepper motor).  
  - TMC2208 (stepper motor driver).  
@@ -177,7 +182,7 @@ D8|15|Counter2|STP
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4161.jpg)
 
-# 3.2 Four stepper motors (maximum parallel configuration):  
+# 4.2 Four stepper motors (maximum parallel configuration):  
 ### Device List:  
  - Nema-17 (stepper motor).  
  - TMC2208 (stepper motor driver).  
@@ -205,7 +210,7 @@ D8|15|Counter2|STP
 `Backlog WebButton1 ▲; WebButton2 ▼`
 
 
-# 5. Components for creating devices (Optional):   
+# 6. Components for creating devices (Optional):   
 
 ### To customize your devices you can use:  
 1. Stepper motor board.  
