@@ -5,7 +5,7 @@
   - You can see a practical example of using a stepper motor here [here.](https://github.com/arendst/Tasmota/discussions/10847)
   - Stepper motors using this instruction (see instructions below).    
 - You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
-- Types of Steppers [**1**](https://learn.adafruit.com/all-about-stepper-motors/types-of-steppers).
+- Types of Steppers ([**1**])(https://learn.adafruit.com/all-about-stepper-motors/types-of-steppers).
 - To work with stepper motors you need to use **Shutters mode**:
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
   - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
