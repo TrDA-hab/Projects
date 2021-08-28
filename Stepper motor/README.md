@@ -1,5 +1,5 @@
 ## 0. Credits.
-- @stefanbode (Stefan Bode / DE), developed and strongly promoted "Shutter mode".Efficiency 73.99% - the work was done by this very cool man.  
+- @stefanbode (Stefan Bode / DE), developed and strongly promoted "Shutter mode".Efficiency 74.99% - a great job was done by this very cool person.  
 - @meingraham (Michael Ingraham / USA), Efficiency 25.00% - brilliantly organized the work to create support for "Shutter mode" at the end of 2019.  
 - @TrDA-hab (Dmitriy Tretnyakov / RUS), Efficiency 00.01% - this is me, you can see my work below.  
 
