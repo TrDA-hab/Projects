@@ -1,7 +1,7 @@
 ## 0. Credits.
-- @stefanbode (Stefan Bode / DE), developed and strongly promoted "Shutter mode".Efficiency 75.00% - a great job was done by this very cool person.  
-- @meingraham (Michael Ingraham / USA), Efficiency 24.99% - brilliantly organized the work to create support for "Shutter mode" at the end of 2019.  
-- @TrDA-hab (Dmitriy Tretnyakov / RUS), Efficiency 00.01% - this is me, you can see my work below.  
+- @stefanbode (Stefan Bode / DE), developed and strongly promoted "Shutter mode". A great job was done by this very cool person.  
+- @meingraham (Michael Ingraham / USA), brilliantly organized the work to create support for "Shutter mode" at the end of 2019.  
+- @TrDA-hab (Dmitriy Tretnyakov / RUS), this is me, you can see my work below.  
 
 ## 1. About using stepper motors.
 - Using "Shutters mode" you can also simply control the:
