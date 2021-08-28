@@ -177,7 +177,7 @@ D8|15|Counter2|STP
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4161.jpg)
 
-# 3.2 Four stepper motors (medium parallel configuration):  
+# 3.2 Four stepper motors (maximum parallel configuration):  
 ### Device List:  
  - Nema-17 (stepper motor).  
  - TMC2208 (stepper motor driver).  
