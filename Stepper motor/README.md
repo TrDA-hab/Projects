@@ -189,7 +189,7 @@ D8|15|Counter2|STP
 
 # 4. Changing the interface (Optional):  
 
-- By default, `SetOption15` is ON and you see three **unused** components. To hide unused components, run the `SetOption15 OFF` command in the console.  
+- By default, `SetOption15` is **ON** and you see three unused components. To hide unused components, run the `SetOption15 OFF` command in the console.  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/SO15.jpg)  
 
@@ -234,6 +234,7 @@ https://aliexpress.com/item/33019883744.html
 https://aliexpress.com/item/32769553792.html  
 https://aliexpress.com/item/32811275446.html  
 
+08/28/2021 Added new information, minor bugs fixed.
 
 **Best regards,   
 TrDA**  
