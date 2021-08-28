@@ -79,7 +79,7 @@ D4|2|Counter1|STP
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4112.jpg)
 
 ### How to use it:  
- - You must add support for Shutter in `my_user_config.h` file.  
+ - You must add support for Shutter in `my_user_config.h` file (оr flash your ESP8266 module with `tasmota.bin` file).    
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
     `SetOption80 1`   // Enable shutters support.   
     `ShutterMode 4`   // Enable "Shutter mode 4".  
@@ -127,7 +127,7 @@ TX|1|Button2|Down button
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/4122.jpg)
 
 ### How to use it:  
- - You must add support for Shutter in `my_user_config.h` file.  
+ - You must add support for Shutter in `my_user_config.h` file (оr flash your ESP8266 module with `tasmota.bin` file).    
  - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
     `SetOption80 1`    // Enable shutters support.   
     `ShutterMode 4`    // Enable "Shutter mode 4".  
