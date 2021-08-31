@@ -1,7 +1,6 @@
 ## 0. Credits.
-- @stefanbode (Stefan Bode / DE), developed and strongly promoted "Shutter mode". A great job was done by this very cool person.  
-- @meingraham (Michael Ingraham / USA), brilliantly organized the work to create support for "Shutter mode" at the end of 2019.  
-- @TrDA-hab (Dmitriy Tretnyakov / RUS), this is me, you can see my work below.  
+- @stefanbode, developed and strongly promoted "Shutter mode". A great job was done by this very cool person.  
+- @meingraham, brilliantly organized the work to create support for "Shutter mode" at the end of 2019.  
 
 ## 1. About using stepper motors.
 - Using "Shutters mode" you can also simply control the:
@@ -14,7 +13,7 @@
 - To work with stepper motors you need to use **Shutters mode**:
   - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
   - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
-- Now it is highly recommended to use stepper motor driver **TMC2208** instead of А4988/DRV8825.   
+- Now it is highly recommended to use stepper motor driver **TMC2208/TMC2225/TMC2209** instead of А4988/DRV8825.   
 - And it is highly recommend using the power supply of **24 volts** for your projects, minimum recommended voltage 12 volts.
 - Modifying a 28BYJ-48 stepper motor from unipolar to bipolar [tutorial](https://coeleveld.com/wp-content/uploads/2016/10/Modifying-a-28BYJ-48-step-motor-from-unipolar-to-bipolar.pdf).     
 - More information about [28BYJ-48](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/). 
@@ -25,6 +24,9 @@
    - [A4988](https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/)  
    - [DRV8825](https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/)  
    - [TMC2208](https://wiki.fysetc.com/TMC2208/)  
+   - [TMC2225](https://wiki.fysetc.com/TMC2225/)  
+   - [TMC2209](https://wiki.fysetc.com/Silent2209/)  
+
  - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q). Each stepper motor driver must use its own microstepping mode.   
  - Remember to set the current limiting for your stepper motor driver (see tutorials above).
  - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software reverse rotation of the motor is not supported.    
