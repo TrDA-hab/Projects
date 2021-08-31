@@ -1,8 +1,4 @@
-## 0. Credits.
-- @stefanbode, developed and strongly promoted "Shutter mode". A great job was done by this very cool person.  
-- @meingraham, brilliantly organized the work to create support for "Shutter mode" at the end of 2019.  
-
-## 1. About using stepper motors.
+# 1. About using stepper motors.
 - Using "Shutters mode" you can also simply control the:
   - DC motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10387) 
   - Servo motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10443)
