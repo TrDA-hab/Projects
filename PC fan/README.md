@@ -1,8 +1,9 @@
 # 0. About.
 
+- Using [PWM](https://tasmota.github.io/docs/Commands/#pwm).
 - Using [DC18B20](https://tasmota.github.io/docs/DS18x20/).  
 - About [PC fan](https://digitalworld839.com/computer-case-fan-sizes/).  
-- [TMC2209](https://wiki.fysetc.com/Silent2209/)  
+
 
 # 1. Minimum configuration:  
 
