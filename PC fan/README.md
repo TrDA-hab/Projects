@@ -5,7 +5,7 @@
 - Using [DC18B20](https://tasmota.github.io/docs/DS18x20/).  
 - About sizes [PC fan](https://digitalworld839.com/computer-case-fan-sizes/).  
 - About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
-- An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the PC fan for home ventilation.  
+- An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.  
 
 # 1. Minimum configuration:  
 
