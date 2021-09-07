@@ -15,4 +15,7 @@
 
 # 3. Maximum configuration:  
 
+### Note
+Now (09/17/2021) Tasmota has no support for the TAH sensor. Maybe support for the TAH will be added at a later date.
+
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PC%20fan/503.jpg)  
