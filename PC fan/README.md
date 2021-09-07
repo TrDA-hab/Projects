@@ -4,7 +4,7 @@
 - Using [MultiPwm](https://tasmota.github.io/docs/Commands/#setoption68).
 - Using [DC18B20](https://tasmota.github.io/docs/DS18x20/).  
 - About sizes [PC fan](https://digitalworld839.com/computer-case-fan-sizes/).  
-- About [PC fan](https://en.wikipedia.org/wiki/Computer_fan).  
+- About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
 
 # 1. Minimum configuration:  
 
