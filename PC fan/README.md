@@ -1,4 +1,4 @@
-# 0. About.
+# 0. About using 4pin PC fan.
 
 - Using [PWM](https://tasmota.github.io/docs/Commands/#pwm).
 - Using [MultiPwm](https://tasmota.github.io/docs/Commands/#setoption68).
