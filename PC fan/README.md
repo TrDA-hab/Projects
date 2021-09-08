@@ -24,4 +24,4 @@ Now (09/07/2021) Tasmota has no support for the TAH sensor. Maybe support for th
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PC%20fan/504.jpg)  
 
 **Best regards,  
-TrDA**
+TrDA.**
