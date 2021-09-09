@@ -10,11 +10,16 @@
 Original motor Wiring|Reverse motor Wiring  
 :-:|:-:|  
 ![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|  
-![](https://img.shields.io/static/v1?label=&message=GEEN&color=red)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|  
+![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|  
 ![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|  
 ![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|  
 
-https://img.shields.io/badge/-yellow-yellow
+Pin|Name|Color|Color|
+:-:|:-:|:-:|:-:|
+|1|Ground|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|
+|2|+12v|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|
+|3|Tach|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|
+|4|PWM|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
 # 1. Minimum configuration:  
 
