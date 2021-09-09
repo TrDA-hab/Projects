@@ -8,8 +8,8 @@
   -  [Integrations](https://tasmota.github.io/docs/Home-Assistant/#device-specific) by Tasmota.  
   -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).  
   -  `/config/configuration.yaml`
-    - ``` yaml
-    # Livingroom Blinds
+``` yaml
+# Livingroom Blinds
 cover:
   - platform: mqtt
     name: "Blinds 1"
@@ -63,7 +63,7 @@ cover:
     retain: false
     optimistic: false
     qos: 1
-    `
+ `
 - You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
 - Types of Steppers [(**1**)](https://learn.adafruit.com/all-about-stepper-motors/types-of-steppers).
 - To work with stepper motors you need to use **Shutters mode**:
