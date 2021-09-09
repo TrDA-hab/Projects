@@ -36,6 +36,7 @@ Original motor Wiring|Reverse motor Wiring
 ![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
 # 1. Home Assistant Integrations:
+https://user-images.githubusercontent.com/56403720/132748842-0b1cb1b6-8b6b-42ef-964d-b4c37ec5256d.mp4
   -  `/config/configuration.yaml`  
 ``` yaml
 # Livingroom Blinds  
