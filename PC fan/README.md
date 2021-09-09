@@ -10,7 +10,7 @@
 ### 4pin PC fan Connections.     
 *!!! cable coloring varies from fan to fan*   
 
-Pin|Name|Color|Color|Color|Color|  
+Pin|Name|Color-1|Color-2|Color-3|Color-4|  
 :-:|:-:|:-:|:-:|:-:|:-:|  
 |1|Ground|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|   
 |2|+12v|![](https://img.shields.io/static/v1?label=&message=RED&color=darkred)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|   
