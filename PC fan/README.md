@@ -8,6 +8,7 @@
 - About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
 - About [Fan sppd regulators](https://www.maximintegrated.com/en/design/technical-documents/tutorials/1/1784.html).
 - [PC Fan datasheet](https://noctua.at/pub/media/wysiwyg/Noctua_PWM_specifications_white_paper.pdf).
+- (https://github.com/arendst/Tasmota/discussions/11257)
 - An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.   
 
 ### 4pin PC fan Wire Diagrams.     
