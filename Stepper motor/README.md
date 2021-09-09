@@ -64,6 +64,41 @@ cover:
     optimistic: false
     qos: 1
  `
+
+ - Entities Card Configuration
+``` yaml 
+type: entities
+title: Livingroom blinds
+entities:
+  - cover.blinds_1
+  - type: 'custom:slider-entity-row'
+    entity: cover.blinds_1
+    name: Open1%
+  - type: 'custom:cover-position-preset-row'
+    name: Position1
+    entity: cover.blinds_1
+    reverseButtons: false
+    customSetpoints: true
+    closePosition: 0
+    midClosePosition: 25
+    midOpenPosition: 65
+    openPosition: 100
+  - type: divider
+  - cover.blinds_2
+  - type: 'custom:slider-entity-row'
+    entity: cover.blinds_2
+    name: Open2%
+  - type: 'custom:cover-position-preset-row'
+    name: Position2
+    entity: cover.blinds_2
+    reverseButtons: false
+    customSetpoints: true
+    closePosition: 0
+    midClosePosition: 25
+    midOpenPosition: 65
+    openPosition: 100
+`
+
 - You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
 - Types of Steppers [(**1**)](https://learn.adafruit.com/all-about-stepper-motors/types-of-steppers).
 - To work with stepper motors you need to use **Shutters mode**:
