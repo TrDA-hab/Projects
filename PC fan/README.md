@@ -12,9 +12,9 @@
 
 Pin|Name|Color-1|Color-2|Color-3|Color-4|  
 :-:|:-:|:-:|:-:|:-:|:-:|  
-|1|Ground|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|   
-|2|+12v|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|   
-|3|Tach|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=GREEN&color=greem)   
+|1|GND|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|   
+|2|+12VDC|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|   
+|3|TACH|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=GREEN&color=greem)   
 |4|PWM|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|   
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PC%20fan/500-4.jpg)  
