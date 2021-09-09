@@ -36,10 +36,10 @@ Original motor Wiring|Reverse motor Wiring
 ![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
 # 1. Home Assistant:
-[](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/003.wmv)
-  -  `/config/configuration.yaml`
+[video](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/003.wmv)  
+  -  `/config/configuration.yaml`  
 ``` yaml
-# Livingroom Blinds
+# Livingroom Blinds  
 cover:
   - platform: mqtt
     name: "Blinds 1"
