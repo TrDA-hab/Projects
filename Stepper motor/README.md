@@ -22,10 +22,10 @@
    - [TMC2208](https://wiki.fysetc.com/TMC2208/)  
    - [TMC2225](https://wiki.fysetc.com/TMC2225/)  
    - [TMC2209](https://wiki.fysetc.com/Silent2209/)  
- - Home Assistant Integrations [By Tasmota](https://tasmota.github.io/docs/Home-Assistant/#device-specific).
- - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q). Each stepper motor driver must use its own microstepping mode.   
- - Remember to set the current limiting for your stepper motor driver (see tutorials above).
- - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software reverse rotation of the motor is not supported.    
+ - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q). Each stepper motor driver must use its own microstepping mode.    
+ - Remember to set the current limiting for your stepper motor driver (see tutorials above).  
+ - Home Assistant Integrations [By Tasmota](https://tasmota.github.io/docs/Home-Assistant/#device-specific).   
+ - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software reverse rotation of the motor is not supported.     
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c5.jpg)  
 
 Original motor Wiring|Reverse motor Wiring
@@ -332,6 +332,8 @@ https://aliexpress.com/item/32769553792.html
 https://aliexpress.com/item/32811275446.html  
 
 08/28/2021 Added new information, minor bugs fixed.
+09/09/2021 Added new information, Home Assistant Integrations.
+
 
 **Best regards,   
 TrDA**  
