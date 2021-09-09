@@ -22,7 +22,7 @@
    - [TMC2208](https://wiki.fysetc.com/TMC2208/)  
    - [TMC2225](https://wiki.fysetc.com/TMC2225/)  
    - [TMC2209](https://wiki.fysetc.com/Silent2209/)  
-
+ - Home Assistant Integrations [By Tasmota](https://tasmota.github.io/docs/Home-Assistant/#device-specific).
  - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q). Each stepper motor driver must use its own microstepping mode.   
  - Remember to set the current limiting for your stepper motor driver (see tutorials above).
  - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software reverse rotation of the motor is not supported.    
@@ -37,6 +37,7 @@ Original motor Wiring|Reverse motor Wiring
 
 # 1. Home Assistant Integrations:
 https://user-images.githubusercontent.com/56403720/132748842-0b1cb1b6-8b6b-42ef-964d-b4c37ec5256d.mp4
+-  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).   
 -  `/config/configuration.yaml`  
 ``` yaml
 # Livingroom Blinds  
@@ -127,9 +128,6 @@ entities:
     midOpenPosition: 65
     openPosition: 100
 ```
-
-  -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).   
-  -  [By Tasmota](https://tasmota.github.io/docs/Home-Assistant/#device-specific) by Tasmota.   
 
 # 2. One stepper motor (minimum configuration):  
 ### Device List:  
