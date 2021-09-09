@@ -7,10 +7,8 @@
 - About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
 - An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.  
 
-
-
-### 4pin PC fan Connections.  
-*cable coloring varies from fan to fan*
+### 4pin PC fan Connections.     
+*cable coloring varies from fan to fan*   
 Pin|Name|Color|Color|
 :-:|:-:|:-:|:-:|
 |1|Ground|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|
