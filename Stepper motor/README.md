@@ -37,7 +37,7 @@ Original motor Wiring|Reverse motor Wiring
 
 # 1. Home Assistant Integrations:
 https://user-images.githubusercontent.com/56403720/132748842-0b1cb1b6-8b6b-42ef-964d-b4c37ec5256d.mp4
-  -  `/config/configuration.yaml`  
+-  `/config/configuration.yaml`  
 ``` yaml
 # Livingroom Blinds  
 cover:
@@ -93,9 +93,8 @@ cover:
     retain: false
     optimistic: false
     qos: 1
-```
-
-  -  `/Entities Card Configuration`:  
+```  
+-  `/Entities Card Configuration`:  
 ``` yaml 
 type: entities
 title: Livingroom blinds
