@@ -130,7 +130,6 @@ entities:
 ```
 
   -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).   
-  -  Video https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/003.mp4  
   -  [By Tasmota](https://tasmota.github.io/docs/Home-Assistant/#device-specific) by Tasmota.   
 
 # 2. One stepper motor (minimum configuration):  
