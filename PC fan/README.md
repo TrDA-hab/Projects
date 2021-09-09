@@ -3,9 +3,10 @@
 - Using [PWM](https://tasmota.github.io/docs/Commands/#pwm).
 - Using [MultiPwm](https://tasmota.github.io/docs/Commands/#setoption68).
 - Using [DC18B20](https://tasmota.github.io/docs/DS18x20/).  
+- Using [Thermostat](https://tasmota.github.io/docs/Thermostat/).
 - About sizes [PC fan](https://digitalworld839.com/computer-case-fan-sizes/).  
 - About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
-- An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.  
+- An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.   
 
 ### 4pin PC fan Wire Diagrams.     
 *!!! cable coloring varies from fan to fan*   
