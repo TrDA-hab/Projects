@@ -1,10 +1,41 @@
-# 1. About using stepper motors.
+# 0. About using stepper motors.
 - Using "Shutters mode" you can also simply control the:
   - DC motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10387) 
   - Servo motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10443)
   - You can see a practical example of using a stepper motor here [here.](https://github.com/arendst/Tasmota/discussions/10847)
   - Stepper motors using this instruction (see instructions below).    
-- Home Assistant:
+- You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
+- Types of Steppers [(**1**)](https://learn.adafruit.com/all-about-stepper-motors/types-of-steppers).
+- To work with stepper motors you need to use **Shutters mode**:
+  - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
+  - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
+- Now it is highly recommended to use stepper motor driver **TMC2208/TMC2225/TMC2209** instead of А4988/DRV8825.   
+- And it is highly recommend using the power supply of **24 volts** for your projects, minimum recommended voltage 12 volts.
+- Modifying a 28BYJ-48 stepper motor from unipolar to bipolar [tutorial](https://coeleveld.com/wp-content/uploads/2016/10/Modifying-a-28BYJ-48-step-motor-from-unipolar-to-bipolar.pdf).     
+- More information about [28BYJ-48](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/). 
+- The diagrams show the supply voltage of the NEMA-17 stepper motor, capacitor should be 35 ... 50 volts. More information about the effect of voltage on stepper motor operation can be found in the [tutorial:](http://stepcontrol.com/pdf/step101.pdf) (see 5. POWER SUPPLY):  
+   - for 28BYJ-48-**5v** recommended voltage is 12v (only if modifying to bipolar).
+   - for 28BYJ-48-**12v** recommended voltage is 24v (only if modifying to bipolar).
+- Stepper drivers configuration tutorials:
+   - [A4988](https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/)  
+   - [DRV8825](https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/)  
+   - [TMC2208](https://wiki.fysetc.com/TMC2208/)  
+   - [TMC2225](https://wiki.fysetc.com/TMC2225/)  
+   - [TMC2209](https://wiki.fysetc.com/Silent2209/)  
+
+ - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q). Each stepper motor driver must use its own microstepping mode.   
+ - Remember to set the current limiting for your stepper motor driver (see tutorials above).
+ - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software reverse rotation of the motor is not supported.    
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c5.jpg)  
+
+Original motor Wiring|Reverse motor Wiring
+:-:|:-:|
+![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|
+![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|
+![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|
+![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
+
+# 1. Home Assistant:
   -  [Integrations](https://tasmota.github.io/docs/Home-Assistant/#device-specific) by Tasmota.  
   -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).  
   -  `/config/configuration.yaml`
@@ -65,7 +96,7 @@ cover:
     qos: 1
  `
 
- - Entities Card Configuration
+ - Entities Card Configuration:  
 ``` yaml 
 type: entities
 title: Livingroom blinds
@@ -98,37 +129,6 @@ entities:
     midOpenPosition: 65
     openPosition: 100
 `
-
-- You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
-- Types of Steppers [(**1**)](https://learn.adafruit.com/all-about-stepper-motors/types-of-steppers).
-- To work with stepper motors you need to use **Shutters mode**:
-  - [More information about Shutters mode.](https://tasmota.github.io/docs/Blinds-and-Shutters)   
-  - [More information on commands for Shutters mode.](https://tasmota.github.io/docs/Commands/#shutters)   
-- Now it is highly recommended to use stepper motor driver **TMC2208/TMC2225/TMC2209** instead of А4988/DRV8825.   
-- And it is highly recommend using the power supply of **24 volts** for your projects, minimum recommended voltage 12 volts.
-- Modifying a 28BYJ-48 stepper motor from unipolar to bipolar [tutorial](https://coeleveld.com/wp-content/uploads/2016/10/Modifying-a-28BYJ-48-step-motor-from-unipolar-to-bipolar.pdf).     
-- More information about [28BYJ-48](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/). 
-- The diagrams show the supply voltage of the NEMA-17 stepper motor, capacitor should be 35 ... 50 volts. More information about the effect of voltage on stepper motor operation can be found in the [tutorial:](http://stepcontrol.com/pdf/step101.pdf) (see 5. POWER SUPPLY):  
-   - for 28BYJ-48-**5v** recommended voltage is 12v (only if modifying to bipolar).
-   - for 28BYJ-48-**12v** recommended voltage is 24v (only if modifying to bipolar).
-- Stepper drivers configuration tutorials:
-   - [A4988](https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/)  
-   - [DRV8825](https://lastminuteengineers.com/drv8825-stepper-motor-driver-arduino-tutorial/)  
-   - [TMC2208](https://wiki.fysetc.com/TMC2208/)  
-   - [TMC2225](https://wiki.fysetc.com/TMC2225/)  
-   - [TMC2209](https://wiki.fysetc.com/Silent2209/)  
-
- - Don't forget to customize the microstep (MS1/MS2/MS3) for your needs (see tutorials above). If you forget or incorrectly adjust the microstepping mode you will get the same effect as in this [video](https://youtu.be/1llRwfUVu5Q). Each stepper motor driver must use its own microstepping mode.   
- - Remember to set the current limiting for your stepper motor driver (see tutorials above).
- - To reverse the rotation of the stepper motor, you must swap the two coils in the mirror image. Software reverse rotation of the motor is not supported.    
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/c5.jpg)  
-
-Original motor Wiring|Reverse motor Wiring
-:-:|:-:|
-![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|
-![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|
-![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|
-![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
 # 2. One stepper motor (minimum configuration):  
 ### Device List:  
