@@ -4,6 +4,66 @@
   - Servo motors using this [instruction.](https://github.com/arendst/Tasmota/discussions/10443)
   - You can see a practical example of using a stepper motor here [here.](https://github.com/arendst/Tasmota/discussions/10847)
   - Stepper motors using this instruction (see instructions below).    
+- Home Assistant:
+  -  [Integrations](https://tasmota.github.io/docs/Home-Assistant/#device-specific) by Tasmota.  
+  -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).  
+  -  `/config/configuration.yaml`
+    - ``` yaml
+    # Livingroom Blinds
+cover:
+  - platform: mqtt
+    name: "Blinds 1"
+    availability_topic: "tele/Roll_3/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    position_topic: "stat/Roll_3/RESULT"
+    value_template: >
+      {% if ('Shutter1' in value_json) and ('Position' in value_json.Shutter1) %}
+        {{ value_json.Shutter1.Position }}
+      {% else %}
+        {% if is_state('cover.livingroom_blinds1', 'unknown') %}
+          50
+        {% else %}
+          {{ state_attr('cover.livingroom_blinds1','current_position') }}
+        {% endif %}
+      {% endif %}    
+    position_open: 100
+    position_closed: 0
+    set_position_topic: "cmnd/Roll_3/ShutterPosition1"
+    command_topic: "cmnd/Roll_3/Backlog"
+    payload_open: "ShutterOpen1"
+    payload_close: "ShutterClose1"
+    payload_stop: "ShutterStop1"
+    retain: false
+    optimistic: false
+    qos: 1
+  - platform: mqtt
+    name: "Blinds 2"
+    availability_topic: "tele/Roll_3/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    position_topic: "stat/Roll_3/RESULT"
+    value_template: >
+      {% if ('Shutter2' in value_json) and ('Position' in value_json.Shutter2) %}
+        {{ value_json.Shutter2.Position }}
+      {% else %}
+        {% if is_state('cover.livingroom_blinds2', 'unknown') %}
+          50
+        {% else %}
+          {{ state_attr('cover.livingroom_blinds2','current_position') }}
+        {% endif %}
+      {% endif %}    
+    position_open: 100
+    position_closed: 0
+    set_position_topic: "cmnd/Roll_3/ShutterPosition2"
+    command_topic: "cmnd/Roll_3/Backlog"
+    payload_open: "ShutterOpen2"
+    payload_close: "ShutterClose2"
+    payload_stop: "ShutterStop2"
+    retain: false
+    optimistic: false
+    qos: 1
+    `
 - You can only use [**bipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor using this instruction, [**unipolar**](https://en.wikipedia.org/wiki/Stepper_motor) stepper motor not supported. 
 - Types of Steppers [(**1**)](https://learn.adafruit.com/all-about-stepper-motors/types-of-steppers).
 - To work with stepper motors you need to use **Shutters mode**:
