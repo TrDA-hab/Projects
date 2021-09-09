@@ -18,7 +18,8 @@ Pin|Name|Color-1|Color-2|Color-3|Color-4|
 |4|PWM|![](https://img.shields.io/static/v1?label=&message=BLUE&color=darkblue)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=GREY&color=lightgrey)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=darkblue)|   
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PC%20fan/500-3.jpg)  
-
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PC%20fan/500-4.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/PC%20fan/500-5.jpg)  
 
 # 1. Minimum configuration:  
 
