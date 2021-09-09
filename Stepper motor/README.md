@@ -94,7 +94,7 @@ cover:
     qos: 1
 ```
 
-  -  `Entities Card Configuration`:  
+  -  `/Entities Card Configuration`:  
 ``` yaml 
 type: entities
 title: Livingroom blinds
