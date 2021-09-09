@@ -7,7 +7,7 @@
 - About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
 - An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.  
 
-:-:|:-:|
+:-:|:-:|  
 ![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|  
 ![](https://img.shields.io/static/v1?label=&message=GEEN&color=red)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|  
 ![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|  
