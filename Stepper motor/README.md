@@ -94,7 +94,7 @@ cover:
     retain: false
     optimistic: false
     qos: 1
- `
+```
 
   -  `Entities Card Configuration`:  
 ``` yaml 
@@ -128,7 +128,7 @@ entities:
     midClosePosition: 25
     midOpenPosition: 65
     openPosition: 100
-`
+```
 
 # 2. One stepper motor (minimum configuration):  
 ### Device List:  
