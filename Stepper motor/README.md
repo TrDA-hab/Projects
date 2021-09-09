@@ -38,6 +38,7 @@ Original motor Wiring|Reverse motor Wiring
 # 1. Home Assistant Integrations:
 https://user-images.githubusercontent.com/56403720/132748842-0b1cb1b6-8b6b-42ef-964d-b4c37ec5256d.mp4
 -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).   
+### HA Integrations:
 -  `/config/configuration.yaml`  
 ``` yaml
 # Livingroom Blinds  
