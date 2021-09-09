@@ -6,11 +6,11 @@
 - Using [Thermostat](https://tasmota.github.io/docs/Thermostat/).
 - About sizes [PC fan](https://digitalworld839.com/computer-case-fan-sizes/).  
 - About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
-- About [Fan sppd regulators](https://www.maximintegrated.com/en/design/technical-documents/tutorials/1/1784.html).
+- About [Fan speed regulators](https://www.maximintegrated.com/en/design/technical-documents/tutorials/1/1784.html).
 - [PC Fan datasheet](https://noctua.at/pub/media/wysiwyg/Noctua_PWM_specifications_white_paper.pdf).
 - [# 9238](https://github.com/arendst/Tasmota/issues/9238)
 - [# 11257](https://github.com/arendst/Tasmota/discussions/11257)  
-- An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.   
+- An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.     
 
 ### 4pin PC fan Wire Diagrams.     
 *!!! cable coloring varies from fan to fan*   
