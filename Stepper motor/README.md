@@ -36,7 +36,9 @@ Original motor Wiring|Reverse motor Wiring
 ![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
 # 1. Home Assistant:
-https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/003.mp4
+  -  [Integrations](https://tasmota.github.io/docs/Home-Assistant/#device-specific) by Tasmota.  
+  -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).  
+  -  Video https://raw.githubusercontent.com/TrDA-hab/Projects/master/Stepper%20motor/003.mp4
   -  `/config/configuration.yaml`  
 ``` yaml
 # Livingroom Blinds  
@@ -128,8 +130,6 @@ entities:
     midOpenPosition: 65
     openPosition: 100
 ```
-  -  [Integrations](https://tasmota.github.io/docs/Home-Assistant/#device-specific) by Tasmota.  
-  -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).  
 
 # 2. One stepper motor (minimum configuration):  
 ### Device List:  
