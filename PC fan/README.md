@@ -7,18 +7,12 @@
 - About [PC fan](https://en.wikipedia.org/wiki/Computer_fan) (wikipedia).  
 - An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.  
 
-Original motor Wiring|Reverse motor Wiring  
-:-:|:-:|  
-![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|  
-![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|  
-![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|  
-![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|  
 
 Pin|Name|Color|Color|
 :-:|:-:|:-:|:-:|
 |1|Ground|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|
-|2|+12v|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|
-|3|Tach|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|
+|2|+12v|![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|
+|3|Tach|![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GREEN&color=green)|
 |4|PWM|![](https://img.shields.io/static/v1?label=&message=YELLOW&color=yellow)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
 # 1. Minimum configuration:  
