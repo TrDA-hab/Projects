@@ -35,7 +35,7 @@ Original motor Wiring|Reverse motor Wiring
 ![](https://img.shields.io/static/v1?label=&message=RED&color=red)|![](https://img.shields.io/static/v1?label=&message=BLACK&color=black)|
 ![](https://img.shields.io/static/v1?label=&message=BLUE&color=blue)|![](https://img.shields.io/static/v1?label=&message=GEEN&color=greem)|
 
-# 1. Home Assistant Integrations:
+# 1. Home Assistant Integrations (for perfectionists only):
 https://user-images.githubusercontent.com/56403720/132748842-0b1cb1b6-8b6b-42ef-964d-b4c37ec5256d.mp4
 -  Video [x2 Stepper motors](https://youtu.be/K6pvQYX6UjY).   
 ### HA Integrations:
