@@ -9,7 +9,8 @@
 - About [Fan speed regulators](https://www.maximintegrated.com/en/design/technical-documents/tutorials/1/1784.html).
 - [PC Fan datasheet](https://noctua.at/pub/media/wysiwyg/Noctua_PWM_specifications_white_paper.pdf).
 - [# 9238](https://github.com/arendst/Tasmota/issues/9238#issuecomment-749299589) (Home Assistant - no tested).
-- [# 11257](https://github.com/arendst/Tasmota/discussions/11257#discussioncomment-450144) (Tachometer - no tested).  
+- [# 11257](https://github.com/arendst/Tasmota/discussions/11257#discussioncomment-450144) (Tachometer - no tested). 
+- [# 3053](https://github.com/arendst/Tasmota/issues/3053#issuecomment-400180836 ) (Tachometer - no tested).   
 
 ### Practical use of the PC fan.     
 - An [example](https://www.thingiverse.com/thing:4163250) of the practical use of the 4pin PC fan for home ventilation.      
