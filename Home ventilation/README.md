@@ -56,8 +56,12 @@
  
  ## UPD:
 
-![Sonoff D1 Dimmer](https://user-images.githubusercontent.com/4712485/98549844-ba77e300-2271-11eb-8a0c-0db1fcc8c9cd.jpeg)
+If you’re having “ghost switching” events:
 
+ 1. Pairing a RF remote with D1 could stop them.
+ 2. Or remove from the board R6 R7 R8 R9 + R11 R12 R13 R14.
+![Sonoff D1 Dimmer](https://user-images.githubusercontent.com/4712485/98549844-ba77e300-2271-11eb-8a0c-0db1fcc8c9cd.jpeg)
+ 3. Or remove U1 + U2 from the board.
 ![Sonoff D1 Dimmer](https://user-images.githubusercontent.com/14799318/111128907-bd634700-8575-11eb-8fa9-497a3380addb.jpeg)
 
 **Best regards   
