@@ -53,7 +53,12 @@
  ## Note:
 - Sonoff D1 has problems on a regular basis and sets the dimming to 100% (it's very loud).  
 - to treat problems with Sonoff D1 and you need Rule2.
+ 
+ ## UPD:
 
+![Sonoff D1 Dimmer](https://user-images.githubusercontent.com/4712485/98549844-ba77e300-2271-11eb-8a0c-0db1fcc8c9cd.jpeg)
+
+![Sonoff D1 Dimmer](https://user-images.githubusercontent.com/14799318/111128907-bd634700-8575-11eb-8fa9-497a3380addb.jpeg)
 
 **Best regards   
 TrDA**
