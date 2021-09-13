@@ -55,7 +55,7 @@
 - to treat problems with Sonoff D1 and you need Rule2.
  
  
- ## UPD #1:
+ ## UPD#1:
 
 If you’re having “ghost switching” events:
 
