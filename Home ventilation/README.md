@@ -54,7 +54,8 @@
 - Sonoff D1 has problems on a regular basis and sets the dimming to 100% (it's very loud).  
 - to treat problems with Sonoff D1 and you need Rule2.
  
- ## UPD:
+ 
+ ## UPD #1:
 
 If you’re having “ghost switching” events:
 
@@ -64,5 +65,5 @@ If you’re having “ghost switching” events:
  3. Or remove U1 + U2 from the board.
 ![Sonoff D1 Dimmer](https://user-images.githubusercontent.com/14799318/111128907-bd634700-8575-11eb-8fa9-497a3380addb.jpeg)
 
-**Best regards   
+**Best regards,   
 TrDA**
