@@ -14,7 +14,7 @@
    `Rule1 ON system#boot DO Backlog Power2 1; Power3 1; Power4 1; DisplayText [z]; ENDON`  
  - Run commands in the console for test Display:    
    `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]`  
- - Run the command in the console to modify the interface (optional): 
+ - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`  
 
 Wemos Pin|GPIO|Component|e-Paper|
