@@ -1,4 +1,7 @@
 ## 0. About using SPI multi display.   
+ - [WIKI SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).  
+ - Tasmota commands for controlling displays: [1](https://tasmota.github.io/docs/Commands/#displays).
+ - Tasmota examples for displaying information on the display: [1](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs). 
  - You can use any SPI display that uses a 3-wire SPI bus. 4-wire SPI bus - not tested, but should work too.
  - You can connect a maximum of 8 displays using the ESP8266, or more using the ESP32.
  - You can display the same information on all displays at once (by switching on all relays) or display information individually on each display (including the corresponding relay).
