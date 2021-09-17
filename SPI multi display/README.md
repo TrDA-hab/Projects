@@ -12,6 +12,7 @@
 
  - Enter the command in the console to initialize the displays after restarting the ESP8266:  
    `Rule1 ON system#boot DO Backlog Power2 1; Power3 1; Power4 1; DisplayText [z]; ENDON`  
+   `Rule1 1`   // Run Rule1   
  - Run commands in the console for test Display:    
    `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]`  
  - Run the command in the console to modify the interface (optional):   
@@ -25,6 +26,9 @@ D5|14|Relay_i 2|-|On/Off display#1
 D6|12|SSPI MOSI|DIN|-
 D7|13|SSPI SCLK|CKL|-
 D8|15|EPaper29 CS|CS|-
+
+Video of the driver's work:   
+https://youtu.be/MSbM2clI2aU   
 
 **Best regards,   
 TrDA.**
