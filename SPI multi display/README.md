@@ -33,7 +33,7 @@ D6|12|SSPI MOSI|DIN|-
 D7|13|SSPI SCLK|CKL|-
 D8|15|EPaper29 CS|-|virtual pin
 
-## Video of the driver's work:   
+### Video of the driver's work:   
 https://youtu.be/MSbM2clI2aU   
 
 **Best regards,   
