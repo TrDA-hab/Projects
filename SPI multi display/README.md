@@ -13,11 +13,14 @@
 ## 2. How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file:    
 
- - Enter the command in the console to initialize the displays after restarting the ESP8266:  
+ - Enter the command in the console to initialize the displays after restarting the ESP8266 (you must first configure the GPIO!):  
    `Rule1 ON system#boot DO Backlog Power2 1; Power3 1; Power4 1; DisplayText [z]; ENDON`  
    `Rule1 1`   // Run Rule1   
  - Run commands in the console for test Display:    
    `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]`  
+ - Run the command in the console  to run the "Interlock" mode :  
+   `Interlock 1,2,3` //Group Relay1 and Relay2 and Relay3 in "group 1".  
+   `Interlock 1`     //Enable relay interlock .  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`  
 
