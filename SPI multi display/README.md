@@ -18,7 +18,7 @@
    `Rule1 1`   // Run Rule1   
  - Run commands in the console for test Display:    
    `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]`  
- - Run the command in the console  to run the "Interlock" mode (optional):  
+ - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `Interlock 1,2,3` //Group Relay1 and Relay2 and Relay3 in "group 1".  
    `Interlock 1`     //Enable relay interlock .  
  - Run the command in the console to modify the interface (optional):   
