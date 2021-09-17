@@ -10,7 +10,7 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4152.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210917_191722.jpg)   
 
-#### Video of the driver's work:   
+#### Video of the display`s work:   
 https://youtu.be/MSbM2clI2aU   
 
 ## 2. How to use it.  
