@@ -36,5 +36,7 @@ D8|15|EPaper29 CS|-|virtual pin
 #### Video of the driver's work:   
 https://youtu.be/MSbM2clI2aU   
 
+
+
 **Best regards,   
 TrDA.**
