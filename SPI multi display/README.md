@@ -29,7 +29,7 @@ D5|14|Relay_i 2|-|On/Off display#1
 
 D6|12|SSPI MOSI|DIN|-
 D7|13|SSPI SCLK|CKL|-
-D8|15|EPaper29 CS|CS|virtual pin
+D8|15|EPaper29 CS|CS|-
 
 ## Video of the driver's work:   
 https://youtu.be/MSbM2clI2aU   
