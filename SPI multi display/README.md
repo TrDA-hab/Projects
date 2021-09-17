@@ -18,7 +18,7 @@
    `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`  
 
 Wemos Pin|GPIO|Component|e-Paper|Сomment|
-:-:|:-:|:-:|:-:
+:-:|:-:|:-:|:-:|:-:
 D3|00|Relay_i 4|-|On/Off displau#3
 D4|02|Relay_i 3|-|On/Off displau#2
 D5|15|Relay_i 2|-|On/Off displau#1
