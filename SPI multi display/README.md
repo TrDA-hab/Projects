@@ -15,7 +15,8 @@
  - Run commands in the console for test Display:    
    `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]`  
  - Run the command in the console to modify the interface (optional): 
-   `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`
+   `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`  
+
 Wemos Pin|GPIO|Component|e-Paper|
 :-:|:-:|:-:|:-:
 D5|14|EPaper29 CS|CS
