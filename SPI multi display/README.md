@@ -10,9 +10,11 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4152.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210917_191722.jpg)   
 
-## 2. How to use it.  
- - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file:    
+#### Video of the driver's work:   
+https://youtu.be/MSbM2clI2aU   
 
+## 2. How to use it.  
+ - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - Enter the command in the console to initialize the displays after restarting the ESP8266 (you must first configure the GPIO!):  
    `Rule1 ON system#boot DO Backlog Power2 1; Power3 1; Power4 1; DisplayText [z]; ENDON`  
    `Rule1 1`   // Run Rule1   
@@ -23,9 +25,6 @@
    `Interlock 1`     //Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`  
-
-#### Video of the driver's work:   
-https://youtu.be/MSbM2clI2aU   
 
 Wemos Pin|GPIO|Component|SPI display|Сomment|
 :-:|:-:|:-:|:-:|:-:
