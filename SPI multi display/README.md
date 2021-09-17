@@ -17,8 +17,14 @@
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`  
 
-Wemos Pin|GPIO|Component|e-Paper|
+Wemos Pin|GPIO|Component|e-Paper|Сomment|
 :-:|:-:|:-:|:-:
-D5|14|EPaper29 CS|CS
-D6|12|SSPI MOSI|DIN
-D7|13|SSPI SCLK|CKL
+D3|00|Relay_i 4|-|On/Off displau#3
+D4|02|Relay_i 3|-|On/Off displau#2
+D5|15|Relay_i 2|-|On/Off displau#1
+D6|12|SSPI MOSI|DIN|-
+D7|13|SSPI SCLK|CKL|-
+D8|15|EPaper29 CS|CS|-
+
+**Best regards,   
+TrDA.**
