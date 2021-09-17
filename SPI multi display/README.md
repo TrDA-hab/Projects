@@ -20,7 +20,7 @@
    `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]`  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `Interlock 1,2,3` //Group Relay1 and Relay2 and Relay3 in "group 1".  
-   `Interlock 1`     //Enable relay interlock .  
+   `Interlock 1`     //Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 E-PAPER#1; WebButton3 E-PAPER#2; WebButton4 E-PAPER#3`  
 
