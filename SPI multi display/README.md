@@ -26,10 +26,9 @@ Wemos Pin|GPIO|Component|e-Paper|Сomment|
 D3|00|Relay_i 3|-|On/Off display#3
 D4|02|Relay_i 4|-|On/Off display#2
 D5|14|Relay_i 2|-|On/Off display#1
-
 D6|12|SSPI MOSI|DIN|-
 D7|13|SSPI SCLK|CKL|-
-D8|15|EPaper29 CS|CS|-
+D8|15|EPaper29 CS|CS|virtual pin
 
 ## Video of the driver's work:   
 https://youtu.be/MSbM2clI2aU   
