@@ -20,7 +20,7 @@ https://youtu.be/zgQKJD9gmQw
 ## 2. How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
-   `Interlock 1, 2,3` //Group Relay1 in "group 1" and Relay2 and Relay3 and Relay4 in "group 2".  
+   `Interlock 1, 2,3,4` //Group Relay1 in "group 1" and Relay2 and Relay3 and Relay4 in "group 2".  
    `Interlock 1`     //Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 LCD#1; WebButton3 LCD#2; WebButton4 LCD#3; WebButton5 Light`  
