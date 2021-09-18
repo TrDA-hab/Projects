@@ -6,7 +6,7 @@
  - You can use any I2C display (only if supported by Tasmota).
  - You can connect a maximum of 3 I2C displays using.
  - You can display the same information on all displays at once (by switching on all relays) or display information individually on each display (including the corresponding relay).
- - The display illumination can be controlled on the active display. The inactive display saves the display subgrid state.  
+ - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
 
 ## 1. I2C multi display.
 
