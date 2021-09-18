@@ -32,7 +32,7 @@ https://youtu.be/zgQKJD9gmQw
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
 D1|05|I2C SCL|SCL|-
-D2|12|I2C SDA|SDA|-3
+D2|12|I2C SDA|SDA|-
 D3|00|Relay_2|-|On/Off display#3
 D4|02|Relay_3|-|On/Off display#2
 D5|14|Relay_4|-|On/Off display#1
