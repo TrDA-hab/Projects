@@ -1,6 +1,6 @@
 ## 0. About using I2C multi display.   
  - [How to use I2C bus](https://github.com/arendst/Tasmota/discussions/10827).  
- - [Adafruit info about using I2C 74HC138](https://learn.adafruit.com/delorean-time-circuit/circuit-trickery).
+ - [Adafruit info about using 74HC138](https://learn.adafruit.com/delorean-time-circuit/circuit-trickery).
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
  - Tasmota has [announced](https://github.com/arendst/Tasmota/pull/11821) built-in support for multi-displays but there is no instruction on how it works today 09/18/2021. 
