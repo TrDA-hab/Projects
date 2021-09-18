@@ -25,7 +25,8 @@
 7. I2C protocol:
 8. Home ventilation.
 9. E-PAPER (E-INK).
-10. PC fan.
-11. SPI multi display.
-12. I2C multi display.
-13. ...
+10. Control the AC / DC motor using Sonoff 4ch pro.
+11. PC fan.
+12. SPI multi display.
+13. I2C multi display.
+14. ...
