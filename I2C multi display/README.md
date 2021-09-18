@@ -12,7 +12,7 @@
 ## 1. I2C multi display.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)   
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4162.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)   
 
 #### Video of the display`s work:   
