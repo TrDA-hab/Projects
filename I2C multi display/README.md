@@ -24,7 +24,7 @@ https://youtu.be/zgQKJD9gmQw
    `Interlock 1`     //Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 LCD#1; WebButton3 LCD#2; WebButton4 LCD#3; WebButton5 Light`  
- - Run the command's in the console to test display`s:
+ - Run the command's in the console to test display`s:  
     `Backlog Power5 0; Power2 1;Power5 1` // For run display#1  
     `Backlog Power5 0; Power3 1;Power5 1` // For run display#2  
     `Backlog Power5 0; Power4 1;Power5 1` // For run display#3  
