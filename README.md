@@ -25,6 +25,7 @@
 7. I2C protocol:
 8. Home ventilation.
 9. E-PAPER (E-INK).
-10. SPI multi display.
-10. I2C multi display.
-11. ...
+10. PC fan.
+11. SPI multi display.
+12. I2C multi display.
+13. ...
