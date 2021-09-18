@@ -31,12 +31,12 @@ https://youtu.be/zgQKJD9gmQw
 
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
-D3|00|Relay_i 3|CS#3|On/Off display#3
-D4|02|Relay_i 4|CS#2|On/Off display#2
-D5|14|Relay_i 2|CS#1|On/Off display#1
-D6|12|SSPI MOSI|DIN|-
-D7|13|SSPI SCLK|CKL|-
-D8|15|EPaper29 CS|-|virtual pin
+D1|05|I2C SCL|SCL|-
+D2|12|I2C SDA|SDA|-3
+D3|00|Relay_2|-|On/Off display#3
+D4|02|Relay_3|-|On/Off display#2
+D5|14|Relay_4|-|On/Off display#1
+D6|12|Relay_5|backligh|On/Off backlight
 
 **Best regards,   
 TrDA.**
