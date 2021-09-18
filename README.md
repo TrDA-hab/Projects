@@ -22,7 +22,7 @@
 5. Support for Servo:
    - x2 Servo
 6. AS5600 Position Sensor.
-7. I2C protocol:
+7. I2C protocol.
 8. Home ventilation.
 9. E-PAPER (E-INK).
 10. Control the AC / DC motor using Sonoff 4ch pro.
