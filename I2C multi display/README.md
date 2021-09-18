@@ -1,4 +1,4 @@
-## 0. About using SPI multi display.   
+## 0. About using I2C multi display.   
  - [How to use I2C bus](https://github.com/arendst/Tasmota/discussions/10827).  
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
@@ -20,16 +20,16 @@ https://youtu.be/zgQKJD9gmQw
 ## 2. How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
-   `Interlock 1, 2,3` //Group Relay1 in "group 1" and Relay2 and Relay3 in "group 2".  
+   `Interlock 1, 2,3` //Group Relay1 in "group 1" and Relay2 and Relay3 and Relay4 in "group 2".  
    `Interlock 1`     //Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton2 LCD#1; WebButton3 LCD#2; WebButton4 LCD#3; WebButton5 Light`  
- - Run the command in the console to test display`s:
+ - Run the command's in the console to test display`s:
     `Backlog Power5 0; Power2 1;Power5 1` // For run display#1  
     `Backlog Power5 0; Power3 1;Power5 1` // For run display#2  
     `Backlog Power5 0; Power4 1;Power5 1` // For run display#3  
 
-Wemos Pin|GPIO|Component|SPI display|Сomment|
+Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
 D3|00|Relay_i 3|CS#3|On/Off display#3
 D4|02|Relay_i 4|CS#2|On/Off display#2
