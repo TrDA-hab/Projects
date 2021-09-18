@@ -4,7 +4,7 @@
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
  - Tasmota has [announced](https://github.com/arendst/Tasmota/pull/11821) built-in support for multi-displays but there is no instruction on how it works today 09/18/2021. 
  - You can use any I2C display (only if supported by Tasmota).
- - You can connect a maximum of 3 I2C displays using.
+ - You can connect a maximum of 3 I2C displays.
  - You can display the same information on all displays at once (by switching on all relays) or display information individually on each display (including the corresponding relay).
  - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
 
