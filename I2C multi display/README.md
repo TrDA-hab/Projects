@@ -98,6 +98,7 @@ RX|03|Button_2|backligh|On/Off backlight
  - https://youtu.be/zgQKJD9gmQw   
  - !!!  
 
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg) 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210919_192536.jpg)  
 
