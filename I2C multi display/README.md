@@ -70,6 +70,20 @@ https://youtu.be/zgQKJD9gmQw
     `Backlog Power4 0; Power2 1; Power4 1` // For run display#2  
     `Backlog Power4 0; Power3 1; Power4 1` // For run display#3  
 
+!!!
+Rule2 
+ON button2#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON  
+ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON  
+ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON  
+Rule2 1
+
+
+Rule3   
+ON button1#state=10 DO Power4 0 ENDON  
+ON button1#state=11 DO Power4 1 ENDON  
+Rule3 1  
+!!!
+
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
 D1|05|I2C SCL|SCL|-
