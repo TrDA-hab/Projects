@@ -25,6 +25,7 @@ https://youtu.be/zgQKJD9gmQw
 
 ## 2. How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
+ - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
  - To initialize the displays, run the commands in the console:  
    `Power4 1` // To initialize display # 3  
    `Restart 1`  
@@ -32,7 +33,6 @@ https://youtu.be/zgQKJD9gmQw
    `Restart 1`  
    `Power1 2` // To initialize display # 1  
    `Restart 1`  
- - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
    `Interlock 1`     // Enable relay interlock mode.  
