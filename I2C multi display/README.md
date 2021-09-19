@@ -42,9 +42,9 @@ D6|12|Relay_4|backligh|On/Off backlight
    `Backlog Power4 0; Power2 1; Power4 1` // For run display#2.  
    `Backlog Power4 0; Power3 1; Power4 1` // For run display#3.  
 
-## 2. I2C multi display (maximal cofiguration).
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4171.jpg)  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4172.jpg)   
+## 2. I2C multi display (maximal cofiguration).   
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4171.jpg)   
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4172.jpg)    
 
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
