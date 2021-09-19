@@ -65,7 +65,7 @@ RX|03|Button_2|backligh|On/Off backlight
    `Power3 1`  // To initialize display # 3.  
    `Restart 1` // Restart Tasmota.  
    `Power2 1`  // To initialize display # 2.  
-   `Restart 1` // Restart Tasmota.
+   `Restart 1` // Restart Tasmota.  
    `Power1 2`  // To initialize display # 1.  
    `Restart 1` // Restart Tasmota.   
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
