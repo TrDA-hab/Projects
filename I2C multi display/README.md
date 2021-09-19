@@ -37,7 +37,7 @@ D6|12|Relay_4|backligh|On/Off backlight
    `Restart 1`  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `SetOption73 ON`  // Enable detach buttons from relays.  
-   `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
+   `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1" (only one display can work at a time).  
    `Interlock 1`     // Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton1 LCD#1; WebButton2 LCD#2; WebButton3 LCD#3; WebButton4 Light`  
@@ -76,7 +76,7 @@ RX|03|Button_2|backligh|On/Off backlight
    `Restart 1`  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `SetOption73 ON`  // Enable detach buttons from relays.
-   `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
+   `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1" (only one display can work at a time).  
    `Interlock 1`     // Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton1 LCD#1; WebButton2 LCD#2; WebButton3 LCD#3; WebButton4 Light`  
@@ -87,15 +87,15 @@ RX|03|Button_2|backligh|On/Off backlight
  - Run the commands in the console to test displays:  
  - Assigns button#1 to Switching between displays (1x press up, 2x press down, 3x press down):
    `Rule1` 
-   `ON button2#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON`  
-   `ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON`  
-   `ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON`  
-   `Rule1 1`  
+   `ON button2#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON`  // 1x press up to run display#1.    
+   `ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON`  // 3x press up to run display#2.      
+   `ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON`  // 3x press up to run display#5.      
+   `Rule1 1`  // Enable Rule1.  
  - Assigns button#2 to On/Off Display backlight (1x press up, 2x press down):
    `Rule2`   
-   `ON button1#state=10 DO Power4 0 ENDON`  
-   `ON button1#state=11 DO Power4 1 ENDON`  
-   `Rule2 1`  
+   `ON button1#state=10 DO Power4 0 ENDON`  // 1x press up to OFF Display backlight.  
+   `ON button1#state=11 DO Power4 1 ENDON`  // 2x press up to ON Display backlight.  
+   `Rule2 1` // Enable Rule2.  
 
 ## 3. Practical use.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
