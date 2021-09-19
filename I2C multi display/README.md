@@ -10,7 +10,7 @@
  - You can connect a maximum of 3 I2C displays.
  - You can only send information to one display currently active (including the corresponding relay).  
  - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
- - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**  
+ - **Caution!!! Displays must be initialized every time the ESP8266 is powered off/on.**  
 
 ## 1. I2C multi display (minimal cofiguration).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
@@ -27,7 +27,7 @@ D6|12|Relay_4|backligh|On/Off backlight
 
 ## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
- - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
+ - **Caution!!! Displays must be initialized every time the ESP8266 is powered off/on.**
  - To initialize the displays, run the commands in the console:  
    `Backlog Power3 1; Power4 1; Restart 1`  // To initialize display#3 and restart Tasmota.  
    `Backlog Power2 1; Power4 1; Restart 1`  // To initialize display#2 and restart Tasmota.    
@@ -60,7 +60,7 @@ RX|03|Button_2|backligh|On/Off backlight
 
 ## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
- - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
+ - **Caution!!! Displays must be initialized every time the ESP8266 is powered off/on.**
  - To initialize the displays, run the commands in the console:  
    `Backlog Power3 1; Power4 1; Restart 1`  // To initialize display#3 and restart Tasmota.  
    `Backlog Power2 1; Power4 1; Restart 1`  // To initialize display#2 and restart Tasmota.  
