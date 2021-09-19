@@ -29,7 +29,7 @@ D6|12|Relay_4|backligh|On/Off backlight
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
  - To initialize the displays, run the commands in the console:  
-   `Power4 1` // To initialize display # 3  
+   `Power3 1` // To initialize display # 3  
    `Restart 1`  
    `Power2 1` // To initialize display # 2  
    `Restart 1`  
@@ -68,7 +68,7 @@ RX|03|Button_2|backligh|On/Off backlight
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
  - To initialize the displays, run the commands in the console:  
-   `Power4 1` // To initialize display # 3.  
+   `Power3 1` // To initialize display # 3.  
    `Restart 1`  
    `Power2 1` // To initialize display # 2.  
    `Restart 1`  
