@@ -31,7 +31,7 @@ D6|12|Relay_4|backligh|On/Off backlight
  - To initialize the displays, run the commands in the console:  
    `Backlog Power3 1; Power4 1; Restart 1`  // To initialize display#3 and restart Tasmota.  
    `Backlog Power2 1; Power4 1; Restart 1`  // To initialize display#2 and restart Tasmota.    
-   `Backlog Power2 1; Power4 1; Restart 1`  // To initialize display#1 and restart Tasmota.    
+   `Backlog Power1 1; Power4 1; Restart 1`  // To initialize display#1 and restart Tasmota.    
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `SetOption73 ON`  // Enable detach buttons from relays.  
    `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1" (only one display can work at a time).  
