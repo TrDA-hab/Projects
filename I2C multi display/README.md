@@ -13,6 +13,9 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4162.jpg)   
 
+### Video of the display`s work:   
+https://youtu.be/zgQKJD9gmQw   
+
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
 D1|05|I2C SCL|SCL|-
@@ -43,11 +46,11 @@ D6|12|Relay_4|backligh|On/Off backlight
    `Backlog Power4 0; Power2 1; Power4 1` // For run display#2.  
    `Backlog Power4 0; Power3 1; Power4 1` // For run display#3.  
 
-### 2. I2C multi display (maximal cofiguration).
+## 2. I2C multi display (maximal cofiguration).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4171.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4172.jpg)   
 
-#### Video of the display`s work:   
+### Video of the display`s work:   
 https://youtu.be/zgQKJD9gmQw   
 
 Wemos Pin|GPIO|Component|I2C display|Сomment|
@@ -94,7 +97,7 @@ RX|03|Button_2|backligh|On/Off backlight
    `ON button1#state=11 DO Power4 1 ENDON`  
    `Rule2 1`  
 
-3. Practical use.
+## 3. Practical use.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
 
