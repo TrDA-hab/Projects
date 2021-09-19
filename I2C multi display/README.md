@@ -31,7 +31,7 @@ D6|12|Relay_4|backligh|On/Off backlight
    `Power2 1`  // To initialize display # 2  
    `Restart 1` // Restart Tasmota.  
    `Power1 2`  // To initialize display # 1  
-   `Restart 1`  
+   `Restart 1` // Restart Tasmota.    
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `SetOption73 ON`  // Enable detach buttons from relays.  
    `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1" (only one display can work at a time).  
@@ -69,7 +69,7 @@ RX|03|Button_2|backligh|On/Off backlight
    `Power1 2`  // To initialize display # 1.  
    `Restart 1` // Restart Tasmota.   
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
-   `SetOption73 ON`  // Enable detach buttons from relays.
+   `SetOption73 ON`  // Enable detach buttons from relays.  
    `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1" (only one display can work at a time).  
    `Interlock 1`     // Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
@@ -85,7 +85,7 @@ RX|03|Button_2|backligh|On/Off backlight
    `ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON`  // 3x press up to run display#2.      
    `ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON`  // 3x press up to run display#5.      
    `Rule1 1`  // Enable Rule1.  
- - Assigns button#2 to On/Off Display backlight (1x press up, 2x press down):
+ - Assigns button#2 to On/Off Display backlight (1x press up, 2x press down):   
    `Rule2`   
    `ON button1#state=10 DO Power4 0 ENDON`  // 1x press up to OFF Display backlight.  
    `ON button1#state=11 DO Power4 1 ENDON`  // 2x press up to ON Display backlight.  
