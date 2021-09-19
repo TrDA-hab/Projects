@@ -70,12 +70,20 @@ https://youtu.be/zgQKJD9gmQw
     `Backlog Power4 0; Power2 1; Power4 1` // For run display#2  
     `Backlog Power4 0; Power3 1; Power4 1` // For run display#3  
 
+
+SetOption73 ON  
+
 !!!
+Rule1   
+ON system#boot DO Backlog Power1 1 ENDON   
+Rule1 1  
+
+
 Rule2 
 ON button2#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON  
 ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON  
 ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON  
-Rule2 1
+Rule2 1  
 
 
 Rule3   
