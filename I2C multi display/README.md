@@ -27,7 +27,7 @@ https://youtu.be/zgQKJD9gmQw
    `Restart 1`  
    `Power1 2` // To initialize display # 1  
    `Restart 1`  
- - **Caution: Displays must be initialized every time the ESP8266 is powered off.**
+ - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
    `Interlock 1`     // Enable relay interlock mode.  
