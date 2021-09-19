@@ -29,23 +29,23 @@ https://youtu.be/zgQKJD9gmQw
    `Restart 1`  
  - **Caution: Displays must be initialized every time the ESP8266 is powered off.**
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
-   `Interlock 1, 2,3,4` // Group Relay1 in "group 1" and Relay2 and Relay3 and Relay4 in "group 2".  
+   `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
    `Interlock 1`     // Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
-   `Backlog WebButton2 LCD#1; WebButton3 LCD#2; WebButton4 LCD#3; WebButton5 Light`  
+   `Backlog WebButton1 LCD#1; WebButton2 LCD#2; WebButton3 LCD#3; WebButton4 Light`  
  - Run the commands in the console to test displays:  
-    `Backlog Power5 0; Power2 1;Power5 1` // For run display#1  
-    `Backlog Power5 0; Power3 1;Power5 1` // For run display#2  
-    `Backlog Power5 0; Power4 1;Power5 1` // For run display#3  
+    `Backlog Power4 0; Power1 1; Power4 1` // For run display#1  
+    `Backlog Power4 0; Power2 1; Power4 1` // For run display#2  
+    `Backlog Power4 0; Power3 1; Power4 1` // For run display#3  
 
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
 D1|05|I2C SCL|SCL|-
 D2|12|I2C SDA|SDA|-
-D3|00|Relay_2|-|On/Off display#3
-D4|02|Relay_3|-|On/Off display#2
-D5|14|Relay_4|-|On/Off display#1
-D6|12|Relay_5|backligh|On/Off backlight
+D3|00|Relay_1|-|On/Off display#1
+D4|02|Relay_2|-|On/Off display#2
+D5|14|Relay_3|-|On/Off display#3
+D6|12|Relay_4|backligh|On/Off backlight
 
 **Best regards,   
 TrDA.**
