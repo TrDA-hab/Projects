@@ -12,26 +12,6 @@
 ## 1. I2C multi display (minimal cofiguration).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4162.jpg)   
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)   
-## How to use it.  
- - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
- - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
- - To initialize the displays, run the commands in the console:  
-   `Power4 1` // To initialize display # 3  
-   `Restart 1`  
-   `Power2 1` // To initialize display # 2  
-   `Restart 1`  
-   `Power1 2` // To initialize display # 1  
-   `Restart 1`  
- - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
-   `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
-   `Interlock 1`     // Enable relay interlock mode.  
- - Run the command in the console to modify the interface (optional):   
-   `Backlog WebButton1 LCD#1; WebButton2 LCD#2; WebButton3 LCD#3; WebButton4 Light`  
- - Run the commands in the console to test displays:  
-    `Backlog Power4 0; Power1 1; Power4 1` // For run display#1  
-    `Backlog Power4 0; Power2 1; Power4 1` // For run display#2  
-    `Backlog Power4 0; Power3 1; Power4 1` // For run display#3  
 
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
@@ -42,14 +22,6 @@ D4|02|Relay_2|-|On/Off display#2
 D5|14|Relay_3|-|On/Off display#3
 D6|12|Relay_4|backligh|On/Off backlight
 
-### 2. I2C multi display (maximal cofiguration).
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4171.jpg)  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4172.jpg)   
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
-
-#### Video of the display`s work:   
-https://youtu.be/zgQKJD9gmQw   
-
 ## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
@@ -61,36 +33,22 @@ https://youtu.be/zgQKJD9gmQw
    `Power1 2` // To initialize display # 1  
    `Restart 1`  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
+   `SetOption73 ON`  // Enable detach buttons from relays.  
    `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
    `Interlock 1`     // Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton1 LCD#1; WebButton2 LCD#2; WebButton3 LCD#3; WebButton4 Light`  
  - Run the commands in the console to test displays:  
-    `Backlog Power4 0; Power1 1; Power4 1` // For run display#1  
-    `Backlog Power4 0; Power2 1; Power4 1` // For run display#2  
-    `Backlog Power4 0; Power3 1; Power4 1` // For run display#3  
+   `Backlog Power4 0; Power1 1; Power4 1` // For run display#1.  
+   `Backlog Power4 0; Power2 1; Power4 1` // For run display#2.  
+   `Backlog Power4 0; Power3 1; Power4 1` // For run display#3.  
 
+### 2. I2C multi display (maximal cofiguration).
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4171.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4172.jpg)   
 
-SetOption73 ON  
-
-!!!
-Rule1   
-ON system#boot DO Backlog Power1 1 ENDON   
-Rule1 1  
-
-
-Rule2 
-ON button2#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON  
-ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON  
-ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON  
-Rule2 1  
-
-
-Rule3   
-ON button1#state=10 DO Power4 0 ENDON  
-ON button1#state=11 DO Power4 1 ENDON  
-Rule3 1  
-!!!
+#### Video of the display`s work:   
+https://youtu.be/zgQKJD9gmQw   
 
 Wemos Pin|GPIO|Component|I2C display|Сomment|
 :-:|:-:|:-:|:-:|:-:
@@ -101,7 +59,44 @@ D4|02|Relay_2|-|On/Off display#2
 D5|14|Relay_3|-|On/Off display#3
 D6|12|Relay_4|backligh|On/Off backlight
 TX|01|Button_1|-|Switching between displays
-RX|03|Button_2|backligh|On/Off backlight
+RX|03|Button_2|backligh|On/Off backlight  
+
+## How to use it.  
+ - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
+ - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
+ - To initialize the displays, run the commands in the console:  
+   `Power4 1` // To initialize display # 3.  
+   `Restart 1`  
+   `Power2 1` // To initialize display # 2.  
+   `Restart 1`  
+   `Power1 2` // To initialize display # 1.  
+   `Restart 1`  
+ - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
+   `SetOption73 ON`  // Enable detach buttons from relays.
+   `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1".  
+   `Interlock 1`     // Enable relay interlock mode.  
+ - Run the command in the console to modify the interface (optional):   
+   `Backlog WebButton1 LCD#1; WebButton2 LCD#2; WebButton3 LCD#3; WebButton4 Light`  
+ - Run the commands in the console to test displays:  
+   `Backlog Power4 0; Power1 1; Power4 1` // For run display#1.  
+   `Backlog Power4 0; Power2 1; Power4 1` // For run display#2.  
+   `Backlog Power4 0; Power3 1; Power4 1` // For run display#3.  
+ - Run the commands in the console to test displays:  
+ - Assigns button#1 to Switching between displays (1x press up, 2x press down, 3x press down):
+   `Rule1` 
+   `ON button2#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON`  
+   `ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON`  
+   `ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON`  
+   `Rule1 1`  
+ - Assigns button#2 to On/Off Display backlight (1x press up, 2x press down):
+   `Rule2`   
+   `ON button1#state=10 DO Power4 0 ENDON`  
+   `ON button1#state=11 DO Power4 1 ENDON`  
+   `Rule2 1`  
+
+3. Practical use.
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
 
 **Best regards,   
 TrDA.**
