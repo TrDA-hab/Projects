@@ -10,6 +10,7 @@
  - You can connect a maximum of 3 I2C displays.
  - You can only send information to one display currently active (including the corresponding relay).  
  - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
+ - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**  
 
 ## 1. I2C multi display (minimal cofiguration).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
