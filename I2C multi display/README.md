@@ -89,8 +89,8 @@ RX|03|Button_2|backligh|On/Off backlight
 
 ## 3. Practical use.  
 ### Video of the display`s work:   
- - https://youtu.be/zgQKJD9gmQw   
- - !!!  
+ - [Video#1](https://youtu.be/zgQKJD9gmQw).   
+ - [Video#2](https://youtu.be/Cm0D1HlTeSg).  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210919_193223.jpg) 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
