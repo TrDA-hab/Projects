@@ -26,11 +26,11 @@ D6|12|Relay_4|backligh|On/Off backlight
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
  - To initialize the displays, run the commands in the console:  
-   `Power3 1` // To initialize display # 3  
-   `Restart 1`  
-   `Power2 1` // To initialize display # 2  
-   `Restart 1`  
-   `Power1 2` // To initialize display # 1  
+   `Power3 1`  // To initialize display # 3  
+   `Restart 1` // Restart Tasmota.   
+   `Power2 1`  // To initialize display # 2  
+   `Restart 1` // Restart Tasmota.  
+   `Power1 2`  // To initialize display # 1  
    `Restart 1`  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `SetOption73 ON`  // Enable detach buttons from relays.  
@@ -62,12 +62,12 @@ RX|03|Button_2|backligh|On/Off backlight
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - **Caution: Displays must be initialized every time the ESP8266 is powered off/on.**
  - To initialize the displays, run the commands in the console:  
-   `Power3 1` // To initialize display # 3.  
-   `Restart 1`  
-   `Power2 1` // To initialize display # 2.  
-   `Restart 1`  
-   `Power1 2` // To initialize display # 1.  
-   `Restart 1`  
+   `Power3 1`  // To initialize display # 3.  
+   `Restart 1` // Restart Tasmota.  
+   `Power2 1`  // To initialize display # 2.  
+   `Restart 1` // Restart Tasmota.
+   `Power1 2`  // To initialize display # 1.  
+   `Restart 1` // Restart Tasmota.   
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `SetOption73 ON`  // Enable detach buttons from relays.
    `Interlock 1,2,3` // Group Relay1 and Relay2 and Relay3 in "group 1" (only one display can work at a time).  
@@ -93,7 +93,9 @@ RX|03|Button_2|backligh|On/Off backlight
 
 ## 3. Practical use.  
 ### Video of the display`s work:   
-https://youtu.be/zgQKJD9gmQw   
+ - https://youtu.be/zgQKJD9gmQw   
+ - !!!  
+
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
 
