@@ -15,6 +15,11 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4162.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)   
 
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4171.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4172.jpg)   
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
+
 #### Video of the display`s work:   
 https://youtu.be/zgQKJD9gmQw   
 
