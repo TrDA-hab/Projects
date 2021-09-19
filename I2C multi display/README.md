@@ -10,12 +10,12 @@
  - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
 
 ## 1. I2C multi display.
-
+### 1.1. Minimal cjofiguration.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4162.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)   
 
-
+### 1.2. Miximal cjofiguration.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4171.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4172.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/20210918_152007.jpg)  
