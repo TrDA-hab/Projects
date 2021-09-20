@@ -19,9 +19,9 @@ https://youtu.be/MSbM2clI2aU
 
 ## 2. How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
- - Make all the necessary settings necessary for your display to function.
+ - Make all the necessary settings necessary for your display to function.  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
-   `SetOption73 ON` // Enable detach buttons from relays.
+   `SetOption73 ON` // Enable detach buttons from relays.  
    `Interlock 1,2,3` //Group Relay1 and Relay2 and Relay3 in "group 1".  
    `Interlock 1`     //Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
@@ -30,7 +30,6 @@ https://youtu.be/MSbM2clI2aU
    `Backlog Power1 1; DisplayText [z]; DisplayText [f0s2x2y2tS]` // For run display#1.  
    `Backlog Power2 1; DisplayText [z]; DisplayText [f0s2x2y2tS]` // For run display#2.  
    `Backlog Power3 1; DisplayText [z]; DisplayText [f0s2x2y2tS]` // For run display#3.  
-
 
 Wemos Pin|GPIO|Component|SPI display|Сomment|
 :-:|:-:|:-:|:-:|:-:
