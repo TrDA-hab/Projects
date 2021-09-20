@@ -1,13 +1,14 @@
 ## 0. About using I2C multi display.   
  - [How to use I2C bus](https://github.com/arendst/Tasmota/discussions/10827).  
- - [Adafruit info about using 74HC138](https://learn.adafruit.com/delorean-time-circuit/circuit-trickery).
+ - Adafruit info [about using 74HC138](https://learn.adafruit.com/delorean-time-circuit/circuit-trickery).  
+ - 74hc138 [datasheet](https://static.chipdip.ru/lib/935/DOC011935338.pdf).   
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
  - Tasmota [use Buttons](https://tasmota.github.io/docs/Buttons-and-Switches/#button).   
  - Tasmota [use Rules](https://tasmota.github.io/docs/Rules/).    
  - Tasmota has [announced](https://github.com/arendst/Tasmota/pull/11821) built-in support for multi-displays but there is no instruction on how it works today 09/18/2021. 
  - You can use any I2C display (only if supported by Tasmota).
- - You can connect a maximum of 3 I2C displays.
+ - You can connect x3 I2C displays (or up to x8 maximum, if you modify the circuit).
  - You can only send information to one display currently active (including the corresponding relay).  
  - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
  - **Caution!!! Displays must be initialized every time the ESP8266 is powered off/on.**  
