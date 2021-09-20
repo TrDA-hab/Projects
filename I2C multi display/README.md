@@ -13,7 +13,9 @@
    - or up to x8 maximum, if you modify the circuit (if you are using ESP32).   
  - You can only send information to one display currently active (including the corresponding relay).  
  - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
- - **Caution!!! Displays must be initialized every time the ESP8266 is powered off/on.**  
+ - **!!!Caution!!!** 
+   - Displays must be initialized every time the ESP8266/ESP32 is powered off/on.  
+   - After Hardware or Software Reset, all display settings are saved.**  
 
 ## 1. I2C multi display (minimal cofiguration).  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
