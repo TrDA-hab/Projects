@@ -27,11 +27,11 @@ https://youtu.be/MSbM2clI2aU
  - Run the command in the console to modify the interface (optional):   
    `Backlog WebButton1 E-PAPER#1; WebButton2 E-PAPER#2; WebButton3 E-PAPER#3`  
  - Run commands in the console for test Display:    
-   `Backlog Power1 1; DisplayText [z]  // For run display#1.  
+   `Backlog Power1 1; DisplayText [z]`  // For run display#1.  
    `DisplayText [f0s2x2y2tS]`    // Print text on display#1.  
-   `Backlog Power2 1; DisplayText [z]  // For run display#2.  
+   `Backlog Power2 1; DisplayText [z]`  // For run display#2.  
    `DisplayText [f0s2x2y2tS]`    // Print text on display#2.   
-   `Backlog Power3 1; DisplayText [z]  // For run display#3.  
+   `Backlog Power3 1; DisplayText [z]`  // For run display#3.  
    `DisplayText [f0s2x2y2tS]`    // Print text on display#3.   
 
 Wemos Pin|GPIO|Component|SPI display|Сomment|
