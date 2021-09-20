@@ -1,7 +1,7 @@
 ## 0. About using I2C multi display.   
  - [How to use I2C bus](https://github.com/arendst/Tasmota/discussions/10827).  
  - Adafruit info [about using 74HC138](https://learn.adafruit.com/delorean-time-circuit/circuit-trickery).  
- - 74hc138 [datasheet](https://static.chipdip.ru/lib/935/DOC011935338.pdf) (High-Speed CMOS Logic 3- to 8- Line Demultiplexer).   
+ - 74hc138 datasheet [1](https://static.chipdip.ru/lib/935/DOC011935338.pdf) , [2](https://www.diodes.com/assets/Datasheets/74HC138.pdf) (High-Speed CMOS Logic 3- to 8- Line Demultiplexer).   
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
  - Tasmota [use Buttons](https://tasmota.github.io/docs/Buttons-and-Switches/#button).   
