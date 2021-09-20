@@ -23,6 +23,7 @@ https://youtu.be/MSbM2clI2aU
  - Run commands in the console for test Display:    
    `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]`  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
+   `SetOption73 ON` // Enable detach buttons from relays.
    `Interlock 1,2,3` //Group Relay1 and Relay2 and Relay3 in "group 1".  
    `Interlock 1`     //Enable relay interlock mode.  
  - Run the command in the console to modify the interface (optional):   
