@@ -8,7 +8,9 @@
  - Tasmota [use Rules](https://tasmota.github.io/docs/Rules/).    
  - Tasmota has [announced](https://github.com/arendst/Tasmota/pull/11821) built-in support for multi-displays but there is no instruction on how it works today 09/18/2021. 
  - You can use any I2C display (only if supported by Tasmota).
- - You can connect x3 I2C displays (or up to x8 maximum, if you modify the circuit).
+ - You can connect x3 I2C displays.  
+   - or up to x6 maximum, if you modify the circuit (if you are using ESP8266). 
+   - or up to x8 maximum, if you modify the circuit (if you are using ESP32).   
  - You can only send information to one display currently active (including the corresponding relay).  
  - The display backlight can only be controlled on the active display. The inactive display saves the display subgrid state.  
  - **Caution!!! Displays must be initialized every time the ESP8266 is powered off/on.**  
