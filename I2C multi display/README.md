@@ -24,7 +24,7 @@ D2|12|I2C SDA|SDA|-
 D3|00|Relay_1|-|On/Off display#1
 D4|02|Relay_2|-|On/Off display#2
 D5|14|Relay_3|-|On/Off display#3
-D6|12|Relay_4|backligh|On/Off backlight
+N/C|-|Relay_4|backligh|On/Off backlight
 
 ## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
@@ -55,7 +55,7 @@ D2|12|I2C SDA|SDA|-
 D3|00|Relay_1|-|On/Off display#1
 D4|02|Relay_2|-|On/Off display#2
 D5|14|Relay_3|-|On/Off display#3
-D6|12|Relay_4|backligh|On/Off backlight
+N/C|-|Relay_4|backligh|On/Off backlight
 TX|01|Button_1|-|Switching between displays
 RX|03|Button_2|backligh|On/Off backlight  
 
