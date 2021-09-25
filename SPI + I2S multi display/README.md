@@ -8,7 +8,7 @@
  - You can display the same information on all displays at once (by switching on all relays) or display information individually on each display (including the corresponding relay).
  -  Step by step [instructions for E-Paper Display](https://github.com/arendst/Tasmota/discussions/11850).  
 
-## 1. SPI multi display.
+## 1. SPI + I2C multi display.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4181.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4182.jpg)   
@@ -35,14 +35,13 @@ https://youtu.be/MSbM2clI2aU
    `Backlog Power3 1; DisplayText [z]`  // For run display#3.  
    `DisplayText [f0s2x2y2tS]`    // Print text on display#3.   
 
-Wemos Pin|GPIO|Component|SPI display|Сomment|
-:-:|:-:|:-:|:-:|:-:
-D3|00|Relay_i 1|CS#1|On/Off display#1
-D4|02|Relay_i 2|CS#2|On/Off display#2
-D5|14|Relay_i 3|CS#3|On/Off display#3
-D6|12|SSPI MOSI|DIN|-
-D7|13|SSPI SCLK|CKL|-
-D8|15|EPaper29 CS|-|virtual pin
+ESP32 GPIO|Component|SPI display|SPI display|
+:-:|:-:|:-:|:-:
+21|I2C SDA 1|SDA|-
+22|I2C SCL 2|SCL|-
+13|SSPI MOSI|-|DIN
+183|SSPI SCLK|-|CKL
+05|EPaper29 CS|-|CS
 
 **Best regards,   
 TrDA.**
