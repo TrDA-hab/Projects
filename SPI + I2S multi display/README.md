@@ -40,7 +40,7 @@ ESP32 GPIO|Component|SPI display|SPI display|
 21|I2C SDA 1|SDA|-
 22|I2C SCL 2|SCL|-
 13|SSPI MOSI|-|DIN
-183|SSPI SCLK|-|CKL
+18|SSPI SCLK|-|CKL
 05|EPaper29 CS|-|CS
 
 **Best regards,   
