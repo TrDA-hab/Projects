@@ -3,8 +3,6 @@
  -  Step by step [instructions for E-Paper Display](https://github.com/arendst/Tasmota/discussions/11850).  
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
- 
- - You can use any SPI display that uses a 3-wire SPI bus. 4-wire SPI bus - not tested, but should work too (only they are supported by Tasmota).
  - You can display the same information on all displays at once or display information individually on each display.
 
 ## 1. SPI + I2C multi display.
@@ -15,24 +13,10 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210925_203145.jpg)   
 
 #### Video of the display`s work:   
-https://youtu.be/MSbM2clI2aU   
+https://youtu.be/DtdU9AR7CBk   
 
 ## 2. How to use it.  
- - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
- - Make all the necessary settings necessary for your display to function.  
- - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
-   `SetOption73 ON` // Enable detach buttons from relays.  
-   `Interlock 1,2,3` //Group Relay1 and Relay2 and Relay3 in "group 1".  
-   `Interlock 1`     //Enable relay interlock mode.  
- - Run the command in the console to modify the interface (optional):   
-   `Backlog WebButton1 E-PAPER#1; WebButton2 E-PAPER#2; WebButton3 E-PAPER#3`  
- - Run commands in the console for test Display:    
-   `Backlog Power1 1; DisplayText [z]`  // For run display#1.  
-   `DisplayText [f0s2x2y2tS]`    // Print text on display#1.  
-   `Backlog Power2 1; DisplayText [z]`  // For run display#2.  
-   `DisplayText [f0s2x2y2tS]`    // Print text on display#2.   
-   `Backlog Power3 1; DisplayText [z]`  // For run display#3.  
-   `DisplayText [f0s2x2y2tS]`    // Print text on display#3.   
+ - very soon !!! 
 
 ESP32 GPIO|Component|SPI display|SPI display|
 :-:|:-:|:-:|:-:
