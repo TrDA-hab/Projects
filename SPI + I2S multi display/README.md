@@ -13,7 +13,7 @@
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4181.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4182.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4183.jpg)    
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210925_203145.jpg)   
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210925_203145.jpg)   
 
 #### Video of the display`s work:   
 https://youtu.be/MSbM2clI2aU   
