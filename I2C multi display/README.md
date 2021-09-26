@@ -82,14 +82,14 @@ RX|03|Button_2|backligh|On/Off backlight
    `Backlog Power4 0; Power3 1; Power4 1` // For run display#3.  
  - Assigns button#1 to Switching between displays (1x press up, 2x press down, 3x press down):
    `Rule1` 
-   `ON button2#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON`  // 1x press up to run display#1.    
-   `ON button2#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON`  // 3x press up to run display#2.      
-   `ON button2#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON`  // 3x press up to run display#5.      
+   `ON button1#state=10 DO Backlog Power4 0; Power1 1; Power4 1 ENDON`  // 1x press up to run display#1.    
+   `ON button1#state=11 DO Backlog Power4 0; Power2 1; Power4 1 ENDON`  // 3x press up to run display#2.      
+   `ON button1#state=12 DO Backlog Power4 0; Power3 1; Power4 1 ENDON`  // 3x press up to run display#5.      
    `Rule1 1`  // Enable Rule1.  
  - Assigns button#2 to On/Off Display backlight (1x press up, 2x press down):   
    `Rule2`   
-   `ON button1#state=10 DO Power4 0 ENDON`  // 1x press up to OFF Display backlight.  
-   `ON button1#state=11 DO Power4 1 ENDON`  // 2x press up to ON Display backlight.  
+   `ON button2#state=10 DO Power4 0 ENDON`  // 1x press up to OFF Display backlight.  
+   `ON button2#state=11 DO Power4 1 ENDON`  // 2x press up to ON Display backlight.  
    `Rule2 1` // Enable Rule2.  
 
 ## 3. Practical use.  
