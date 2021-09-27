@@ -16,6 +16,13 @@
    - Displays must be initialized every time the ESP8266/ESP32 is powered off/on.  
    - After Hardware or Software Reset, all display settings are saved.**  
 
+## Other projects where multi display is used::
+ - Tasmota [SPI multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13161).  
+ - Tasmota [SPI+I2C multi display (software mode)](https://github.com/arendst/Tasmota/discussions/13222).  
+ - [Multiple displays on the I2C bus](https://www.youtube.com/watch?v=E9FTQyBYwAE).  
+ - [8 Multiplexed OLED /w ESP32 and U8g2](https://www.youtube.com/watch?v=aMgIxXwtHbw).  
+ - [SPI OLED multiple displays with an Arduino](https://youtu.be/YCkFFtVEEG4).  
+
 ## 1. I2C multi display (minimal cofiguration).  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4162.jpg)   
