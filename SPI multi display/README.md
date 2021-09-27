@@ -60,9 +60,9 @@ https://youtu.be/MSbM2clI2aU
 
 Wemos Pin|GPIO|Component|SPI display|Сomment|
 :-:|:-:|:-:|:-:|:-:
-D3|00|Relay_i 1|CS#1|On/Off display#1
-D4|02|Relay_i 2|CS#2|On/Off display#2
-D5|14|Relay_i 3|CS#3|On/Off display#3
+D3|00|Relay_i 1|SS#1|On/Off display#1
+D4|02|Relay_i 2|SS#2|On/Off display#2
+D5|14|Relay_i 3|SS#3|On/Off display#3
 D6|12|SSPI MOSI|DIN|-
 D7|13|SSPI SCLK|CKL|-
 D8|15|EPaper29 CS|-|virtual pin
