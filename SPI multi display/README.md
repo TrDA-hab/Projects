@@ -8,7 +8,11 @@
  - You can display the same information on all displays at once (by switching on all relays) or display information individually on each display (including the corresponding relay).
  -  Step by step [instructions for E-Paper Display](https://github.com/arendst/Tasmota/discussions/11850).  
 
-## 1. SPI multi display.
+## 1. SPI mirror display.
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4191.jpg)  
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4192.jpg) 
+
+## 2. SPI multi display.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4151.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4152.jpg)   
@@ -17,7 +21,7 @@
 #### Video of the display`s work:   
 https://youtu.be/MSbM2clI2aU   
 
-## 2. How to use it.  
+## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - Make all the necessary settings necessary for your display to function.  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
