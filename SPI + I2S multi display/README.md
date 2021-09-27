@@ -1,6 +1,6 @@
 ## 0. About using SPI + I2C multi display (software mode).   
  - [WIKI SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).  
- -  Step by step [instructions for E-Paper Display](https://github.com/arendst/Tasmota/discussions/11850).  
+ - Step by step [instructions for E-Paper Display](https://github.com/arendst/Tasmota/discussions/11850).  
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
  - You can display the same information on all displays at once or display information individually on each display.
@@ -41,7 +41,7 @@ ESP32 GPIO|Component|SPI display|SPI display|
 - `SSD1306 (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
 - `E-Papper (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
 
-**For your information only.**
+**!!! For your information only. !!!**
 
 **Best regards,   
 TrDA.**
