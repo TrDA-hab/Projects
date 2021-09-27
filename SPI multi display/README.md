@@ -10,7 +10,8 @@
 
 ## 1. SPI mirror display.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4191.jpg)  
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4192.jpg) 
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4192.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210917_191722.jpg) 
 
 ## 2. SPI multi display.
 
