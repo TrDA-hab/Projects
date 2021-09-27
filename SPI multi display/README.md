@@ -2,6 +2,8 @@
  - [WIKI SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).  
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
+ - Tasmota [use Buttons](https://tasmota.github.io/docs/Buttons-and-Switches/#button).   
+ - Tasmota [use Rules](https://tasmota.github.io/docs/Rules/).    
  - Step by step [instructions for E-Paper Display](https://github.com/arendst/Tasmota/discussions/11850).  
  - You can use any SPI display that uses a 3-wire SPI bus. 4-wire SPI bus - not tested, but should work too (only they are supported by Tasmota).
  - You can connect a maximum of 8 displays using the ESP8266, or more using the ESP32.  
