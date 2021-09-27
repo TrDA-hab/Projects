@@ -11,13 +11,28 @@
 ## 1. SPI mirror display.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4191.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4192.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210917_191722.jpg) 
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210927_164541.jpg) 
 
 ## 2. SPI multi display.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4151.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4152.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210917_191722.jpg)   
+
+## How to use it.  
+ - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
+ - Make all the necessary settings necessary for your display to function.  
+ - Run commands in the console for test Displays:    
+  `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]; DisplayText [f0s2x2y22tS]; DisplayText [f0s2x2y42tS];`  
+  `DisplayText [f0s2x2y62tS]; DisplayText [f0s2x2y82tS]; DisplayText [f0s2x2y102tS]; DisplayText [f0s2x2y122tS];`  
+  `DisplayText [f0s2x2y142tS]; DisplayText [f0s2x2y162tS]; DisplayText [f0s2x2y182tS]; DisplayText [f0s2x2y202tS];`  
+  `DisplayText [f0s2x2y222tS]; DisplayText [f0s2x2y242tS]; DisplayText [f0s2x2y262tS]; DisplayText [f0s2x2y282tS]`  
+
+Wemos Pin|GPIO|Component|SPI display|Сomment|
+:-:|:-:|:-:|:-:
+D5|14|EPaper29 CS|CS
+D6|12|SSPI MOSI|DIN
+D7|13|SSPI SCLK|CKL
 
 #### Video of the display`s work:   
 https://youtu.be/MSbM2clI2aU   
