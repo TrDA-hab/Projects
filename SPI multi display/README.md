@@ -12,7 +12,7 @@
    - or display information individually on each display (including the corresponding relay);  
    - or use mirror display.  
 
-## Other projects where multi display is used::
+## Other projects where multi display is used:
  - Tasmota [I2C multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13166).  
  - Tasmota [SPI+I2C multi display (software mode)](https://github.com/arendst/Tasmota/discussions/13222).  
  - [Multiple displays on the I2C bus](https://www.youtube.com/watch?v=E9FTQyBYwAE).  
