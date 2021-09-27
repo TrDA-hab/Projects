@@ -41,7 +41,7 @@ ESP32 GPIO|Component|SPI display|SPI display|
 - `SSD1306 (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
 - `E-Papper (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
 
-**!!! For your information only. !!!**
+**!!! For your information only !!!**
 
 **Best regards,   
 TrDA.**
