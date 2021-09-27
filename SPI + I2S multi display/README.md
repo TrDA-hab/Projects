@@ -34,7 +34,7 @@ ESP32 GPIO|Component|SPI display|SPI display|
 
 ## 2. Other variants that have been tested (09/27/2021).  
 
-**Attention: the multi-display software mode is currently in testing mode.**
+**!!! Attention: !!! the multi-display software mode is currently in testing mode.**
 
 - `E-Papper (slot 1) + SSD1306 (slot 2)` = works well.
 - `LCD1602 (slot 1) + SSD1306 (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
