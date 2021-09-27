@@ -16,7 +16,7 @@
    - Displays must be initialized every time the ESP8266/ESP32 is powered off/on.  
    - After Hardware or Software Reset, all display settings are saved.**  
 
-## Other projects where multi display is used::
+## Other projects where multi display is used:
  - Tasmota [SPI multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13161).  
  - Tasmota [SPI+I2C multi display (software mode)](https://github.com/arendst/Tasmota/discussions/13222).  
  - [Multiple displays on the I2C bus](https://www.youtube.com/watch?v=E9FTQyBYwAE).  
