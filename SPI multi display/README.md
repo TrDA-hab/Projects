@@ -16,7 +16,7 @@
 ## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
  - Make all the necessary settings necessary for your display to function.  
- - Run commands in the console for test Displays:    
+ - Run commands in the console for test mirror Display:    
   `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]; DisplayText [f0s2x2y22tS]; DisplayText [f0s2x2y42tS];`  
   `DisplayText [f0s2x2y62tS]; DisplayText [f0s2x2y82tS]; DisplayText [f0s2x2y102tS]; DisplayText [f0s2x2y122tS];`  
   `DisplayText [f0s2x2y142tS]; DisplayText [f0s2x2y162tS]; DisplayText [f0s2x2y182tS]; DisplayText [f0s2x2y202tS];`  
