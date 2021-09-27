@@ -22,7 +22,7 @@
 #### Video of the display`s work:   
 https://youtu.be/DtdU9AR7CBk   
 
-## 2. How to use it.  
+## How to use it.  
  - very soon !!! 
 
 ESP32 GPIO|Component|SPI display|SPI display|
@@ -32,6 +32,15 @@ ESP32 GPIO|Component|SPI display|SPI display|
 13|SSPI MOSI|-|DIN
 18|SSPI SCLK|-|CKL
 05|EPaper29 CS|-|CS
+
+## 2. Other variants that have been tested (09/27/2021).  
+
+1. `E-Papper (slot 1) + SSD1306 (slot 2)` = works well.
+2. `LCD1602 (slot 1) + SSD1306 (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
+3. `SSD1306 (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
+4. `E-Papper (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
+
+**For your information only.**
 
 **Best regards,   
 TrDA.**
