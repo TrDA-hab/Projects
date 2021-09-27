@@ -19,7 +19,7 @@
  - [8 Multiplexed OLED /w ESP32 and U8g2](https://www.youtube.com/watch?v=aMgIxXwtHbw).  
  - [SPI OLED multiple displays with an Arduino](https://youtu.be/YCkFFtVEEG4).  
 
-## 1. SPI mirror display.
+## 1. SPI mirror display (minimal configuration).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4191.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4192.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/20210927_164541.jpg) 
@@ -39,7 +39,7 @@ D5|14|EPaper29 CS|CS
 D6|12|SSPI MOSI|DIN
 D7|13|SSPI SCLK|CKL
 
-## 2. SPI multi display.
+## 2. SPI multi display (medium configuration).
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4151.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4152.jpg)   
@@ -74,6 +74,9 @@ D6|12|SSPI MOSI|DIN|-
 D7|13|SSPI SCLK|CKL|-
 D8|15|EPaper29 CS|-|virtual pin
 
+## 3. SPI multi display (maximum configuration).
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4202.jpg)
 
 **Best regards,   
 TrDA.**
