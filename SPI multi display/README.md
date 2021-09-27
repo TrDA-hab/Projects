@@ -12,6 +12,15 @@
    - or display information individually on each display (including the corresponding relay);  
    - or use mirror display.  
 
+## Other projects where multi display is used::
+ - Tasmota [SPI multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13161).  
+ - Tasmota [I2C multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13166).  
+ - Tasmota [SPI/I2C multi display (software mode)](https://github.com/arendst/Tasmota/discussions/13222).  
+ - Multiple displays on the I2C bus https://www.youtube.com/watch?v=E9FTQyBYwAE
+ - 8 Multiplexed OLED /w ESP32 and U8g2 https://www.youtube.com/watch?v=aMgIxXwtHbw
+ - SPI OLED multiple displays with an Arduino https://youtu.be/YCkFFtVEEG4
+
+
 ## 1. SPI mirror display.
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4191.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4192.jpg)
