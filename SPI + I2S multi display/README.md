@@ -5,7 +5,7 @@
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
  - You can display the same information on all displays at once or display information individually on each display.
 
-## Other projects where multi display is used::
+## Other projects where multi display is used:
  - Tasmota [SPI multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13161).  
  - Tasmota [I2C multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13166).  
  - Tasmota [SPI+I2C multi display (software mode)](https://github.com/arendst/Tasmota/discussions/13222).  
