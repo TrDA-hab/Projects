@@ -17,7 +17,7 @@
 
 ## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
- - Make all the necessary settings necessary for your display to function.  
+ - Make all the necessary settings for your display to function.  
  - Run commands in the console for test mirror Display:    
   `Backlog DisplayText [z]; DisplayText [f0s2x2y2tS]; DisplayText [f0s2x2y22tS]; DisplayText [f0s2x2y42tS];`  
   `DisplayText [f0s2x2y62tS]; DisplayText [f0s2x2y82tS]; DisplayText [f0s2x2y102tS]; DisplayText [f0s2x2y122tS];`  
@@ -41,7 +41,7 @@ https://youtu.be/MSbM2clI2aU
 
 ## How to use it.  
  - You must add support for display in `my_user_config.h` file, or flash our ESP8266 module with `tasmota-display.bin` file.   
- - Make all the necessary settings necessary for your display to function.  
+ - Make all the necessary settings for your display to function.  
  - Run the command in the console  to run the "Interlock" mode, for the possibility of individual output of information on displays (optional):  
    `SetOption73 ON` // Enable detach buttons from relays.  
    `Interlock 1,2,3` //Group Relay1 and Relay2 and Relay3 in "group 1".  
