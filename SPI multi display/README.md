@@ -74,5 +74,6 @@ D6|12|SSPI MOSI|DIN|-
 D7|13|SSPI SCLK|CKL|-
 D8|15|EPaper29 CS|-|virtual pin
 
+
 **Best regards,   
 TrDA.**
