@@ -29,7 +29,7 @@ https://youtu.be/DtdU9AR7CBk
 ## How to use it.  
  - very soon !!! 
 
-ESP32 GPIO|Component|SPI display|SPI display|
+ESP32 GPIO|Component|I2C display|SPI display|
 :-:|:-:|:-:|:-:
 21|I2C SDA 1|SDA|-
 22|I2C SCL 2|SCL|-
