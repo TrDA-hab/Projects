@@ -19,6 +19,8 @@
  - [Multiple displays on the I2C bus](https://www.youtube.com/watch?v=E9FTQyBYwAE).  
  - [8 Multiplexed OLED /w ESP32 and U8g2](https://www.youtube.com/watch?v=aMgIxXwtHbw).  
  - [SPI OLED multiple displays with an Arduino](https://youtu.be/YCkFFtVEEG4).  
+ - [Multiple SPI based Displays with TFT_eSPI on an esp32](https://youtu.be/cCgNHIHijhs).  
+ - [Multiple Displays with Arduino](https://youtu.be/yef23sJjiU0).  
 
 ## 1. SPI mirror display (minimal configuration).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20multi%20display/4191.jpg)  
