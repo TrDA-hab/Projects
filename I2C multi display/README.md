@@ -23,6 +23,10 @@
  - [Multiple displays on the I2C bus](https://www.youtube.com/watch?v=E9FTQyBYwAE).  
  - [8 Multiplexed OLED /w ESP32 and U8g2](https://www.youtube.com/watch?v=aMgIxXwtHbw).  
  - [SPI OLED multiple displays with an Arduino](https://youtu.be/YCkFFtVEEG4).  
+ - [Multiple SPI based Displays with TFT_eSPI on an esp32](https://youtu.be/cCgNHIHijhs).  
+ - [Multiple Displays with Arduino](https://youtu.be/yef23sJjiU0).  
+ - [Multiple OLED screens](https://youtu.be/TOMkXJWdB4w).  
+ - [Multiple OLED Displays / Multiplex TC9548](https://youtu.be/Y9OyLMUgoFk).   
 
 ## 1. I2C multi display (minimal cofiguration).  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/I2C%20multi%20display/4161.jpg)  
