@@ -44,7 +44,7 @@ ESP32 GPIO|Component|I2C display|SPI display|
 18|SSPI SCLK|-|CKL
 05|EPaper29 CS|-|CS
 
-## 2. Other variants that have been tested (09/27/2021).  
+## 2. Other variants that have been tested (09/30/2021).  
 
 **!!! Attention: !!! the multi-display software mode is currently in testing mode.**
 - `ESP8266 + ILI9341 (slot 1) + SH1106 (slot 2)` = works well (info from gemu2015).
