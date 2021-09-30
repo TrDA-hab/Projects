@@ -49,10 +49,11 @@ ESP32 GPIO|Component|I2C display|SPI display|
 
 **!!! Attention: !!! the multi-display software mode is currently in testing mode.**
 - `ESP8266 + ILI9341 (slot 1) + SH1106 (slot 2)` = works well (info from gemu2015).
+- `ESP32 + LCD1602 (slot 1) + SH1106 (slot 2) + ILI9341 (slot 3)` = works well (info from gemu2015).
 - `ESP32 + E-Papper (slot 1) + SSD1306 (slot 2)` = works well.
-- `ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
-- `ESP32 + SSD1306 (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
-- `ESP32 + E-Papper (slot 1) + E-Papper (slot 2)` = does not work, always reboot if "Script enable" and save the settings.
+- `ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2)` = works well.
+- `ESP32 + SSD1306 (slot 1) + E-Papper (slot 2)` = more tests needed.
+- `ESP32 + E-Papper (slot 1) + E-Papper (slot 2)` = more tests needed.
 
 **!!! For your information only !!!**
 
