@@ -120,7 +120,24 @@ press=BME280#Pressure
 ### 2.2 ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2).
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
-
+```arduino
+>B
+; load SD1306 driver on boot
+dt [S2/SD1306_display.ini:]
+; clear screen, switch to LCD font; set auto draw
+dt [zf1s1D1]
+; switch to display 1
+dt [S1:]
+>S
+; switch to display 2
+dt [S2:]
+; show time
+dt [x35y30tS]
+; switch back to display 1
+dt [S1:]
+; show time
+dt [x0y0tS]
+```
 
 **Best regards,   
 TrDA.**
