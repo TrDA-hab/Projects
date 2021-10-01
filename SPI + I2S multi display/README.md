@@ -136,6 +136,8 @@ dt [S1:]
 ; show time
 dt [x0y0tS]
 ```
+### 2.3 ESP32 + LCD1602 (slot 1) + SH1106 (slot 2) + ILI9341 (slot 3).
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/135485038-27a4424a-ceab-4fd4-b336-98639d72201f.jpg)   
 
 **Best regards,   
 TrDA.**
