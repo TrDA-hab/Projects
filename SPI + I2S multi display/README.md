@@ -17,7 +17,7 @@
  - [Multiple OLED screens](https://youtu.be/TOMkXJWdB4w).  
  - [Multiple OLED Displays / Multiplex TC9548](https://youtu.be/Y9OyLMUgoFk).  
 
-## 1. SPI + I2C multi display.
+## 1. SPI + I2C multi display: ESP32 + E-Papper (slot 1) + SSD1306 (slot 2) + BME280 .
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4181.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4182.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210929_193251.jpg)   
@@ -57,12 +57,12 @@ ESP32 GPIO|Component|I2C display|SPI display|
 
 **!!! For your information only !!!**
 
-### 2.1 SPI + I2C multi display (medium configuration).
+### 2.1 ESP32 + E-Papper (slot 1) + SSD1306 (slot 2).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4183.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4184.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210925_203145.jpg)   
 
-### 2.2 I2 + I2C multi display (medium configuration).
+### 2.2 ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2).
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
 
