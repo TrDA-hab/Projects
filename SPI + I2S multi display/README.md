@@ -40,14 +40,6 @@ ESP32 GPIO|Component|I2C display|SPI display|
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4184.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210925_203145.jpg)   
 
-ESP32 GPIO|Component|I2C display|SPI display|
-:-:|:-:|:-:|:-:
-21|I2C SDA 1|SDA|-
-22|I2C SCL 2|SCL|-
-13|SSPI MOSI|-|DIN
-18|SSPI SCLK|-|CKL
-05|EPaper29 CS|-|CS
-
 ### 1.3. How to use it.  
  - very soon !!!    
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/001.jpg)    
