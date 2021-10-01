@@ -45,6 +45,25 @@ ESP32 GPIO|Component|I2C display|SPI display|
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/006.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/007.jpg)     
 
+```arduino
+>B
+; load SD1306 driver on boot
+dt [S2/SD1306_display.ini:]
+; clear screen, switch to LCD font; set auto draw
+dt [zf1s1D1]
+; switch to display 1
+dt [S1:]
+>S
+; switch to display 2
+dt [S2:]
+; show time
+dt [x35y30tS]
+; switch back to display 1
+dt [S1:]
+; show time
+dt [x10y10tS]
+```
+
 ## 2. Other variants that have been tested (09/30/2021).  
 
 **!!! Attention: !!! the multi-display software mode is currently in testing mode.**
