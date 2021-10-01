@@ -99,6 +99,7 @@ dt [S2:]
 dt [x35y30tS]
 ; switch back to display 1
 dt [S1:]
+; show time
 dt [x10y10tS]
 ; update display every TelePeriod
 if upsecs%tper==0
