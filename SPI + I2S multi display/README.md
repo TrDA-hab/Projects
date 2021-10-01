@@ -64,7 +64,7 @@ ESP32 GPIO|Component|I2C display|SPI display|
 
 ### 2.2 I2 + I2C multi display (medium configuration).
 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210925_203145.jpg)   
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
 
 
 **Best regards,   
