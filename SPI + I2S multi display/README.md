@@ -119,7 +119,7 @@ press=BME280#Pressure
 
 ### 2.2 ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2).
 
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20211001_201308.jpg)   
 ```arduino
 >B
 ; load SD1306 driver on boot
