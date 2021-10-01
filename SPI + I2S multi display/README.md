@@ -81,6 +81,42 @@ dt [x10y10tS]
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4184.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210925_203145.jpg)   
 
+```arduino
+>D
+hum=0
+temp=0
+press=0
+>B
+; load SD1306 driver on boot
+dt [S2/SD1306_display.ini:]
+; clear screen, switch to LCD font; set auto draw
+dt [zf1s1D1]
+; switch to display 1
+dt [S1:]
+>S
+; switch to display 2
+dt [S2:]
+; show time
+dt [x35y30tS]
+; switch back to display 1
+dt [S1:]
+dt [x10y10tS]
+; update display every TelePeriod
+if upsecs%tper==0
+then
+dp2
+dt [x10y40]%temp% C
+dt [x10y60]%hum% %%
+dt [x10y80]%press% mmHg
+dt [d]
+endif
+>T
+; get some telemetry values
+hum=BME280#Humidity
+temp=BME280#Temperature
+press=BME280#Pressure
+```
+
 ### 2.2 ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2).
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
