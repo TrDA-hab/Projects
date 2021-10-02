@@ -74,6 +74,8 @@ Wemos Pin|GPIO|Component|e-Paper|
 D5|14|EPaper29 CS|CS
 D6|12|SSPI MOSI|DIN
 D7|13|SSPI SCLK|CKL
+3v3|-|-|RST
+GND|-|-|DC
 
 ## 4. Practical use.
 
