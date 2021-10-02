@@ -81,8 +81,8 @@ GND|-|-|DC
 ESP8266 Pin|e-Paper|
 :-:|:-:
 D5|CS
-D6||DIN
-D7||CKL
+D6|DIN
+D7|CKL
 3v3|RST
 GND|DC
 
