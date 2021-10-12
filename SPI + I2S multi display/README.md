@@ -40,9 +40,11 @@ ESP32 GPIO|Component|I2C display|SPI display|
 `#ifdef USE_RULES`  
 `#undef USE_RULES`  
 `#endif`  
+
 `#ifndef USE_SCRIPT`  
 `#define USE_SCRIPT` 
 `#endif`  
+
 `#define USE_I2C`  
 `#define USE_SPI`  
 `#define USE_DISPLAY`  
