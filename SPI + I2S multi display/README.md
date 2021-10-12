@@ -18,7 +18,7 @@
  - [Multiple OLED Displays / Multiplex TC9548](https://youtu.be/Y9OyLMUgoFk).  
 
 ## Important information:
- - In multi-display program mode, you can connect a maximum of three displays (different or the same).
+ - In multi-display `program mode`, you can connect a maximum of three displays (different or the same).
  - In `slot 1`, you can connect any Tasmota supported display (non-universal display). You must make all the necessary connections as usual.
  - You can connect any `universal driver` to `slot 2` and `slot 3`. You can see the list of universal display [in this folder](https://github.com/arendst/Tasmota/tree/development/tasmota/displaydesc).
 
