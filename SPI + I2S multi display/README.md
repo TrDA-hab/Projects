@@ -35,7 +35,7 @@ ESP32 GPIO|Component|I2C display|SPI display|
 18|SSPI SCLK|-|CKL
 05|EPaper29 CS|-|CS
 
- - very soon !!!  
+ - very soon !!!    
 
 `#ifdef USE_RULES`  
 `#undef USE_RULES`  
