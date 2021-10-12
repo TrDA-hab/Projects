@@ -53,21 +53,21 @@ ESP32 GPIO|Component|I2C display|SPI display|
 `#define USE_UNIVERSAL_DISPLAY`  
 `#define USE_MULTI_DISPLAY`  
 
-- Rename the `platformio_override_sample.ini` file to `platformio_override.ini` and save.
-- In the `platformio_override.ini file`, comment out `tasmota` and uncomment `tasmota32`. 
-- And don't forget to include your com port number. Then compile and flash your ESP32.
+- Rename the `platformio_override_sample.ini` file to `platformio_override.ini` and save.  
+- In the `platformio_override.ini file`, comment out `tasmota` and uncomment `tasmota32`.   
+- And don't forget to include your com port number. Then compile and flash your ESP32.  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/004.jpg)   
 
-- In the Tasmota firmware, go to `Consoles/Manage` File system, select and load the `SD1306_display.ini` file for the display in slot 2.   
+- In the Tasmota firmware go to Consoles / Manage File system select and load the SD1306_display.ini file for the display in slot 2 (from the ... tasmota / displaydesc folder).     
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/006.jpg)  
 
-- In the Tasmota firmware go to `Consoles/Edit Script`, insert the `display script`, set `Script enable` and `Save`.
+- In the Tasmota firmware go to `Consoles/Edit Script`, insert the `display script`, set `Script enable` and `Save`.    
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/007.jpg)     
 
-- Display script:
+- Display script:   
 ```arduino
 >D
 >B
@@ -104,7 +104,7 @@ dt [x10y10tS]
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4184.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20211001_201308.jpg)   
 
-- Display script:
+- Display script:   
 ```arduino
 >D
 hum=0
@@ -145,7 +145,7 @@ press=BME280#Pressure
 ### 2.2 ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
 
-- Display script:
+- Display script:  
 ```arduino
 >D
 >B
