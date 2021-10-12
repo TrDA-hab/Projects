@@ -35,15 +35,15 @@ ESP32 GPIO|Component|I2C display|SPI display|
 18|SSPI SCLK|-|CKL
 05|EPaper29 CS|-|CS
 
- - very soon !!!    
+ - Use PlatformIO and these defines in `user_config_override.h`:    
 
-`#ifdef USE_RULES`  
-`#undef USE_RULES`  
-`#endif`  
+`#ifdef USE_RULES`   
+`#undef USE_RULES`   
+`#endif`   
 
-`#ifndef USE_SCRIPT`  
-`#define USE_SCRIPT` 
-`#endif`  
+`#ifndef USE_SCRIPT`   
+`#define USE_SCRIPT`   
+`#endif`    
 
 `#define USE_I2C`  
 `#define USE_SPI`  
