@@ -64,9 +64,6 @@ ESP32 GPIO|Component|I2C display|SPI display|
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/006.jpg)  
 
 - In the Tasmota firmware go to `Consoles/Edit Script`, insert the `display script`, set `Script enable` and `Save`.    
-
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/007.jpg)     
-
 - Display script:   
 ```arduino
 >D
@@ -87,6 +84,8 @@ dt [S1:]
 ; show time
 dt [x10y10tS]
 ```
+
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/007.jpg)     
 
 ## 2. Other variants that have been tested (09/30/2021).  
 
