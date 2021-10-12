@@ -37,21 +37,19 @@ ESP32 GPIO|Component|I2C display|SPI display|
 
  - very soon !!!  
 
-`#ifdef USE_RULES`
-`#undef USE_RULES`
+`#ifdef USE_RULES`  
+`#undef USE_RULES`  
 `#endif`
-
-`#ifndef USE_SCRIPT`
-`#define USE_SCRIPT`  // adds about 17k flash size, variable ram size
+`#ifndef USE_SCRIPT`  
+`#define USE_SCRIPT` 
 `#endif`
-
-`#define USE_I2C`
-`#define USE_SPI`
-`#define USE_DISPLAY`
-`#define USE_DISPLAY_MODES1TO5`
-`#define USE_DISPLAY_EPAPER_29`
-`#define USE_UNIVERSAL_DISPLAY`
-`#define USE_MULTI_DISPLAY`
+`#define USE_I2C`  
+`#define USE_SPI`  
+`#define USE_DISPLAY`  
+`#define USE_DISPLAY_MODES1TO5`  
+`#define USE_DISPLAY_EPAPER_29`   
+`#define USE_UNIVERSAL_DISPLAY`  
+`#define USE_MULTI_DISPLAY`  
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/001.jpg)    
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/002.jpg)   
