@@ -64,7 +64,6 @@ ESP32 GPIO|Component|I2C display|SPI display|
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/006.jpg)  
 
 - In the Tasmota firmware go to `Consoles/Edit Script`, insert the `display script`, set `Script enable` and `Save`.    
-- Display script:   
 ```arduino
 >D
 >B
@@ -102,8 +101,7 @@ dt [x10y10tS]
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4183.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4184.jpg)   
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20211001_201308.jpg)   
-
-- Display script:   
+ 
 ```arduino
 >D
 hum=0
@@ -144,7 +142,6 @@ press=BME280#Pressure
 ### 2.2 ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
 
-- Display script:  
 ```arduino
 >D
 >B
