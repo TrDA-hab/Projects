@@ -17,6 +17,12 @@
  - [Multiple OLED screens](https://youtu.be/TOMkXJWdB4w).  
  - [Multiple OLED Displays / Multiplex TC9548](https://youtu.be/Y9OyLMUgoFk).  
 
+## Important information:
+ - In multi-display program mode, you can connect a maximum of three displays (different or the same).
+ - In `slot 1`, you can connect any Tasmota supported display (non-universal display). You must make all the necessary connections as usual.
+ - You can connect any `universal driver` to `slot 2` and `slot 3`. You can see the list of universal display [in this folder](https://github.com/arendst/Tasmota/tree/development/tasmota/displaydesc).
+
+
 ## 1. ESP32 + E-Papper (slot 1) + SSD1306 (slot 2).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4181.jpg)  
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/4182.jpg)   
