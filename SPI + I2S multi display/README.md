@@ -59,6 +59,7 @@ ESP32 GPIO|Component|I2C display|SPI display|
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/007.jpg)     
 
 ```arduino
+>D
 >B
 ; load SD1306 driver on boot
 dt [S2/SD1306_display.ini:]
@@ -132,6 +133,7 @@ press=BME280#Pressure
 ### 2.2 ESP32 + LCD1602 (slot 1) + SSD1306 (slot 2).
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/20210930_192427.jpg)   
 ```arduino
+>D
 >B
 ; load SD1306 driver on boot
 dt [S2/SD1306_display.ini:]
