@@ -59,7 +59,7 @@ ESP32 GPIO|Component|I2C display|SPI display|
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/004.jpg)   
 
-- In the Tasmota firmware go to Consoles / Manage File system select and load the SD1306_display.ini file for the display in slot 2 (from the ... tasmota / displaydesc folder).     
+- In the Tasmota firmware go to `Consoles/Manage File system` select and load the `SD1306_display.ini` file for the display in slot 2 (from the ... `tasmota / displaydesc` folder).     
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/SPI%20%2B%20I2S%20multi%20display/006.jpg)  
 
