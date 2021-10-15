@@ -90,8 +90,8 @@ GND|DC
 ## 4. Practical use.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/3000x_image.jpg)
-![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20210208_221613.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
 
 Wemos Pin|GPIO|Component|e-Paper|
 :-:|:-:|:-:|:-:
