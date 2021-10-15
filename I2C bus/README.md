@@ -24,10 +24,12 @@
 - for the I²C bus, you can use the ([Rx and Tx](https://tasmota.github.io/docs/devices/Sonoff-Basic-and-BME280/#connect-bme280-to-sonoff-basic-based-on-the-gpio-locations)) of your ESP8266. 
 - the ESP8266 chip does not have hardware I²C, so module uses software I²C driver. It can be set up on any GPIO pins. The recommended convention for the I²C bus is used to select the GPIO pins - `SDA` on GPIO4 (D2) and  `SCL` on GPIO5 (D1). For ESP32 recommend using GPIO pins - `SDA` on GPIO21 and` SCL` on GPIO22.
 - if you have done all the necessary settings and connections correctly, then after starting (or restarting) the ESP you will see all the found I²C devices.   
-  `00:00:00 I2C: BME280 found at 0x76`  
-  `00:00:00 I2C: INA219 found at 0x40`  
-  `00:00:00 I2C: INA219 found at 0x41`  
-  `00:00:00 I2C: INA219 found at 0x44`    
+  `00:00:03.974 I2C: BME280 found at 0x76`  
+  `00:00:03.985 I2C: BME280 found at 0x77`  
+  `00:00:03.987 I2C: BH1750 found at 0x23`  
+  `00:00:03.988 I2C: INA219 found at 0x40`  
+  `00:00:03.989 I2C: INA219 found at 0x41`  
+  `00:00:03.990 I2C: INA219 found at 0x44`      
 - also using the `i2cscan` command you can see the detected I²C devices.   
   `10:45:22 CMD: i2cscan`   
   `10:45:22 MQT: stat/Sonoff_Baro_1/RESULT = {"I2CScan":"Device(s) found at 0x40 0x41 0x44 0x76"}`   
