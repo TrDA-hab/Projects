@@ -91,6 +91,7 @@ GND|DC
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/3000x_image.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/20210422_101451.jpg)
+![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Solar/20210208_221613.jpg)
 
 Wemos Pin|GPIO|Component|e-Paper|
 :-:|:-:|:-:|:-:
@@ -100,5 +101,5 @@ D7|13|SSPI SCLK|CKL
 D1|5|I2C SCL|-
 D2|4|I2C SDA|-
 
-**Best regards   
-TrDA**
+**Best regards,   
+TrDA.**
