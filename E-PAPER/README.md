@@ -76,17 +76,7 @@ D6|12|SSPI MOSI|DIN
 D7|13|SSPI SCLK|CKL
 3v3|-|-|RST
 GND|-|-|DC
-
-
-ESP8266 Pin|e-Paper|
-:-:|:-:
-D5|CS
-D6|DIN
-D7|CKL
-3v3|RST
-GND|DC
-
-
+ 
 ## 4. Practical use.
 
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/E-PAPER/3000x_image.jpg)
