@@ -89,5 +89,5 @@ D5|14|Relay2|DIR
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/20210106_171232.jpg)
 ![](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/20210106_171217.jpg)
 
-##Best regards  
-TrDA##
+##Best regards,  
+TrDA.##
