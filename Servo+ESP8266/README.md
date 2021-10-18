@@ -42,10 +42,6 @@ For example the pulse width range for different servos:
 -  [Servo TD-8130MG](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/TD-8130MG.jpg)
 -  [Servo DS5160ssg](https://raw.githubusercontent.com/TrDA-hab/Projects/master/Servo%2BESP8266/DS5160ssg.jpg)
 
-### How to use it:
- - You must add support for Shutter in my_user_config.h file (оr flash your ESP8266 module with tasmota.bin file).
- - Run the commands in the console (you must first configure the GPIO!):
-
 Wemos Pin|GPIO|Component|Servo Signal
 :-:|:-:|:-:|:-:
 D3|0|Relay1|EN
@@ -53,7 +49,7 @@ D4|2|PWM1|PLS
 D5|14|Relay2|DIR
 
 ## How to use it:
-
+- You must add support for Shutter in my_user_config.h file (оr flash your ESP8266 module with tasmota.bin file).
 - Run commands in the console to run the "Shutter" mode (you must first configure the GPIO!):  
    `SetOption80 1`     // enable Shutters support.  
    `Shuttermode 5`     // enable Shutter mode for servo.  
