@@ -4,6 +4,8 @@
  - Tasmota [commands](https://tasmota.github.io/docs/Commands/#displays) for controlling displays.  
  - Tasmota [examples](https://tasmota.github.io/docs/Displays/#rule-examples-for-scripting-examples-see-scripting-docs) for displaying information on the display.  
  - You can display the same information on all displays at once or display information individually on each display.
+
+##   Clearing ESP32 / ESP8266 memory.
  - It is recommended to use only **ESP32** to work with the multi-display mode, the ESP8266 has very little RAM for such tasks.
  - For the ESP32/ESP8266 to work correctly, you need to clear the memory. Clearing the memory must be done every time before flashing the **Tasmota** software.  
  - You need to download and install [Python](https://www.python.org/downloads/) on your computer. After installing Python, follow these steps:    
