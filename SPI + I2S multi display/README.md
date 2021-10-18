@@ -12,7 +12,7 @@
    - Installing the latest updates:   
    `c:\users\admin\appdata\local\programs\python\python38-32\python.exe -m pip install --upgrade pip`   
    - Clearing memory in ESP32/ESP8266 (do not forget to specify your COM port):   
-   `c:\users\admin\appdata\local\programs\python\python38-32\Scripts\esptool.py -p **COM12** -b 115200 erase_flash`   
+   `c:\users\admin\appdata\local\programs\python\python38-32\Scripts\esptool.py -p COM12 -b 115200 erase_flash`   
 
 ## Other projects where multi display is used:
  - Tasmota [SPI multi display (hardware mode)](https://github.com/arendst/Tasmota/discussions/13161).  
