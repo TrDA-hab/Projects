@@ -94,7 +94,7 @@ Rx|3|PZEM016 Rx|Tx
 
 ## My PCB for x3 phases (open source hardware). For non-commercial use only!:  
  - [easyeda_source](https://github.com/TrDA-hab/Projects/tree/master/PZEM%2BESP-01S/easyeda_source)
- - [gerber files](https://github.com/TrDA-hab/Projects/tree/master/PZEM%2BESP-01S/gerber)
+ - [gerber files](https://github.com/TrDA-hab/Projects/tree/master/PZEM%2BESP-01S/PCB)
 
 ## Another PCB for x1 phase (open source hardware). For non-commercial use only!:
  - [PCB board for PZEM-004t (1 phase)](https://easyeda.com/r.blaszczak/pzem-004t-supla)
@@ -104,5 +104,5 @@ Rx|3|PZEM016 Rx|Tx
  - [PZEM-004t DIN rail mounted power monitoring unit](https://www.thingiverse.com/thing:4583701)
  - [x3 phase PZEM-004t DIN rail mounted power monitoring unit](https://www.thingiverse.com/thing:4587966)
 
-**Best regards  
-TrDA**
+**Best regards,  
+TrDA.**
