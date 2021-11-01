@@ -1,6 +1,6 @@
 ## 0. How to use it.
-- [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters)   
-- [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters)   
+- [More information about Shutters](https://tasmota.github.io/docs/Blinds-and-Shutters).   
+- [More information on commands for Shutters](https://tasmota.github.io/docs/Commands/#shutters).   
 - Now it is highly recommended to use TMC 2208 instead of А4988 (!).   
 - [Step by step instructions](https://github.com/arendst/Tasmota/discussions/11731).   
 
@@ -61,7 +61,8 @@ https://www.thingiverse.com/thing:4163505
 
 ## 4. Venetian blinds (jalousie).
 - [How to use DC motors](https://github.com/arendst/Tasmota/discussions/10387).
-- [video](https://youtu.be/2r1aYv723qo)    
-- [video](https://youtu.be/QtgAn3ByDkc)
-**Best regards  
-TrDA**
+- [video #1](https://youtu.be/2r1aYv723qo).     
+- [video #2](https://youtu.be/QtgAn3ByDkc).   
+
+**Best regards,    
+TrDA.**
