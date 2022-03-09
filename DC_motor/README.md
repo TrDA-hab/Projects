@@ -253,14 +253,14 @@ GND|-|-|GND
 **!!! After finishing the firmware, disconnect all wires (including the 3V and RTS pin), connect the shield to the ESP device and it should work!**
 
 ## 3.3 Using HR8833 Motor Shield (now no tested).   
-![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)   
+![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/hr8833_v1.0.0_1_16x16.jpg)   
 https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html   
 https://aliexpress.com/item/1005003697301523.html   
 
 ## 3.4 Using AT8870 Motor Shield (now no tested).    
-![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/STM32flash-1.jpg)   
+![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/at8870_v1.0.0_1_16x16.jpg)   
 https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html   
 https://aliexpress.com/item/1005003800396010.html   
 
-**Best regards   
-TrDA**
+**Best regards,   
+TrDA.**
