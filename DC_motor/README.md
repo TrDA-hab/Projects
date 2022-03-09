@@ -101,8 +101,8 @@ D8|15|PWM1|PWM
     `ShutterClose1`  // test CWW motor1 rotation 
     `ShutterOpen2`   // test CW motor2 rotation  
     `ShutterClose2`  // test CWW motor2 rotation  
-    `ShutterButton1 1 updown 0`  // Assigns button #1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
-    `ShutterButton2 2 updown 0`  // Assigns button #2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2    
+    `ShutterButton1 1 updown 0`  // Assigns button#1 to act as an "up and down" button (1x press up, 2x press down) for Shutter#1   
+    `ShutterButton2 2 updown 0`  // Assigns button#2 to act as an "up and down" button (1x press up, 2x press down) for Shutter#2    
 
 ESP-01M Pin|GPIO|Component|Motor Signal
 :-:|:-:|:-:|:-:
@@ -116,7 +116,7 @@ D8|15|Relay4|CCW motor2
 FL|10|Button2|Up/Down#2
 D5|14|Relay5|Stnb
 
-# 3. Wemos motor shield V1 & V2.
+# 3. Wemos motor shield.
 
 ### Video of the driver's work:
  - https://youtu.be/gah3zCJPPUc  
@@ -252,12 +252,12 @@ GND|-|-|GND
   
 **!!! After finishing the firmware, disconnect all wires (including the 3V and RTS pin), connect the shield to the ESP device and it should work!**
 
-## 3.3 Using HR8833 Motor Shield (now no tested).   
+## 3.3 Using Wemos motor shield HR8833 Motor Shield (now no tested).   
 ![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/hr8833_v1.0.0_1_16x16.jpg)   
 https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html   
 https://aliexpress.com/item/1005003697301523.html   
 
-## 3.4 Using AT8870 Motor Shield (now no tested).    
+## 3.4 Using Wemos motor shield AT8870 Motor Shield (now no tested).    
 ![1](https://raw.githubusercontent.com/TrDA-hab/Projects/master/DC_motor/at8870_v1.0.0_1_16x16.jpg)   
 https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html   
 https://aliexpress.com/item/1005003800396010.html   
